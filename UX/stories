@@ -1,0 +1,130 @@
+---Create a Fundraising Account---
+  STORY:
+  As a fundraiser, I want to create an account so that I can begin setting up a fundraising campaign
+
+    A/C:
+    - I must provide a primary email address
+    - My primary email address will be my user login
+    - I must provide my first and last name
+    - I can upload a user photo
+    - I must set a password
+    - I must confirm my password
+    - I can view T&Cs
+
+
+
+  STORY:
+  As a fundraiser, I want to see the password requirements so that I don’t pull my hair out trying to create a password
+
+    A/C:
+    - Password requirements are displayed near password fields.
+
+
+
+  STORY:
+  As a university admin, I only want current students to be able to fundraise on behalf of the school so that we can legally say donations are tax-exempt
+
+    A/C:
+    - Users cannot proceed in the registration process if they don’t supply an email that ends in “.edu”
+    - An error is thrown if a user tries to register with an email that doesn’t end in “.edu”
+
+
+
+  STORY:
+  As a fundraiser, I want to create a campaign so that I can start raising moolah
+
+    A/C:
+    - I must provide a campaign name
+    - I must provide a total fundraising goal
+    - I can provide monthly fundraising goals
+    - I must select my club’s name
+    - I must specify campaign duration
+    - I must provide a payment processing account
+    - I can upload a photo
+
+
+
+ STORY:
+  As a fundraiser, I want to categorize a campaign so that donors can find it more easily when browsing the site's available campaigns
+
+    A/C:
+    - I see a list of predefined campaign categories
+    - I must select at least one campaign category
+    - I can select no more than three campaign categories
+    (I would probably layer this story on in "real life" as it's not essential to the functionality of actually having a campaign.)
+
+
+
+  STORY:
+  As a fundraiser, I want to edit my user profile so that my information is current
+
+    A/C:
+    - I can edit my name
+    - I can change my user photo
+    - I can edit my password
+
+
+
+  STORY:
+  As a fundraiser, I want to edit a campaign’s information so that potential donors always have the most accurate information
+
+    A/C:
+    - I can change the campaign name
+    - I can change the campaign's total fundraising goal
+    - I can change the campaign's monthly fundraising goals
+    - I can change the campaign's duration
+    - I can change the campaign's categories
+    - I can change the payment processing account for the campaign
+    - I can change the photo
+
+
+   
+   STORY:
+   As a fundraiser, I want to automatically thank donors to a campaign
+
+    A/C:
+    - I can customize a personal message to use to send to donors
+    - This message is automatically emailed to each donor after donation
+     - The email includes a PDF of a tax-deductible donation letter with the information required by the IRS for tax purposes
+
+
+
+  STORY:
+  As a fundraiser, I want all of my club’s campaigns to be accessible in one location so that I can quickly see what all we're trying to raise money for
+
+    A/C:
+    - I can access my club's organization page from my user profile
+
+
+
+  STORY:
+  As a donor, I want all of a club’s campaigns to be accessible in one location so that I can quickly see what all the club is trying to raise money for
+
+    A/C:
+    - Each club has an organization page
+    - A club's organization page lists all of its campaigns
+    - Each campaign's listing on a club's organization page displays the campaign's name
+    - Each campaign's listing on a club's organization page displays the campaign's photo
+    - Each campaign's listing on a club's organization page displays the campaign's creator's name and photo
+    - Each campaign's listing on a club's organization page displays the campaign's total donations compared to its total fundraising goal
+    - Each campaign in this listing is linked to its associated campaign page
+
+
+
+---Displaying Goal Progress---
+  STORY:
+  As a fundraiser, I want to see a campaign's progress towards reaching its monthly and annual goals so that I can quickly gauge how much more effort needs to be put into spreading the word about the campaign
+
+    A/C:
+    - I can see the campaign's current total donations compared to its total fundraising goal on the admin view of the campaign's page
+    - I can see the campaign's total donations for a month compared against that month's fundraising goal on the admin view of the campaign's page
+
+
+
+---List the Donors---
+  STORY:
+  As a donor, I want to know the people who donated to a campaign so that I can gauge how worthy the cause is 
+
+    A/C:
+    - I can see an entry for each donation on a campaign's page
+    - Each entry lists a name, donation amount, and message* if the donor opted to make this information public (*take out if survey shows people don't care about)
