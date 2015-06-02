@@ -1,10 +1,12 @@
-This was my second project in <a href="https://www.bloc.io/ux-design-bootcamp" target="_blank">Bloc.io's UX/UI Design program</a>.
+<h1>Background</h1>
+<p>This was my second project in <a href="https://www.bloc.io/ux-design-bootcamp" target="_blank">Bloc.io's UX/UI Design program</a>.</p>
+
+<h1>Assignment</h1>
+<p>Design and develop a social fundraising web application using Zurb's Foundation with SASS and jQuery.</p>
+<br>
+
+<h1>Process</h1>
 <p>
-<strong>Assignment</strong><br>
-Design and develop a social fundraising web application using Zurb's Foundation with SASS and jQuery.
-</p>
-<p>
-<strong>Process</strong><br>
 <ul>
 <li><a href="https://astridparis.typeform.com/report/G9X5at/pnRF" target="_blank"> User survey</a> (Typeform web-based report)</li>
 <li><a href="https://github.com/astridparisUX/Fundraising/blob/master/UX/Fundraising_sketches1.pdf" target="_blank">Initial sketches</a>
