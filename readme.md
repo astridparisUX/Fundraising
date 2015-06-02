@@ -3,7 +3,6 @@
 
 <h1>Assignment</h1>
 <p>Design and develop a social fundraising web application using Zurb's Foundation with SASS and jQuery.</p>
-<br>
 
 <h1>Process</h1>
 <p>
