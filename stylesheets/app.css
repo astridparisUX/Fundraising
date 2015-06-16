@@ -9439,3 +9439,36 @@ th.hide-for-touch {
     display: none !important;
   }
 }
+/* line 4, ../scss/_overrides.scss */
+#hero {
+  background: url("../images/students_donating_xxxl.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* line 10, ../scss/_overrides.scss */
+#intro {
+  padding: 3rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(5%);
+}
+
+/* line 16, ../scss/_overrides.scss */
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* line 24, ../scss/_overrides.scss */
+p {
+  color: #fff;
+  line-height: 1.75em;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 2rem;
+}
