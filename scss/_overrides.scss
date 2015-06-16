@@ -11,6 +11,13 @@ $gray: #eeeeee;
 
 
 // HOME PAGE
+.contain-to-grid {
+  background:$blue;
+  .top-bar {
+    background:$blue;
+  }
+}
+
 #hero {
   background: url('../images/students_donating.jpg') no-repeat center center;
   background-size: cover;

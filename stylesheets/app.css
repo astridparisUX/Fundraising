@@ -9440,6 +9440,15 @@ th.hide-for-touch {
   }
 }
 /* line 14, ../scss/_overrides.scss */
+.contain-to-grid {
+  background: #347fb2;
+}
+/* line 16, ../scss/_overrides.scss */
+.contain-to-grid .top-bar {
+  background: #347fb2;
+}
+
+/* line 21, ../scss/_overrides.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9451,7 +9460,7 @@ th.hide-for-touch {
   -ms-filter: grayscale(1);
 }
 
-/* line 25, ../scss/_overrides.scss */
+/* line 32, ../scss/_overrides.scss */
 #hero-copy {
   padding: 3rem;
   position: relative;
@@ -9459,7 +9468,7 @@ th.hide-for-touch {
   transform: translateY(5%);
 }
 
-/* line 31, ../scss/_overrides.scss */
+/* line 38, ../scss/_overrides.scss */
 h1 {
   color: #fff;
   font-size: 2rem;
@@ -9469,7 +9478,7 @@ h1 {
   text-align: center;
 }
 
-/* line 39, ../scss/_overrides.scss */
+/* line 46, ../scss/_overrides.scss */
 p {
   color: #fff;
   line-height: 1.75em;
