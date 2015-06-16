@@ -9462,13 +9462,14 @@ th.hide-for-touch {
 
 /* line 32, ../scss/_overrides.scss */
 #hero-copy {
-  padding: 3rem;
+  background-color: #112132;
+  opacity: 80%;
   position: relative;
-  top: 50%;
-  transform: translateY(5%);
+  top: 75%;
+  transform: translateY(-7%);
 }
 
-/* line 38, ../scss/_overrides.scss */
+/* line 39, ../scss/_overrides.scss */
 h1 {
   color: #fff;
   font-size: 2rem;
@@ -9478,7 +9479,7 @@ h1 {
   text-align: center;
 }
 
-/* line 46, ../scss/_overrides.scss */
+/* line 47, ../scss/_overrides.scss */
 p {
   color: #fff;
   line-height: 1.75em;
