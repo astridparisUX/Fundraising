@@ -2,12 +2,17 @@
 
 // HOME PAGE
 #hero {
-  background: url('../images/students_donating_xxxl.jpg') no-repeat center center;
+  background: url('../images/students_donating.jpg') no-repeat center center;
   background-size: cover;
   height: 50vh;
+  filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
   }
 
-#intro {
+#hero-copy {
   padding: 3rem;
   position: relative;
   top: 50%;
@@ -28,3 +33,4 @@
     text-align: center;
     margin-bottom: 2rem;
   }
+

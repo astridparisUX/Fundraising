@@ -9441,20 +9441,25 @@ th.hide-for-touch {
 }
 /* line 4, ../scss/_overrides.scss */
 #hero {
-  background: url("../images/students_donating_xxxl.jpg") no-repeat center center;
+  background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
   height: 50vh;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
 }
 
-/* line 10, ../scss/_overrides.scss */
-#intro {
+/* line 15, ../scss/_overrides.scss */
+#hero-copy {
   padding: 3rem;
   position: relative;
   top: 50%;
   transform: translateY(5%);
 }
 
-/* line 16, ../scss/_overrides.scss */
+/* line 21, ../scss/_overrides.scss */
 h1 {
   color: #fff;
   font-size: 2rem;
@@ -9464,7 +9469,7 @@ h1 {
   text-align: center;
 }
 
-/* line 24, ../scss/_overrides.scss */
+/* line 29, ../scss/_overrides.scss */
 p {
   color: #fff;
   line-height: 1.75em;
