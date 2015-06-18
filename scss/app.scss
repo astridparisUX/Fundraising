@@ -55,6 +55,14 @@
     text-align: left;
     padding-top: .5em;
   }
+  .tag {
+    color: $gray;
+    text-align: left;
+    padding-top: -2em;
+  }
+  .time-left {
+    font-size: $small-font-size;
+  }
 
 footer {
   background-color: $primary-color;

@@ -7910,7 +7910,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 262, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   color: #6f6f6f;
-  font-size: 60%;
+  font-size: 65%;
   line-height: 0;
 }
 
@@ -7979,7 +7979,7 @@ b {
 
 /* line 299, ../bower_components/foundation/scss/foundation/components/_type.scss */
 small {
-  font-size: 60%;
+  font-size: 65%;
   line-height: inherit;
 }
 
@@ -9487,29 +9487,41 @@ th.hide-for-touch {
   padding-top: .5em;
 }
 
-/* line 59, ../scss/app.scss */
+/* line 58, ../scss/app.scss */
+.tag {
+  color: #eeeeee;
+  text-align: left;
+  padding-top: -2em;
+}
+
+/* line 63, ../scss/app.scss */
+.time-left {
+  font-size: 65%;
+}
+
+/* line 67, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 a {
   color: #FFFFFF;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 a:hover {
   color: #e3b470;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 .row-background {
   background-color: #eeeeee;
   background-size: cover;
 }
 
-/* line 77, ../scss/app.scss */
+/* line 85, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9521,7 +9533,7 @@ a:hover {
   -ms-filter: grayscale(1);
 }
 
-/* line 88, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9530,12 +9542,12 @@ a:hover {
   transform: translateY(-7%);
 }
 
-/* line 95, ../scss/app.scss */
+/* line 103, ../scss/app.scss */
 h1 {
   color: #FFFFFF;
 }
 
-/* line 98, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 p {
   color: #FFFFFF;
   line-height: 1.75em;
