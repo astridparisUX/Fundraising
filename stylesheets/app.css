@@ -4377,7 +4377,7 @@ fieldset {
 /* line 279, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 fieldset legend {
   background: #FFFFFF;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: -0.1875rem;
   margin: 0;
   padding: 0 0.1875rem;
@@ -5013,7 +5013,7 @@ label.error {
 .joyride-tip-guide h5,
 .joyride-tip-guide h6 {
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.25;
   margin: 0;
 }
@@ -5593,7 +5593,7 @@ ul.pagination li.current a, ul.pagination li.current button {
   background: #347fb2;
   color: #FFFFFF;
   cursor: default;
-  font-weight: bold;
+  font-weight: 700;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
@@ -6069,7 +6069,7 @@ ul.pagination li {
   color: #AAAAAA;
   cursor: pointer;
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
   position: absolute;
   top: 0.625rem;
@@ -6513,7 +6513,7 @@ table thead tr th,
 table thead tr td {
   color: #222222;
   font-size: 0.875rem;
-  font-weight: bold;
+  font-weight: 700;
   padding: 0.5rem 0.625rem 0.625rem;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_tables.scss */
@@ -6525,7 +6525,7 @@ table tfoot tr th,
 table tfoot tr td {
   color: #222222;
   font-size: 0.875rem;
-  font-weight: bold;
+  font-weight: 700;
   padding: 0.5rem 0.625rem 0.625rem;
 }
 /* line 107, ../bower_components/foundation/scss/foundation/components/_tables.scss */
@@ -6708,7 +6708,7 @@ table tr td {
   border-bottom: dotted 1px #CCCCCC;
   color: #333333;
   cursor: help;
-  font-weight: bold;
+  font-weight: 700;
 }
 /* line 44, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
@@ -6937,7 +6937,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   display: block;
   font-size: 0.8125rem;
-  font-weight: bold;
+  font-weight: 700;
   height: 2.8125rem;
   line-height: 2.8125rem;
   padding: 0 0.9375rem;
@@ -7330,7 +7330,7 @@ meta.foundation-mq-topbar {
 .top-bar-section .dropdown label {
   color: #777777;
   font-size: 0.625rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 0;
   padding: 8px 0.9375rem 2px;
   text-transform: uppercase;
@@ -7926,7 +7926,7 @@ h2 {
 
 /* line 271, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.375rem;
+  font-size: 0.625rem;
 }
 
 /* line 272, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -7973,7 +7973,7 @@ i {
 /* line 293, ../bower_components/foundation/scss/foundation/components/_type.scss */
 strong,
 b {
-  font-weight: bold;
+  font-weight: 700;
   line-height: inherit;
 }
 
@@ -8070,7 +8070,7 @@ ol li ol {
 /* line 376, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 /* line 380, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dd {
@@ -8141,19 +8141,19 @@ blockquote p {
 }
 /* line 435, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard .fn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 0.9375rem;
 }
 
 /* line 442, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent .summary {
-  font-weight: bold;
+  font-weight: 700;
 }
 /* line 444, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   border: none;
   padding: 0 0.0625rem;
 }
@@ -8176,7 +8176,7 @@ blockquote p {
 
   /* line 458, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.6875rem;
+    font-size: 0.9375rem;
   }
 
   /* line 459, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -8239,7 +8239,7 @@ blockquote p {
 /* line 170, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 2.8125rem;
   margin: 0;
 }
@@ -8398,7 +8398,7 @@ ul.off-canvas-list li label {
   color: #999999;
   display: block;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
@@ -8634,7 +8634,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: bold;
+  font-weight: 700;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -8698,7 +8698,7 @@ ul.off-canvas-list li a:active {
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
-  font-weight: bold;
+  font-weight: 700;
   padding: 0.3rem 0.9375rem;
   text-transform: uppercase;
   margin: 0;
@@ -9481,47 +9481,53 @@ th.hide-for-touch {
 }
 
 /* line 53, ../scss/app.scss */
+h3 {
+  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* line 57, ../scss/app.scss */
 .org-name {
-  font-weight: 600;
+  font-weight: 700;
   text-align: left;
   padding-top: .5em;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .tag {
   color: #eeeeee;
   text-align: left;
   padding-top: -2em;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 67, ../scss/app.scss */
 .time-left {
   font-size: 65%;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 a {
   color: #FFFFFF;
 }
 
-/* line 74, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 a:hover {
   color: #e3b470;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .row-background {
   background-color: #eeeeee;
   background-size: cover;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9533,7 +9539,7 @@ a:hover {
   -ms-filter: grayscale(1);
 }
 
-/* line 96, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9542,12 +9548,12 @@ a:hover {
   transform: translateY(-7%);
 }
 
-/* line 103, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 h1 {
   color: #FFFFFF;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 110, ../scss/app.scss */
 p {
   color: #FFFFFF;
   line-height: 1.75em;

@@ -101,6 +101,7 @@ $font-family-serif: "museo-slab", Georgia, Cambria, Times New Roman, Times, seri
 // We use these to define default font weights
 // $font-weight-normal: normal;
 // $font-weight-bold: bold;
+$font-weight-bold: 700;
 
 $yellow-dark: #deab56;
 $yellow-light: #e3b470;
@@ -239,6 +240,7 @@ $header-font-family: $font-family-serif;
 // $h1-font-size: rem-calc(44);
 // $h2-font-size: rem-calc(37);
 // $h3-font-size: rem-calc(27);
+$h3-font-size: rem-calc(15);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
