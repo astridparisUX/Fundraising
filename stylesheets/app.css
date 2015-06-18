@@ -9494,14 +9494,10 @@ a:hover {
 /* line 86, ../scss/app.scss */
 h1 {
   color: #FFFFFF;
-  font-size: 2rem;
-  line-height: 1.5em;
-  letter-spacing: -0.025em;
-  font-weight: 300;
   text-align: center;
 }
 
-/* line 94, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 p {
   color: #FFFFFF;
   line-height: 1.75em;
