@@ -9449,28 +9449,60 @@ th.hide-for-touch {
 }
 
 /* line 50, ../scss/app.scss */
+.campaign-card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #f2f2f2;
+  color: #333333;
+}
+/* line 61, ../bower_components/foundation/scss/foundation/components/_panels.scss */
+.campaign-card > :first-child {
+  margin-top: 0;
+}
+/* line 62, ../bower_components/foundation/scss/foundation/components/_panels.scss */
+.campaign-card > :last-child {
+  margin-bottom: 0;
+}
+/* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
+.campaign-card h1, .campaign-card h2, .campaign-card h3, .campaign-card h4, .campaign-card h5, .campaign-card h6, .campaign-card p, .campaign-card li, .campaign-card dl {
+  color: #333333;
+}
+/* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
+.campaign-card h1, .campaign-card h2, .campaign-card h3, .campaign-card h4, .campaign-card h5, .campaign-card h6 {
+  line-height: 1;
+  margin-bottom: 0.625rem;
+}
+/* line 76, ../bower_components/foundation/scss/foundation/components/_panels.scss */
+.campaign-card h1.subheader, .campaign-card h2.subheader, .campaign-card h3.subheader, .campaign-card h4.subheader, .campaign-card h5.subheader, .campaign-card h6.subheader {
+  line-height: 1.4;
+}
+
+/* line 54, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 58, ../scss/app.scss */
 a {
   color: #FFFFFF;
 }
 
-/* line 57, ../scss/app.scss */
+/* line 61, ../scss/app.scss */
 a:hover {
   color: #e3b470;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 67, ../scss/app.scss */
 .row-background {
   background-color: #eeeeee;
   background-size: cover;
 }
 
-/* line 68, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9482,7 +9514,7 @@ a:hover {
   -ms-filter: grayscale(1);
 }
 
-/* line 79, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9491,12 +9523,12 @@ a:hover {
   transform: translateY(-7%);
 }
 
-/* line 86, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 h1 {
   color: #FFFFFF;
 }
 
-/* line 89, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 p {
   color: #FFFFFF;
   line-height: 1.75em;

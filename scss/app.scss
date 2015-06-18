@@ -47,6 +47,10 @@
   }
 }
 
+.campaign-card {
+  @include panel();
+}
+
 footer {
   background-color: $primary-color;
   color: $topbar-link-color;
