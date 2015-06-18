@@ -9491,38 +9491,43 @@ th.hide-for-touch {
   padding-top: .5em;
 }
 /* line 61, ../scss/app.scss */
+.campaign-card .raised {
+  text-align: center;
+}
+/* line 64, ../scss/app.scss */
 .campaign-card .tag {
   color: #eeeeee;
   text-align: left;
   padding-top: -2em;
 }
-/* line 66, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .campaign-card .time-left {
   font-size: 65%;
   margin-bottom: -1em;
+  text-align: center;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 76, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
 }
-/* line 75, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 footer a {
   color: #FFFFFF;
 }
-/* line 78, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 footer a:hover {
   color: #e3b470;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 .row-background {
   background-color: #eeeeee;
   background-size: cover;
 }
 
-/* line 90, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9534,7 +9539,7 @@ footer a:hover {
   -ms-filter: grayscale(1);
 }
 
-/* line 101, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9542,11 +9547,11 @@ footer a:hover {
   top: 75%;
   transform: translateY(-7%);
 }
-/* line 107, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
 }
-/* line 110, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   line-height: 1.75em;
