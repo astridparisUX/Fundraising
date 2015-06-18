@@ -9496,13 +9496,13 @@ th.hide-for-touch {
 }
 /* line 64, ../scss/app.scss */
 .campaign-card .tag {
-  color: #eeeeee;
+  color: #C8C8C8;
   text-align: left;
   padding-top: -2em;
 }
 /* line 69, ../scss/app.scss */
 .campaign-card .time-left {
-  color: #bbbbbb;
+  color: #A8A8A8;
   font-size: 65%;
   margin-bottom: -1em;
   text-align: center;
