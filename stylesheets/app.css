@@ -9480,29 +9480,36 @@ th.hide-for-touch {
   line-height: 1.4;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
+.org-name {
+  font-weight: 600;
+  text-align: left;
+  padding-top: .5em;
+}
+
+/* line 59, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 a {
   color: #FFFFFF;
 }
 
-/* line 61, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 a:hover {
   color: #e3b470;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
 .row-background {
   background-color: #eeeeee;
   background-size: cover;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9514,7 +9521,7 @@ a:hover {
   -ms-filter: grayscale(1);
 }
 
-/* line 83, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9523,12 +9530,12 @@ a:hover {
   transform: translateY(-7%);
 }
 
-/* line 90, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 h1 {
   color: #FFFFFF;
 }
 
-/* line 93, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 p {
   color: #FFFFFF;
   line-height: 1.75em;

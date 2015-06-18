@@ -50,6 +50,11 @@
 .campaign-card {
   @include panel($white);
 }
+  .org-name {
+    font-weight: 600;
+    text-align: left;
+    padding-top: .5em;
+  }
 
 footer {
   background-color: $primary-color;
