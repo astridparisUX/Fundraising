@@ -14,7 +14,7 @@
 <li><a href="https://docs.google.com/spreadsheets/d/1zfwlVCChYjUVCmGTP8hQ-TsWUBgfazb6UMJQm7NrPu8/edit?usp=sharing" target="_blank"> User stories</a> (Google spreadsheet)</li>
 <li><a href="https://github.com/astridparisUX/Fundraising/blob/master/UX/flows-sitemap_v2.pdf" target="_blank">Final user flows</a></li>
 <li><a href="https://github.com/astridparisUX/Fundraising/blob/master/UX/StudentCheese_comp_home_final.png" target="_blank">Final homepage comp</a></li>
-<li><a href="hhttp://astridparisux.github.io/Fundraising/" target="_blank">Live homepage (WORK IN PROGRESS!)</a></li>
+<li><a href="http://astridparisux.github.io/Fundraising/" target="_blank">Live homepage (WORK IN PROGRESS!)</a></li>
 </ul>
 
 
