@@ -49,7 +49,6 @@
 
 .campaign-card {
   @include panel($white);
-}
   h3 {
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
@@ -68,17 +67,18 @@
     font-size: $small-font-size;
     margin-bottom: -1em;
   }
+}
 
 footer {
   background-color: $primary-color;
   color: $topbar-link-color;
-}
   a {
     color: $topbar-link-color;
   }
   a:hover {
     color: $yellow-light;
   }
+}
 
 
 // HOME PAGE STYLES
@@ -104,7 +104,6 @@ footer {
   position: relative;
   top: 75%;
   transform: translateY(-7%);
-}
   h1 {
     color: $white;
   }
@@ -115,3 +114,4 @@ footer {
     text-align: center;
     margin-bottom: 2rem;
   }
+}

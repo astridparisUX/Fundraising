@@ -9479,29 +9479,25 @@ th.hide-for-touch {
 .campaign-card h1.subheader, .campaign-card h2.subheader, .campaign-card h3.subheader, .campaign-card h4.subheader, .campaign-card h5.subheader, .campaign-card h6.subheader {
   line-height: 1.4;
 }
-
-/* line 53, ../scss/app.scss */
-h3 {
+/* line 52, ../scss/app.scss */
+.campaign-card h3 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-
-/* line 57, ../scss/app.scss */
-.org-name {
+/* line 56, ../scss/app.scss */
+.campaign-card .org-name {
   font-weight: 700;
   text-align: left;
   padding-top: .5em;
 }
-
-/* line 62, ../scss/app.scss */
-.tag {
+/* line 61, ../scss/app.scss */
+.campaign-card .tag {
   color: #eeeeee;
   text-align: left;
   padding-top: -2em;
 }
-
-/* line 67, ../scss/app.scss */
-.time-left {
+/* line 66, ../scss/app.scss */
+.campaign-card .time-left {
   font-size: 65%;
   margin-bottom: -1em;
 }
@@ -9511,14 +9507,12 @@ footer {
   background-color: #347fb2;
   color: #FFFFFF;
 }
-
-/* line 76, ../scss/app.scss */
-a {
+/* line 75, ../scss/app.scss */
+footer a {
   color: #FFFFFF;
 }
-
-/* line 79, ../scss/app.scss */
-a:hover {
+/* line 78, ../scss/app.scss */
+footer a:hover {
   color: #e3b470;
 }
 
@@ -9548,14 +9542,12 @@ a:hover {
   top: 75%;
   transform: translateY(-7%);
 }
-
-/* line 108, ../scss/app.scss */
-h1 {
+/* line 107, ../scss/app.scss */
+#hero-copy h1 {
   color: #FFFFFF;
 }
-
-/* line 111, ../scss/app.scss */
-p {
+/* line 110, ../scss/app.scss */
+#hero-copy p {
   color: #FFFFFF;
   line-height: 1.75em;
   font-weight: 200;
