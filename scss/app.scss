@@ -10,6 +10,18 @@
   }
 }
 
+footer {
+  background-color: $primary-color;
+  color: $topbar-link-color;
+}
+  a {
+    color: $topbar-link-color;
+  }
+  a:hover {
+    color: $topbar-link-color-hover;
+  }
+
+
 // HOME PAGE STYLES
 #hero {
   background: url('../images/students_donating.jpg') no-repeat center center;
