@@ -48,7 +48,7 @@
 }
 
 .campaign-card {
-  @include panel();
+  @include panel($white);
 }
 
 footer {
