@@ -7899,7 +7899,7 @@ p aside {
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "museo-slab", Georgia, Cambria, Times New Roman, Times, serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
