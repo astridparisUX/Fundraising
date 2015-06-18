@@ -9503,3 +9503,8 @@ p {
   text-align: center;
   margin-bottom: 2rem;
 }
+
+/* line 60, ../scss/app.scss */
+#topcampaigns {
+  background-color: #eeeeee;
+}
