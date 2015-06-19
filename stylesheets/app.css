@@ -9599,3 +9599,8 @@ section {
   margin-bottom: 2rem;
   text-align: center;
 }
+
+/* line 158, ../scss/app.scss */
+#homepage-tags p {
+  color: #A8A8A8;
+}
