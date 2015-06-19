@@ -9562,12 +9562,21 @@ section {
   padding-bottom: 2em;
 }
 
-/* line 124, ../scss/app.scss */
+/* line 125, ../scss/app.scss */
+#features .copy {
+  margin-top: 4%;
+}
+/* line 128, ../scss/app.scss */
+#features .row2 {
+  padding-top: 1.8em;
+}
+
+/* line 133, ../scss/app.scss */
 #row-background {
   background-color: #eeeeee;
 }
 
-/* line 128, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9579,7 +9588,7 @@ section {
   -ms-filter: grayscale(1);
 }
 
-/* line 139, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9587,11 +9596,11 @@ section {
   top: 75%;
   transform: translateY(-7%);
 }
-/* line 145, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
 }
-/* line 148, ../scss/app.scss */
+/* line 157, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   line-height: 1.75em;
@@ -9600,11 +9609,11 @@ section {
   text-align: center;
 }
 
-/* line 158, ../scss/app.scss */
+/* line 167, ../scss/app.scss */
 .homepage-tags button {
   background-color: #eeeeee;
 }
-/* line 161, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;
