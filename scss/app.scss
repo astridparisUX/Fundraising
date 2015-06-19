@@ -123,6 +123,11 @@ section {
   border-color: #33b059;
   }
 
+.top-bar-section ul li > a.button:hover, 
+.top-bar-section ul li > a.button:focus {
+  background-color: #33b059;
+}
+
 
 // HOME PAGE STYLES
 #features {
