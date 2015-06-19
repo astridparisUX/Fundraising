@@ -9645,10 +9645,13 @@ section {
 }
 
 /* line 199, ../scss/app.scss */
-.homepage-tags button {
-  background-color: #eeeeee;
+.homepage-tags a {
+  background-color: #eeeeee !important;
+  color: #A8A8A8 !important;
+  border-color: #A8A8A8 !important;
+  border-width: 1px;
 }
-/* line 203, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;

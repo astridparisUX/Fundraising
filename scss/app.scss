@@ -196,9 +196,11 @@ section {
 }
 
 .homepage-tags {
-  button {
-    background-color: $gray;
-    // WRITE MY OWN
+  a {
+    background-color: $gray !important;
+    color: $gray-darker !important;
+    border-color: $gray-darker !important;
+    border-width: 1px;
   }
   fa-tags {
     color: $gray-darker;
