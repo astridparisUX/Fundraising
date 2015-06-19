@@ -9558,7 +9558,7 @@ section {
   padding-bottom: 2em;
 }
 
-/* line 121, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 .top-bar-section ul li > a.button {
   background-color: #50cc76;
   border-color: #33b059;
@@ -9570,16 +9570,39 @@ section {
   background-color: #33b059;
 }
 
-/* line 134, ../scss/app.scss */
+/* line 132, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a,
+.top-bar .toggle-topbar.menu-icon {
+  color: #FFFFFF !important;
+}
+
+/* line 136, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a span::after {
+  box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+}
+
+/* line 141, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a:hover,
+.top-bar .toggle-topbar.menu-icon :hover {
+  color: #e3b470 !important;
+}
+
+/* line 145, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a:hover span::after,
+.top-bar .toggle-topbar a:hover span::after {
+  box-shadow: 0 0 0 1px #e3b470, 0 7px 0 1px #e3b470, 0 14px 0 1px #e3b470;
+}
+
+/* line 154, ../scss/app.scss */
 #features .copy {
   margin-top: 4%;
 }
-/* line 137, ../scss/app.scss */
+/* line 157, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
 
-/* line 142, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9591,7 +9614,7 @@ section {
   -ms-filter: grayscale(1);
 }
 
-/* line 153, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9599,11 +9622,11 @@ section {
   top: 90%;
   transform: translateY(-7%);
 }
-/* line 159, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
 }
-/* line 162, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   line-height: 1.75em;
@@ -9612,16 +9635,16 @@ section {
   text-align: center;
 }
 
-/* line 171, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
 }
 
-/* line 176, ../scss/app.scss */
+/* line 196, ../scss/app.scss */
 .homepage-tags button {
   background-color: #eeeeee;
 }
-/* line 180, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;

@@ -1449,7 +1449,6 @@ $topbar-link-color-hover: $yellow-light;
 // $topbar-link-bg: $topbar-bg;
 // $topbar-link-bg-hover: $jet;
 $topbar-link-bg-hover: scale-color($blue, $lightness: -10%);
-// NEED TO CHANGE THE ABOVE TO HAVE SASS CALCULATE A SHADE OF PRIMARY BLUE*****
 // $topbar-link-bg-color-hover: $primary-color;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);

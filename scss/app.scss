@@ -118,15 +118,35 @@ section {
   padding-bottom: 2em;
 }
 
+// GIVES THE BUTTON IN THE HEADER THE STUDENT CHEESE GREEN. Default: Foundation blue.
 .top-bar-section ul li > a.button {
   background-color: $green;
   border-color: #33b059;
   }
-
 .top-bar-section ul li > a.button:hover, 
 .top-bar-section ul li > a.button:focus {
   background-color: #33b059;
 }
+
+// MAKES THE MENU LABEL AND HAMBURGER WHITE WHEN EXPANDED. Default: Foundation gray.
+.top-bar.expanded .toggle-topbar a,
+.top-bar .toggle-topbar.menu-icon {
+  color: $white !important;
+}
+.top-bar.expanded .toggle-topbar a span::after {
+  box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white; 
+}
+
+// MAKES THE MENU LABEL AND HAMBURGER STUDENT CHEESE YELLOW ON HOVER WHEN EXPANDED.
+.top-bar.expanded .toggle-topbar a:hover,
+.top-bar .toggle-topbar.menu-icon :hover {
+  color: $yellow-light !important;
+}
+.top-bar.expanded .toggle-topbar a:hover span::after,
+.top-bar .toggle-topbar a:hover span::after {
+  box-shadow: 0 0 0 1px $yellow-light, 0 7px 0 1px $yellow-light, 0 14px 0 1px $yellow-light; 
+}
+
 
 
 // HOME PAGE STYLES
