@@ -7220,7 +7220,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #555555;
   color: #e3b470;
-  background: #112132;
+  background: #2f72a0;
 }
 /* line 383, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
@@ -7417,7 +7417,7 @@ meta.foundation-mq-topbar {
   /* line 545, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
     background-color: #555555;
-    background: #112132;
+    background: #2f72a0;
     color: #e3b470;
   }
   /* line 555, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7429,7 +7429,7 @@ meta.foundation-mq-topbar {
   /* line 559, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #555555;
-    background: #112132;
+    background: #2f72a0;
   }
   /* line 569, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -7573,7 +7573,7 @@ meta.foundation-mq-topbar {
   /* line 708, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
     background-color: #555555;
-    background: #112132;
+    background: #2f72a0;
     color: #e3b470;
   }
   /* line 717, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
