@@ -92,11 +92,15 @@ footer {
   }
 }
 
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 
 // HOME PAGE STYLES
-.row-background {
+#row-background {
   background-color: $gray;
-  background-size: cover;
 }
 
 #hero {
