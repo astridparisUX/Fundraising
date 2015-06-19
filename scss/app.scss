@@ -42,6 +42,7 @@
 // GLOBAL STYLES
 .campaign-card {
   @include panel($white);
+    // need to remove borders & put subtle drop shadows on
   .campaign-name {
     font-size: medium;
     font-weight: bolder;
@@ -111,6 +112,7 @@ section {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
 
 
 // HOME PAGE STYLES
