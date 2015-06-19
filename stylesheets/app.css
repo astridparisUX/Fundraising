@@ -9497,8 +9497,8 @@ th.hide-for-touch {
 /* line 64, ../scss/app.scss */
 .campaign-card .tag {
   color: #C8C8C8;
+  font-size: 65%;
   text-align: left;
-  padding-top: -2em;
 }
 /* line 69, ../scss/app.scss */
 .campaign-card .time-left {
