@@ -40,13 +40,6 @@
 //   "foundation/components/visibility";
 
 // GLOBAL STYLES
-.contain-to-grid {
-  background:$blue;
-  .top-bar {
-    background:$blue;
-  }
-}
-
 .campaign-card {
   @include panel($white);
   .campaign-name {
@@ -130,10 +123,6 @@ section {
   }
 }
 
-#row-background {
-  background-color: $gray;
-}
-
 #hero {
   background: url('../images/students_donating.jpg') no-repeat center center;
   background-size: cover;
@@ -161,6 +150,10 @@ section {
     margin-bottom: 2rem;
     text-align: center;
   }
+}
+
+#row-background {
+  background-color: $gray;
 }
 
 .homepage-tags {

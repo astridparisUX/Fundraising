@@ -6821,7 +6821,7 @@ meta.foundation-mq-topbar {
 /* line 119, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+  background: #347fb2;
 }
 /* line 123, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -6857,7 +6857,7 @@ meta.foundation-mq-topbar {
 
 /* line 156, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar {
-  background: #333333;
+  background: #347fb2;
   height: 2.8125rem;
   line-height: 2.8125rem;
   margin-bottom: 0;
@@ -6980,7 +6980,7 @@ meta.foundation-mq-topbar {
 }
 /* line 272, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+  background: #347fb2;
 }
 /* line 277, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -7021,7 +7021,7 @@ meta.foundation-mq-topbar {
 /* line 323, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #1a1a1a;
+  border-top: solid 1px #1a3f59;
   clear: both;
   height: 1px;
   width: 100%;
@@ -7219,8 +7219,8 @@ meta.foundation-mq-topbar {
 /* line 373, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #555555;
-  color: #FFFFFF;
-  background: #222222;
+  color: #e3b470;
+  background: #112132;
 }
 /* line 383, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
@@ -7344,7 +7344,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.0625em) {
   /* line 492, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: #347fb2;
     overflow: visible;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -7385,7 +7385,7 @@ meta.foundation-mq-topbar {
   }
   /* line 517, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #333333;
+    background: #347fb2;
   }
 
   /* line 522, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7417,19 +7417,19 @@ meta.foundation-mq-topbar {
   /* line 545, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
     background-color: #555555;
-    background: #222222;
-    color: #FFFFFF;
+    background: #112132;
+    color: #e3b470;
   }
   /* line 555, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
-    background: #333333;
+    background: #347fb2;
     line-height: 2.8125rem;
     padding: 0 0.9375rem;
   }
   /* line 559, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #555555;
-    background: #222222;
+    background: #112132;
   }
   /* line 569, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -7522,7 +7522,7 @@ meta.foundation-mq-topbar {
   /* line 646, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     background-color: #555555;
-    color: #FFFFFF;
+    color: #e3b470;
     background: #222222;
   }
   /* line 655, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7538,7 +7538,7 @@ meta.foundation-mq-topbar {
   /* line 668, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section > ul > .divider,
   .top-bar-section > ul > [role="separator"] {
-    border-right: solid 1px #4e4e4e;
+    border-right: solid 1px #4292c8;
     border-bottom: none;
     border-top: none;
     clear: none;
@@ -7547,7 +7547,7 @@ meta.foundation-mq-topbar {
   }
   /* line 678, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #333333;
+    background: #347fb2;
     height: 2.8125rem;
     padding: 0 0.9375rem;
   }
@@ -7573,8 +7573,8 @@ meta.foundation-mq-topbar {
   /* line 708, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
     background-color: #555555;
-    background: #222222;
-    color: #FFFFFF;
+    background: #112132;
+    color: #e3b470;
   }
   /* line 717, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
@@ -9440,15 +9440,6 @@ th.hide-for-touch {
   }
 }
 /* line 43, ../scss/app.scss */
-.contain-to-grid {
-  background: #347fb2;
-}
-/* line 45, ../scss/app.scss */
-.contain-to-grid .top-bar {
-  background: #347fb2;
-}
-
-/* line 50, ../scss/app.scss */
 .campaign-card {
   border-style: solid;
   border-width: 1px;
@@ -9479,20 +9470,20 @@ th.hide-for-touch {
 .campaign-card h1.subheader, .campaign-card h2.subheader, .campaign-card h3.subheader, .campaign-card h4.subheader, .campaign-card h5.subheader, .campaign-card h6.subheader {
   line-height: 1.4;
 }
-/* line 52, ../scss/app.scss */
+/* line 45, ../scss/app.scss */
 .campaign-card .campaign-name {
   font-size: medium;
   font-weight: bolder;
   text-align: center;
 }
-/* line 57, ../scss/app.scss */
+/* line 50, ../scss/app.scss */
 .campaign-card .org {
   font-size: smaller;
   font-weight: 600;
   padding-top: .5em;
   text-align: left;
 }
-/* line 63, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 .campaign-card .raised {
   font-size: larger;
   font-weight: bolder;
@@ -9500,13 +9491,13 @@ th.hide-for-touch {
   margin-top: -0.8em;
   text-align: center;
 }
-/* line 70, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .campaign-card .tag {
   color: #C8C8C8;
   font-size: 65%;
   text-align: left;
 }
-/* line 75, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .campaign-card .time-left {
   color: #A8A8A8;
   font-size: 65%;
@@ -9515,7 +9506,7 @@ th.hide-for-touch {
   text-align: center;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
@@ -9523,60 +9514,55 @@ footer {
   padding-top: 2em;
   text-align: center;
 }
-/* line 90, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 footer a {
   color: #FFFFFF;
 }
-/* line 93, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 footer a:hover {
   color: #e3b470;
 }
-/* line 96, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 footer img:hover {
   color: #e3b470;
 }
-/* line 99, ../scss/app.scss */
+/* line 92, ../scss/app.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 102, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 footer li {
   display: inline-block;
   font-size: smaller;
   padding-right: 2em;
 }
-/* line 107, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 footer p {
   font-size: 65%;
   margin-bottom: -1em;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .last-button {
   margin-bottom: -0.5em;
 }
 
-/* line 117, ../scss/app.scss */
+/* line 110, ../scss/app.scss */
 section {
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-/* line 125, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 #features .copy {
   margin-top: 4%;
 }
-/* line 128, ../scss/app.scss */
+/* line 121, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
 
-/* line 133, ../scss/app.scss */
-#row-background {
-  background-color: #eeeeee;
-}
-
-/* line 137, ../scss/app.scss */
+/* line 126, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9588,7 +9574,7 @@ section {
   -ms-filter: grayscale(1);
 }
 
-/* line 148, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9596,11 +9582,11 @@ section {
   top: 75%;
   transform: translateY(-7%);
 }
-/* line 154, ../scss/app.scss */
+/* line 143, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
 }
-/* line 157, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   line-height: 1.75em;
@@ -9609,11 +9595,16 @@ section {
   text-align: center;
 }
 
-/* line 167, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
+#row-background {
+  background-color: #eeeeee;
+}
+
+/* line 160, ../scss/app.scss */
 .homepage-tags button {
   background-color: #eeeeee;
 }
-/* line 170, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;
