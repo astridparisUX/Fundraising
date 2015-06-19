@@ -154,7 +154,10 @@ section {
   }
 }
 
-#homepage-tags {
+.homepage-tags {
+  button {
+    background-color: $gray;
+  }
   fa-tags {
     color: $gray-darker;
     font-size: smaller;

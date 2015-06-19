@@ -9601,7 +9601,11 @@ section {
 }
 
 /* line 158, ../scss/app.scss */
-#homepage-tags fa-tags {
+.homepage-tags button {
+  background-color: #eeeeee;
+}
+/* line 161, ../scss/app.scss */
+.homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;
 }
