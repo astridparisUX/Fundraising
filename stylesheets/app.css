@@ -9485,22 +9485,23 @@ th.hide-for-touch {
   font-weight: 700;
 }
 /* line 56, ../scss/app.scss */
-.campaign-card .org-name {
-  font-weight: 700;
+.campaign-card .org {
+  font-size: smaller;
+  font-weight: 600;
   text-align: left;
   padding-top: .5em;
 }
-/* line 61, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .campaign-card .raised {
   text-align: center;
 }
-/* line 64, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .campaign-card .tag {
   color: #C8C8C8;
   font-size: 65%;
   text-align: left;
 }
-/* line 69, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .campaign-card .time-left {
   color: #A8A8A8;
   font-size: 65%;
@@ -9508,27 +9509,27 @@ th.hide-for-touch {
   text-align: center;
 }
 
-/* line 77, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
 }
-/* line 80, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 footer a {
   color: #FFFFFF;
 }
-/* line 83, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 footer a:hover {
   color: #e3b470;
 }
 
-/* line 90, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .row-background {
   background-color: #eeeeee;
   background-size: cover;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat center center;
   background-size: cover;
@@ -9540,7 +9541,7 @@ footer a:hover {
   -ms-filter: grayscale(1);
 }
 
-/* line 106, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 #hero-copy {
   background-color: #112132;
   opacity: 80%;
@@ -9548,11 +9549,11 @@ footer a:hover {
   top: 75%;
   transform: translateY(-7%);
 }
-/* line 112, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
 }
-/* line 115, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   line-height: 1.75em;
