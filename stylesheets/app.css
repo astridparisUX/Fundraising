@@ -9601,6 +9601,7 @@ section {
 }
 
 /* line 158, ../scss/app.scss */
-#homepage-tags p {
+#homepage-tags fa-tags {
   color: #A8A8A8;
+  font-size: smaller;
 }
