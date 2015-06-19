@@ -82,14 +82,31 @@
 }
 
 footer {
-  // how can i create the same padding for footer as section?
   background-color: $primary-color;
   color: $topbar-link-color;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  text-align: center;
   a {
     color: $topbar-link-color;
   }
   a:hover {
     color: $yellow-light;
+  }
+  img:hover {
+    color: $yellow-light;
+  }
+  ul {
+   list-style-type:none;
+  }
+  li {
+   display: inline-block;
+   font-size: smaller;
+   padding-right: 2em;
+  }
+  p {
+    font-size: $small-font-size;
+    margin-bottom: -1em;
   }
 }
 
