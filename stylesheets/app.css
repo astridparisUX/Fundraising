@@ -9497,14 +9497,14 @@ th.hide-for-touch {
 }
 /* line 68, ../scss/app.scss */
 .campaign-card .tag {
-  color: #C8C8C8;
+  color: #8e8e8e;
   font-size: 65%;
   margin-top: -5px;
   text-align: left;
 }
 /* line 74, ../scss/app.scss */
 .campaign-card .time-left {
-  color: #A8A8A8;
+  color: #777777;
   font-size: 65%;
   margin-bottom: -0.5em;
   margin-top: -0.5em;
@@ -9677,13 +9677,17 @@ section {
 
 /* line 228, ../scss/app.scss */
 .homepage-tags a {
-  background-color: #eeeeee !important;
-  color: #A8A8A8 !important;
-  border-color: #A8A8A8 !important;
+  background-color: #d6d6d6 !important;
+  color: #8e8e8e !important;
+  border-color: #bebebe !important;
   border-width: 1px;
 }
 /* line 234, ../scss/app.scss */
+.homepage-tags a:hover.button {
+  background-color: #c1c1c1 !important;
+}
+/* line 237, ../scss/app.scss */
 .homepage-tags fa-tags {
-  color: #A8A8A8;
+  color: #777777;
   font-size: smaller;
 }

@@ -43,7 +43,7 @@
 .campaign-card {
   @include panel($white);
   border: 0;
-    // need to put subtle drop shadows on & make fixed height
+    // need to put subtle drop shadows on & make all a consistent height
   h3 {
     font-family: $font-family-sans-serif;
     font-weight: bolder;
@@ -221,15 +221,18 @@ section {
   // There's got to be a better way to anchor the hero overlay/text area to the bottom of the image?
 
 #top-campaigns {
-  background-color: $gray;
+  background-color: $gray-lightest;
 }
 
 .homepage-tags {
   a {
-    background-color: $gray !important;
-    color: $gray-darker !important;
-    border-color: $gray-darker !important;
+    background-color: $gray-light !important;
+    color: $gray-dark !important;
+    border-color: $gray !important;
     border-width: 1px;
+  }
+  a:hover.button {
+    background-color: scale-color($gray-light, $lightness: -10%) !important;
   }
   fa-tags {
     color: $gray-darker;
