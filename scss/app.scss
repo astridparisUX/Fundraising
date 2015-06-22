@@ -164,24 +164,22 @@ section {
 }
 
 #hero {
-  background: url('../images/students_donating.jpg') no-repeat top center;
+  background: url('../images/students_donating.jpg') no-repeat top center; 
+  // The bg image should probably be shrunken even more or omitted entirely from small screens...
   background-size: cover;
   height: 65vh;
-  filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -o-filter: grayscale(1);
-    -ms-filter: grayscale(1);
+
   }
 
 #hero-copy {
-  background-color: $blue-dark;
-  opacity: 80%;
+  background-color: $blue;
+  opacity: 0.8;
   position: relative;
   top: 90%;
   transform: translateY(-7%);
   h1 {
     color: $white;
+    z-index: 1;
   }
   p {
     color: $white;
