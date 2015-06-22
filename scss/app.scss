@@ -42,7 +42,8 @@
 // GLOBAL STYLES
 .campaign-card {
   @include panel($white);
-    // need to remove borders, put subtle drop shadows on, & make fixed height
+  border: 0;
+    // need to put subtle drop shadows on & make fixed height
   h3 {
     font-family: $font-family-sans-serif;
     font-weight: bolder;

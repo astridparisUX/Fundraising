@@ -9448,6 +9448,7 @@ th.hide-for-touch {
   padding: 1.25rem;
   background: #FFFFFF;
   color: #333333;
+  border: 0;
 }
 /* line 61, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .campaign-card > :first-child {
@@ -9470,7 +9471,7 @@ th.hide-for-touch {
 .campaign-card h1.subheader, .campaign-card h2.subheader, .campaign-card h3.subheader, .campaign-card h4.subheader, .campaign-card h5.subheader, .campaign-card h6.subheader {
   line-height: 1.4;
 }
-/* line 46, ../scss/app.scss */
+/* line 47, ../scss/app.scss */
 .campaign-card h3 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: bolder;
@@ -9478,7 +9479,7 @@ th.hide-for-touch {
   line-height: 1.25em;
   text-align: center;
 }
-/* line 53, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 .campaign-card h4 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: smaller;
@@ -9486,7 +9487,7 @@ th.hide-for-touch {
   padding-top: .5em;
   text-align: left;
 }
-/* line 60, ../scss/app.scss */
+/* line 61, ../scss/app.scss */
 .campaign-card .raised {
   font-size: larger;
   font-weight: bolder;
@@ -9494,14 +9495,14 @@ th.hide-for-touch {
   margin-top: -0.8em;
   text-align: center;
 }
-/* line 67, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .campaign-card .tag {
   color: #C8C8C8;
   font-size: 65%;
   margin-top: -5px;
   text-align: left;
 }
-/* line 73, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .campaign-card .time-left {
   color: #A8A8A8;
   font-size: 65%;
@@ -9509,12 +9510,12 @@ th.hide-for-touch {
   margin-top: -0.5em;
   text-align: center;
 }
-/* line 80, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 .campaign-card .time-left-barely {
   color: #FF6664;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
@@ -9522,105 +9523,105 @@ footer {
   padding-top: 2em;
   text-align: center;
 }
-/* line 91, ../scss/app.scss */
+/* line 92, ../scss/app.scss */
 footer a {
   color: #FFFFFF;
 }
-/* line 94, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 footer a:hover {
   color: #e3b470;
 }
-/* line 100, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 103, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 footer li {
   display: inline-block;
   font-size: smaller;
   padding-right: 2em;
 }
-/* line 108, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 footer p {
   font-size: 65%;
   margin-bottom: -1em;
 }
 
-/* line 114, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .last-button {
   margin-bottom: -0.5em;
 }
 
-/* line 118, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 section {
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-/* line 124, ../scss/app.scss */
+/* line 125, ../scss/app.scss */
 .top-bar-section ul li > a.button {
   background-color: #50cc76;
   border-color: #33b059;
 }
 
-/* line 128, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 .top-bar-section ul li > a.button:hover,
 .top-bar-section ul li > a.button:focus {
   background-color: #33b059;
 }
 
-/* line 134, ../scss/app.scss */
+/* line 135, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a,
 .top-bar .toggle-topbar.menu-icon {
   color: #FFFFFF !important;
 }
 
-/* line 138, ../scss/app.scss */
+/* line 139, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a span::after {
   box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
 }
 
-/* line 143, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a:hover,
 .top-bar .toggle-topbar.menu-icon :hover {
   color: #e3b470 !important;
 }
 
-/* line 147, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a:hover span::after,
 .top-bar .toggle-topbar a:hover span::after {
   box-shadow: 0 0 0 1px #e3b470, 0 7px 0 1px #e3b470, 0 14px 0 1px #e3b470;
 }
 
-/* line 156, ../scss/app.scss */
+/* line 157, ../scss/app.scss */
 #features .copy {
   margin-top: 4%;
 }
-/* line 159, ../scss/app.scss */
+/* line 160, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
 
-/* line 164, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat top center;
   background-size: cover;
   height: 65vh;
 }
 
-/* line 172, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 #hero-copy {
   background-color: #0a1924;
   opacity: 0.9;
   position: relative;
   top: 67%;
 }
-/* line 177, ../scss/app.scss */
+/* line 178, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
   padding-top: 0.4em;
 }
-/* line 181, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   font-weight: 200;
@@ -9630,58 +9631,58 @@ section {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 190, ../scss/app.scss */
+  /* line 191, ../scss/app.scss */
   #hero {
     height: 40vh;
   }
 
-  /* line 193, ../scss/app.scss */
+  /* line 194, ../scss/app.scss */
   #hero-copy {
     top: 68%;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 198, ../scss/app.scss */
+  /* line 199, ../scss/app.scss */
   #hero-copy {
     top: 74%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 203, ../scss/app.scss */
+  /* line 204, ../scss/app.scss */
   #hero {
     height: 65vh;
   }
 
-  /* line 206, ../scss/app.scss */
+  /* line 207, ../scss/app.scss */
   #hero-copy {
     top: 77%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 211, ../scss/app.scss */
+  /* line 212, ../scss/app.scss */
   #hero-copy {
     top: 75%;
   }
 }
 @media only screen and (min-width: 1680px) {
-  /* line 216, ../scss/app.scss */
+  /* line 217, ../scss/app.scss */
   #hero-copy {
     top: 82%;
   }
 }
-/* line 222, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
 }
 
-/* line 227, ../scss/app.scss */
+/* line 228, ../scss/app.scss */
 .homepage-tags a {
   background-color: #eeeeee !important;
   color: #A8A8A8 !important;
   border-color: #A8A8A8 !important;
   border-width: 1px;
 }
-/* line 233, ../scss/app.scss */
+/* line 234, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;
