@@ -9602,7 +9602,7 @@ section {
 
 /* line 166, ../scss/app.scss */
 #hero {
-  background: url("../images/students_donating.jpg") no-repeat -2px center;
+  background: url("../images/students_donating.jpg") no-repeat top center;
   background-size: cover;
   height: 65vh;
   filter: grayscale(1);
