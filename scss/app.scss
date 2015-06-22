@@ -124,7 +124,7 @@ section {
 
 // GIVES THE BUTTON IN THE HEADER THE STUDENT CHEESE GREEN. Default: Foundation blue.
 .top-bar-section ul li > a.button {
-  background-color: $green;
+  background-color: $secondary-color;
   border-color: #33b059;
   }
 .top-bar-section ul li > a.button:hover, 
@@ -172,7 +172,7 @@ section {
   }
 
 #hero-copy {
-  background-color: scale-color($blue, $lightness: -80%);
+  background-color: scale-color($primary-color, $lightness: -80%);
   opacity: 0.9;
   position: relative;
   top: 78%;
