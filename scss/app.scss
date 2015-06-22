@@ -42,11 +42,9 @@
 // GLOBAL STYLES
 .campaign-card {
   @include panel($white);
-  min-height: 
     // need to remove borders, put subtle drop shadows on, & make fixed height
   h3 {
     font-family: $font-family-sans-serif;
-    font-size: medium;
     font-weight: bolder;
     height: 50px;
     line-height: 1.25em;
