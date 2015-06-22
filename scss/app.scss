@@ -172,14 +172,13 @@ section {
   }
 
 #hero-copy {
-  background-color: $blue;
-  opacity: 0.8;
+  background-color: scale-color($blue, $lightness: -80%);
+  opacity: 0.9;
   position: relative;
-  top: 90%;
-  transform: translateY(-7%);
+  top: 78%;
+
   h1 {
     color: $white;
-    z-index: 1;
   }
   p {
     color: $white;

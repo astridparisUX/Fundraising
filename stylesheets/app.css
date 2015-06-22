@@ -9609,18 +9609,16 @@ section {
 
 /* line 174, ../scss/app.scss */
 #hero-copy {
-  background-color: #347fb2;
-  opacity: 0.8;
+  background-color: #0a1924;
+  opacity: 0.9;
   position: relative;
-  top: 90%;
-  transform: translateY(-7%);
+  top: 78%;
 }
 /* line 180, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
-  z-index: 1;
 }
-/* line 184, ../scss/app.scss */
+/* line 183, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   line-height: 1.75em;
@@ -9629,19 +9627,19 @@ section {
   text-align: center;
 }
 
-/* line 193, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
 }
 
-/* line 198, ../scss/app.scss */
+/* line 197, ../scss/app.scss */
 .homepage-tags a {
   background-color: #eeeeee !important;
   color: #A8A8A8 !important;
   border-color: #A8A8A8 !important;
   border-width: 1px;
 }
-/* line 204, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;
