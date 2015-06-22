@@ -176,7 +176,6 @@ section {
   opacity: 0.9;
   position: relative;
   top: 67%;
-
   h1 {
     color: $white;
     padding-top: 0.4em;
@@ -189,7 +188,6 @@ section {
     text-align: center;
   }
 }
-
  @media only screen and (min-width: 480px) {
     #hero {
       height: 40vh;
@@ -221,6 +219,7 @@ section {
       top: 82%;
     }
   }
+  // There's got to be a better way to anchor the hero overlay/text area to the bottom of the image?
 
 #top-campaigns {
   background-color: $gray;
