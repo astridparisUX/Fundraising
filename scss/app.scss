@@ -179,12 +179,13 @@ section {
 
   h1 {
     color: $white;
+    padding-top: 0.4em;
   }
   p {
     color: $white;
-    line-height: 1.75em;
     font-weight: 200;
-    margin-bottom: 2rem;
+    line-height: 1.75em;
+    padding-bottom: 1em;
     text-align: center;
   }
 }

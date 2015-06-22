@@ -9617,29 +9617,30 @@ section {
 /* line 180, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
+  padding-top: 0.4em;
 }
-/* line 183, ../scss/app.scss */
+/* line 184, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
-  line-height: 1.75em;
   font-weight: 200;
-  margin-bottom: 2rem;
+  line-height: 1.75em;
+  padding-bottom: 1em;
   text-align: center;
 }
 
-/* line 192, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
 }
 
-/* line 197, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .homepage-tags a {
   background-color: #eeeeee !important;
   color: #A8A8A8 !important;
   border-color: #A8A8A8 !important;
   border-width: 1px;
 }
-/* line 203, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #A8A8A8;
   font-size: smaller;
