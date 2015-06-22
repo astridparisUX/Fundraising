@@ -9531,10 +9531,6 @@ footer a {
 footer a:hover {
   color: #e3b470;
 }
-/* line 98, ../scss/app.scss */
-footer img:hover {
-  color: #e3b470;
-}
 /* line 101, ../scss/app.scss */
 footer ul {
   list-style-type: none;
