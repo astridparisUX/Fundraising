@@ -9439,7 +9439,7 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 45, ../scss/app.scss */
+/* line 46, ../scss/app.scss */
 .campaign-card {
   border-style: solid;
   border-width: 1px;
@@ -9474,11 +9474,11 @@ th.hide-for-touch {
 .campaign-card h1.subheader, .campaign-card h2.subheader, .campaign-card h3.subheader, .campaign-card h4.subheader, .campaign-card h5.subheader, .campaign-card h6.subheader {
   line-height: 1.4;
 }
-/* line 47, ../scss/app.scss */
+/* line 48, ../scss/app.scss */
 .campaign-card :hover {
   background-color: #ababab !important;
 }
-/* line 55, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 .campaign-card h3 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: bolder;
@@ -9486,7 +9486,7 @@ th.hide-for-touch {
   line-height: 1.25em;
   text-align: center;
 }
-/* line 62, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .campaign-card h4 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: smaller;
@@ -9494,7 +9494,7 @@ th.hide-for-touch {
   padding-top: .5em;
   text-align: left;
 }
-/* line 69, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .campaign-card .raised {
   font-size: larger;
   font-weight: bolder;
@@ -9502,14 +9502,14 @@ th.hide-for-touch {
   margin-top: -0.8em;
   text-align: center;
 }
-/* line 76, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .campaign-card .tag {
   color: #8e8e8e;
   font-size: 65%;
   margin-top: -5px;
   text-align: left;
 }
-/* line 82, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 .campaign-card .time-left {
   color: #777777;
   font-size: 65%;
@@ -9517,17 +9517,17 @@ th.hide-for-touch {
   margin-top: -0.5em;
   text-align: center;
 }
-/* line 89, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .campaign-card .time-left-barely {
   color: #FF6664;
 }
 
-/* line 98, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 section {
   padding-bottom: 2em;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
@@ -9535,37 +9535,37 @@ footer {
   padding-top: 2em;
   text-align: center;
 }
-/* line 110, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 footer a {
   color: #FFFFFF;
 }
-/* line 113, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 footer a:hover {
   color: #e3b470;
 }
-/* line 119, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 122, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
 footer li {
   display: inline-block;
   font-size: smaller;
   padding-right: 2em;
 }
-/* line 127, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 footer p {
   font-size: 65%;
   margin-bottom: -1em;
 }
 
-/* line 134, ../scss/app.scss */
+/* line 135, ../scss/app.scss */
 .top-bar-section ul li > a.button {
   background-color: #50cc76;
   border-color: #33b059;
 }
 
-/* line 138, ../scss/app.scss */
+/* line 139, ../scss/app.scss */
 .top-bar-section ul li > a.button:hover,
 .top-bar-section ul li > a.button:focus {
   background-color: #33b059;
@@ -9582,27 +9582,27 @@ footer p {
   box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
 }
 
-/* line 153, ../scss/app.scss */
+/* line 152, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a:hover,
 .top-bar .toggle-topbar.menu-icon :hover {
   color: #e3b470 !important;
 }
 
-/* line 157, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a:hover span::after,
 .top-bar .toggle-topbar a:hover span::after {
   box-shadow: 0 0 0 1px #e3b470, 0 7px 0 1px #e3b470, 0 14px 0 1px #e3b470;
 }
 
-/* line 165, ../scss/app.scss */
+/* line 164, ../scss/app.scss */
 #features {
   box-shadow: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 }
-/* line 167, ../scss/app.scss */
+/* line 166, ../scss/app.scss */
 #features .copy {
   margin-top: 4%;
 }
-/* line 170, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
@@ -9676,49 +9676,53 @@ footer p {
     top: 84%;
   }
 }
-/* line 237, ../scss/app.scss */
-.last-button {
-  margin-bottom: -0.5em;
-}
-
-/* line 242, ../scss/app.scss */
-#raise-cheddar h2 {
-  padding-top: .75em;
-}
-
-/* line 247, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
   box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.35);
 }
-/* line 250, ../scss/app.scss */
+/* line 239, ../scss/app.scss */
 #top-campaigns h2:first-of-type {
   padding-top: .75em;
 }
 
-/* line 256, ../scss/app.scss */
+/* line 245, ../scss/app.scss */
 .homepage-tags a {
   background-color: #d6d6d6 !important;
   color: #8e8e8e !important;
   border-color: #bebebe !important;
   border-width: 1px;
 }
-/* line 262, ../scss/app.scss */
+/* line 251, ../scss/app.scss */
 .homepage-tags a:hover.button {
   background-color: #c1c1c1 !important;
 }
-/* line 265, ../scss/app.scss */
+/* line 254, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #bebebe;
   font-size: smaller;
 }
 
-/* line 272, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
+#raise-cheddar h2 {
+  padding-top: .75em;
+}
+
+/* line 266, ../scss/app.scss */
+.last-button {
+  margin-bottom: -0.5em;
+}
+
+/* line 273, ../scss/app.scss */
 #new-pic {
-  border-color: #d6d6d6;
-  border-style: dotted;
-  border-width: 1px;
   height: 10em;
   margin-bottom: 2em;
   width: 100%;
+}
+
+/* line 279, ../scss/app.scss */
+.dotted-border-new {
+  border-color: #d6d6d6;
+  border-style: dotted;
+  border-width: 1px;
 }
