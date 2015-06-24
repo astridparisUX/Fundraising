@@ -9608,6 +9608,7 @@ footer p {
   background: url("../images/students_donating.jpg") no-repeat top center;
   background-size: cover;
   height: 65vh;
+  margin-top: -0.17em;
 }
 
 /* line 181, ../scss/app.scss */
@@ -9645,7 +9646,7 @@ footer p {
 @media only screen and (min-width: 640px) {
   /* line 208, ../scss/app.scss */
   #hero-copy {
-    top: 74%;
+    top: 78%;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -9656,19 +9657,19 @@ footer p {
 
   /* line 217, ../scss/app.scss */
   #hero-copy {
-    top: 77%;
+    top: 79%;
   }
 }
 @media only screen and (min-width: 1280px) {
   /* line 222, ../scss/app.scss */
   #hero-copy {
-    top: 75%;
+    top: 77%;
   }
 }
 @media only screen and (min-width: 1680px) {
   /* line 227, ../scss/app.scss */
   #hero-copy {
-    top: 82%;
+    top: 84%;
   }
 }
 /* line 235, ../scss/app.scss */
