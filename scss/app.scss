@@ -40,11 +40,14 @@
 //   "foundation/components/visibility";
 
 // GLOBAL STYLES
+// Need to set a style for the active page in header & footer
 // Campaign cards
 .campaign-card {
   @include panel($white);
+  :hover {
+    background-color: scale-color($gray, $lightness: -10%) !important; 
+  }
   border: 0;
-    // need to make all a consistent height
   box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
   -webkit-box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
   -moz-box-shadow: 2px 3px 3px 0px rgba(9153,153,153,0.35);
@@ -93,7 +96,6 @@ $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
 $box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 
 section {
-  // padding-top: 2em;
   padding-bottom: 2em;
 }
 
