@@ -9726,3 +9726,9 @@ footer p {
   border-style: dotted;
   border-width: 1px;
 }
+
+/* line 286, ../scss/app.scss */
+fa fa-plus {
+  color: #bebebe;
+  font-size: smaller;
+}
