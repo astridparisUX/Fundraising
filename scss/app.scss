@@ -204,11 +204,13 @@ footer {
     }
   }
  @media only screen and (min-width: 640px) {
+  // $small-breakpoint:  em-calc(640);
     #hero-copy {
       top: 74%;
     }
   }
   @media only screen and (min-width: 1024px) {
+    // $medium-breakpoint: em-calc(1024);
     #hero {
       height: 65vh;
     }
