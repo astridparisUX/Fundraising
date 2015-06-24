@@ -40,6 +40,7 @@
 //   "foundation/components/visibility";
 
 // GLOBAL STYLES
+// Need to set a style for the active page in header & footer
 // Campaign cards
 .campaign-card {
   @include panel($white);
