@@ -234,10 +234,18 @@ footer {
   margin-bottom: -0.5em;
 }
 
+#raise-cheddar {
+  h2 {
+    padding-top: .75em;
+  }
+}
+
 #top-campaigns {
   background-color: $gray-lightest;
   box-shadow: $box-shadow-gray-sections;
-  // padding-top: 0.5em !important;
+  h2:first-of-type {
+    padding-top: .75em;
+  }
 }
 
 .homepage-tags {

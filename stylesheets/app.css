@@ -9676,24 +9676,33 @@ footer p {
   margin-bottom: -0.5em;
 }
 
-/* line 237, ../scss/app.scss */
+/* line 238, ../scss/app.scss */
+#raise-cheddar h2 {
+  padding-top: .75em;
+}
+
+/* line 243, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
   box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.35);
 }
+/* line 246, ../scss/app.scss */
+#top-campaigns h2:first-of-type {
+  padding-top: .75em;
+}
 
-/* line 244, ../scss/app.scss */
+/* line 252, ../scss/app.scss */
 .homepage-tags a {
   background-color: #d6d6d6 !important;
   color: #8e8e8e !important;
   border-color: #bebebe !important;
   border-width: 1px;
 }
-/* line 250, ../scss/app.scss */
+/* line 258, ../scss/app.scss */
 .homepage-tags a:hover.button {
   background-color: #c1c1c1 !important;
 }
-/* line 253, ../scss/app.scss */
+/* line 261, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #bebebe;
   font-size: smaller;
