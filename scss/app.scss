@@ -175,7 +175,7 @@ footer {
   // The bg image should probably be shrunken even more or omitted entirely from small screens...
   background-size: cover;
   height: 65vh;
-
+  margin-top: -0.17em;
   }
 
 #hero-copy {
@@ -204,11 +204,13 @@ footer {
     }
   }
  @media only screen and (min-width: 640px) {
+  // $small-breakpoint:  em-calc(640);
     #hero-copy {
-      top: 77%;
+      top: 78%;
     }
   }
   @media only screen and (min-width: 1024px) {
+    // $medium-breakpoint: em-calc(1024);
     #hero {
       height: 65vh;
     }
@@ -218,12 +220,12 @@ footer {
   }
  @media only screen and (min-width: 1280px) {
     #hero-copy {
-      top: 75%;
+      top: 77%;
     }
   }
  @media only screen and (min-width: 1680px) {
     #hero-copy {
-      top: 82%;
+      top: 84%;
     }
   }
   // There's got to be a better way to anchor the hero overlay/text area to the bottom of the image?
