@@ -9712,3 +9712,13 @@ footer p {
   color: #bebebe;
   font-size: smaller;
 }
+
+/* line 272, ../scss/app.scss */
+#new-pic {
+  border-color: #d6d6d6;
+  border-style: dotted;
+  border-width: 1px;
+  height: 10em;
+  margin-bottom: 2em;
+  width: 100%;
+}
