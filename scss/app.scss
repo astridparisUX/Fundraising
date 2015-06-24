@@ -40,6 +40,7 @@
 //   "foundation/components/visibility";
 
 // GLOBAL STYLES
+// Campaign cards
 .campaign-card {
   @include panel($white);
   border: 0;
@@ -83,9 +84,16 @@
   }
 }
 
-// DROP SHADOWS ON SECTIONS
-$box-shadow-sections: 0px 2px 3px 0px rgba(153,153,153,0.35);
+// All sections
+$box-shadow-sections: 0px 2px 5px 0px rgba(153,153,153,0.35);
 
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+// Footer
 footer {
   background-color: $primary-color;
   color: $topbar-link-color;
@@ -113,15 +121,6 @@ footer {
     font-size: $small-font-size;
     margin-bottom: -1em;
   }
-}
-
-.last-button {
-  margin-bottom: -0.5em;
-}
-
-section {
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 // GIVES THE BUTTON IN THE HEADER THE STUDENT CHEESE GREEN. Default: Foundation blue.
@@ -157,6 +156,7 @@ section {
 
 // HOME PAGE STYLES
 #features {
+  box-shadow: $box-shadow-sections;
   .copy {
     margin-top: 4%;
   }
@@ -222,6 +222,12 @@ section {
     }
   }
   // There's got to be a better way to anchor the hero overlay/text area to the bottom of the image?
+
+
+// Last section on page
+.last-button {
+  margin-bottom: -0.5em;
+}
 
 #top-campaigns {
   background-color: $gray-lightest;
