@@ -44,7 +44,7 @@
 .campaign-card {
   @include panel($white);
   border: 0;
-    // need to put subtle drop shadows on & make all a consistent height
+    // need to make all a consistent height
   box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
   -webkit-box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
   -moz-box-shadow: 2px 3px 3px 0px rgba(9153,153,153,0.35);
