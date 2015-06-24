@@ -83,6 +83,9 @@
   }
 }
 
+// DROP SHADOWS ON SECTIONS
+$box-shadow-sections: 0px 2px 3px 0px rgba(153,153,153,0.35);
+
 footer {
   background-color: $primary-color;
   color: $topbar-link-color;
@@ -222,6 +225,7 @@ section {
 
 #top-campaigns {
   background-color: $gray-lightest;
+  box-shadow: $box-shadow-sections;
 }
 
 .homepage-tags {
