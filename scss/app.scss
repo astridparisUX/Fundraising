@@ -40,240 +40,245 @@
 //   "foundation/components/visibility";
 
 // GLOBAL STYLES
-// Need to set a style for the active page in header & footer
-// Campaign cards
-.campaign-card {
-  @include panel($white);
-  :hover {
-    background-color: scale-color($gray, $lightness: -10%) !important; 
-  }
-  border: 0;
-  box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
-  -webkit-box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
-  -moz-box-shadow: 2px 3px 3px 0px rgba(9153,153,153,0.35);
+  // **Need to set a style for the active page in header & footer
 
-  h3 {
-    font-family: $font-family-sans-serif;
-    font-weight: bolder;
-    height: 50px;
-    line-height: 1.25em;
-    text-align: center;
-  }
-  h4 {
-    font-family: $font-family-sans-serif;
-    font-size: smaller;
-    font-weight: 600;
-    padding-top: .5em;
-    text-align: left;
-  }
-  .raised {
-    font-size: larger;
-    font-weight: bolder;
-    margin-bottom: 0.25em;
-    margin-top: -0.8em;
-    text-align: center;
-  }
-  .tag {
-    color: $gray-dark;
-    font-size: $small-font-size;
-    margin-top: -5px;
-    text-align: left;
-  }
-  .time-left {
-    color: $gray-darker;
-    font-size: $small-font-size;
-    margin-bottom: -0.5em;
-    margin-top: -0.5em;
-    text-align: center;
-  }
-  .time-left-barely {
-    color: #FF6664;
-  }
-}
+  // Campaign cards
+    .campaign-card {
+      @include panel($white);
+      :hover {
+        background-color: scale-color($gray, $lightness: -10%) !important; 
+      }
+      border: 0;
+      box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
+      -webkit-box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
+      -moz-box-shadow: 2px 3px 3px 0px rgba(9153,153,153,0.35);
 
-// All sections
-$box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
-$box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
+      h3 {
+        font-family: $font-family-sans-serif;
+        font-weight: bolder;
+        height: 50px;
+        line-height: 1.25em;
+        text-align: center;
+      }
+      h4 {
+        font-family: $font-family-sans-serif;
+        font-size: smaller;
+        font-weight: 600;
+        padding-top: .5em;
+        text-align: left;
+      }
+      .raised {
+        font-size: larger;
+        font-weight: bolder;
+        margin-bottom: 0.25em;
+        margin-top: -0.8em;
+        text-align: center;
+      }
+      .tag {
+        color: $gray-dark;
+        font-size: $small-font-size;
+        margin-top: -5px;
+        text-align: left;
+      }
+      .time-left {
+        color: $gray-darker;
+        font-size: $small-font-size;
+        margin-bottom: -0.5em;
+        margin-top: -0.5em;
+        text-align: center;
+      }
+      .time-left-barely {
+        color: #FF6664;
+      }
+    }
 
-section {
-  padding-bottom: 2em;
-}
+  // Section drop shadows
+    $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
+    $box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 
+  // Section padding
+    section {
+      padding-bottom: 2em;
+    }
 
-// Footer
-footer {
-  background-color: $primary-color;
-  color: $topbar-link-color;
-  padding-bottom: 2em;
-  padding-top: 2em;
-  text-align: center;
-  a {
-    color: $topbar-link-color;
-  }
-  a:hover {
-    color: $yellow-light;
-  }
-  img:hover {
-    
-  }
-  ul {
-   list-style-type:none;
-  }
-  li {
-   display: inline-block;
-   font-size: smaller;
-   padding-right: 2em;
-  }
-  p {
-    font-size: $small-font-size;
-    margin-bottom: -1em;
-  }
-}
+  // Footer
+    footer {
+      background-color: $primary-color;
+      color: $topbar-link-color;
+      padding-bottom: 2em;
+      padding-top: 2em;
+      text-align: center;
+      a {
+        color: $topbar-link-color;
+      }
+      a:hover {
+        color: $yellow-light;
+      }
+      img:hover {
+        
+      }
+      ul {
+       list-style-type:none;
+      }
+      li {
+       display: inline-block;
+       font-size: smaller;
+       padding-right: 2em;
+      }
+      p {
+        font-size: $small-font-size;
+        margin-bottom: -1em;
+      }
+    }
 
-// GIVES THE BUTTON IN THE HEADER THE STUDENT CHEESE GREEN. Default: Foundation blue.
-.top-bar-section ul li > a.button {
-  background-color: $secondary-color;
-  border-color: #33b059;
-  }
-.top-bar-section ul li > a.button:hover, 
-.top-bar-section ul li > a.button:focus {
-  background-color: #33b059;
-}
+  // Header
+    .top-bar-section ul li > a.button { // makes the button in the header Student Cheese green.
+      background-color: $secondary-color; 
+      border-color: #33b059;
+      }
+    .top-bar-section ul li > a.button:hover, 
+    .top-bar-section ul li > a.button:focus {
+      background-color: #33b059;
+    }
 
-// MAKES THE MENU LABEL AND HAMBURGER WHITE WHEN EXPANDED. Default: Foundation gray.
-.top-bar.expanded .toggle-topbar a,
-.top-bar .toggle-topbar.menu-icon {
-  color: $white !important;
-}
-.top-bar.expanded .toggle-topbar a span::after {
-  box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white; 
-}
+    .top-bar.expanded .toggle-topbar a, // Makes the "Menu" text & hamburger icon white when expanded.
+    .top-bar .toggle-topbar.menu-icon {
+      color: $white !important;            
+    }
+    .top-bar.expanded .toggle-topbar a span::after {
+      box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white; 
+    }
 
-// MAKES THE MENU LABEL AND HAMBURGER STUDENT CHEESE YELLOW ON HOVER WHEN EXPANDED.
-.top-bar.expanded .toggle-topbar a:hover,
-.top-bar .toggle-topbar.menu-icon :hover {
-  color: $yellow-light !important;
-}
-.top-bar.expanded .toggle-topbar a:hover span::after,
-.top-bar .toggle-topbar a:hover span::after {
-  box-shadow: 0 0 0 1px $yellow-light, 0 7px 0 1px $yellow-light, 0 14px 0 1px $yellow-light; 
-}
-
+    .top-bar.expanded .toggle-topbar a:hover, // Makes the "Menu" text & hamburger icon the Student Cheese yellow on hover when expanded.
+    .top-bar .toggle-topbar.menu-icon :hover {
+      color: $yellow-light !important;
+    }
+    .top-bar.expanded .toggle-topbar a:hover span::after,
+    .top-bar .toggle-topbar a:hover span::after {
+      box-shadow: 0 0 0 1px $yellow-light, 0 7px 0 1px $yellow-light, 0 14px 0 1px $yellow-light; 
+    }
 
 
 // HOME PAGE STYLES
-#features {
-  box-shadow: $box-shadow-white-sections; 
-  .copy {
-    margin-top: 4%;
-  }
-  .row2 {
-    padding-top: 1.8em;
-  }
-}
+  // Features section
+    #features {
+      box-shadow: $box-shadow-white-sections; 
+      .copy {
+        margin-top: 4%;
+      }
+      .row2 {
+        padding-top: 1.8em;
+      }
+    }
 
-#hero {
-  background: url('../images/students_donating.jpg') no-repeat top center; 
-  // The bg image should probably be shrunken even more or omitted entirely from small screens...
-  background-size: cover;
-  height: 65vh;
-  margin-top: -0.17em;
-  }
-
-#hero-copy {
-  background-color: scale-color($primary-color, $lightness: -80%);
-  opacity: 0.9;
-  position: relative;
-  top: 67%;
-  h1 {
-    color: $white;
-    padding-top: 0.4em;
-  }
-  p {
-    color: $white;
-    font-weight: 200;
-    line-height: 1.75em;
-    padding-bottom: 1em;
-    text-align: center;
-  }
-}
- @media only screen and (min-width: 480px) {
+  // Hero
     #hero {
-      height: 40vh;
-    }
-    #hero-copy {
-      top: 72%;
-    }
-  }
- @media only screen and (min-width: 640px) {
-  // $small-breakpoint:  em-calc(640);
-    #hero-copy {
-      top: 78%;
-    }
-  }
-  @media only screen and (min-width: 1024px) {
-    // $medium-breakpoint: em-calc(1024);
-    #hero {
+      background: url('../images/students_donating.jpg') no-repeat top center; 
+      // The bg image should probably be shrunken even more or omitted entirely from small screens...
+      background-size: cover;
       height: 65vh;
-    }
+      margin-top: -0.17em;
+      }
+
     #hero-copy {
-      top: 79%;
+      background-color: scale-color($primary-color, $lightness: -80%);
+      opacity: 0.9;
+      position: relative;
+      top: 67%;
+      h1 {
+        color: $white;
+        padding-top: 0.4em;
+      }
+      p {
+        color: $white;
+        font-weight: 200;
+        line-height: 1.75em;
+        padding-bottom: 1em;
+        text-align: center;
+      }
     }
-  }
- @media only screen and (min-width: 1280px) {
-    #hero-copy {
-      top: 77%;
+     @media only screen and (min-width: 480px) {
+        #hero {
+          height: 40vh;
+        }
+        #hero-copy {
+          top: 72%;
+        }
+      }
+     @media only screen and (min-width: 640px) {
+      // $small-breakpoint:  em-calc(640);
+        #hero-copy {
+          top: 78%;
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        // $medium-breakpoint: em-calc(1024);
+        #hero {
+          height: 65vh;
+        }
+        #hero-copy {
+          top: 79%;
+        }
+      }
+     @media only screen and (min-width: 1280px) {
+        #hero-copy {
+          top: 77%;
+        }
+      }
+     @media only screen and (min-width: 1680px) {
+        #hero-copy {
+          top: 84%;
+        }
+      }
+      // There's got to be a better way to anchor the hero overlay/text area to the bottom of the image?
+
+  // Top Campaigns
+    #top-campaigns {
+      background-color: $gray-lightest;
+      box-shadow: $box-shadow-gray-sections;
+      h2:first-of-type {
+        padding-top: .75em;
+      }
     }
-  }
- @media only screen and (min-width: 1680px) {
-    #hero-copy {
-      top: 84%;
+
+    .homepage-tags {
+      a {
+        background-color: $gray-light !important;
+        color: $gray-dark !important;
+        border-color: $gray !important;
+        border-width: 1px;
+      }
+      a:hover.button {
+        background-color: scale-color($gray-light, $lightness: -10%) !important;
+      }
+      fa-tags {
+        color: $gray;
+        font-size: smaller;
+      }
     }
-  }
-  // There's got to be a better way to anchor the hero overlay/text area to the bottom of the image?
 
+  // Raise More Cheddar Section
+    #raise-cheddar {
+      h2 {
+        padding-top: .75em;
+      }
+    }
+    .last-button {
+      margin-bottom: -0.5em;
+    }
 
-// Last section on page
-.last-button {
-  margin-bottom: -0.5em;
-}
-
-#raise-cheddar {
-  h2 {
-    padding-top: .75em;
-  }
-}
-
-#top-campaigns {
-  background-color: $gray-lightest;
-  box-shadow: $box-shadow-gray-sections;
-  h2:first-of-type {
-    padding-top: .75em;
-  }
-}
-
-.homepage-tags {
-  a {
-    background-color: $gray-light !important;
-    color: $gray-dark !important;
-    border-color: $gray !important;
-    border-width: 1px;
-  }
-  a:hover.button {
-    background-color: scale-color($gray-light, $lightness: -10%) !important;
-  }
-  fa-tags {
-    color: $gray;
-    font-size: smaller;
-  }
-}
 
 // CREATE ACCOUNT
-#new-pic {
-  border-color: $gray-light;
-  border-style: dotted;
-  border-width: 1px;
-  height: 10em;
-  margin-bottom: 2em;
-  width: 100%;
-}
+  // Placeholder box for pic (default when there's no pic)
+    #new-pic {
+      height: 10em;
+      margin-bottom: 2em;
+      width: 100%;
+    }
+  // Dotted borders for placeholder boxes
+    .dotted-border-new { 
+      border-color: $gray-light;
+      border-style: dotted;
+      border-width: 1px;
+    }
+
