@@ -89,10 +89,11 @@
 }
 
 // All sections
-$box-shadow-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
+$box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
+$box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 
 section {
-  padding-top: 2em;
+  // padding-top: 2em;
   padding-bottom: 2em;
 }
 
@@ -160,7 +161,7 @@ footer {
 
 // HOME PAGE STYLES
 #features {
-  box-shadow: $box-shadow-sections;
+  box-shadow: $box-shadow-white-sections; 
   .copy {
     margin-top: 4%;
   }
@@ -235,7 +236,8 @@ footer {
 
 #top-campaigns {
   background-color: $gray-lightest;
-  box-shadow: $box-shadow-sections;
+  box-shadow: $box-shadow-gray-sections;
+  // padding-top: 0.5em !important;
 }
 
 .homepage-tags {
