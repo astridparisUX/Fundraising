@@ -9615,19 +9615,19 @@ footer p {
   margin-top: -0.17em;
 }
 
-/* line 183, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 #hero-copy {
   background-color: #0a1924;
   opacity: 0.9;
   position: relative;
   top: 67%;
 }
-/* line 188, ../scss/app.scss */
+/* line 187, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
   padding-top: 0.4em;
 }
-/* line 192, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   font-weight: 200;
@@ -9637,97 +9637,97 @@ footer p {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 201, ../scss/app.scss */
+  /* line 200, ../scss/app.scss */
   #hero {
     height: 40vh;
   }
 
-  /* line 204, ../scss/app.scss */
+  /* line 203, ../scss/app.scss */
   #hero-copy {
     top: 72%;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 210, ../scss/app.scss */
+  /* line 209, ../scss/app.scss */
   #hero-copy {
     top: 78%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 216, ../scss/app.scss */
+  /* line 215, ../scss/app.scss */
   #hero {
     height: 65vh;
   }
 
-  /* line 219, ../scss/app.scss */
+  /* line 218, ../scss/app.scss */
   #hero-copy {
     top: 79%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 224, ../scss/app.scss */
+  /* line 223, ../scss/app.scss */
   #hero-copy {
     top: 77%;
   }
 }
 @media only screen and (min-width: 1680px) {
-  /* line 229, ../scss/app.scss */
+  /* line 228, ../scss/app.scss */
   #hero-copy {
     top: 84%;
   }
 }
-/* line 236, ../scss/app.scss */
+/* line 235, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
   box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.35);
 }
-/* line 239, ../scss/app.scss */
+/* line 238, ../scss/app.scss */
 #top-campaigns h2:first-of-type {
   padding-top: .75em;
 }
 
-/* line 245, ../scss/app.scss */
+/* line 244, ../scss/app.scss */
 .homepage-tags a {
   background-color: #d6d6d6 !important;
   color: #8e8e8e !important;
   border-color: #bebebe !important;
   border-width: 1px;
 }
-/* line 251, ../scss/app.scss */
+/* line 250, ../scss/app.scss */
 .homepage-tags a:hover.button {
   background-color: #c1c1c1 !important;
 }
-/* line 254, ../scss/app.scss */
+/* line 253, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #bebebe;
   font-size: smaller;
 }
 
-/* line 262, ../scss/app.scss */
+/* line 261, ../scss/app.scss */
 #raise-cheddar h2 {
   padding-top: .75em;
 }
 
-/* line 266, ../scss/app.scss */
+/* line 265, ../scss/app.scss */
 .last-button {
   margin-bottom: -0.5em;
 }
 
-/* line 273, ../scss/app.scss */
+/* line 272, ../scss/app.scss */
 #new-pic {
   height: 10em;
   margin-bottom: 2em;
   width: 100%;
 }
 
-/* line 279, ../scss/app.scss */
+/* line 278, ../scss/app.scss */
 .dotted-border-new {
   border-color: #d6d6d6;
   border-style: dotted;
   border-width: 1px;
 }
 
-/* line 286, ../scss/app.scss */
+/* line 285, ../scss/app.scss */
 .fa.fa-plus {
-  color: #eeeeee;
+  color: #d6d6d6;
 }

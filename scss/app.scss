@@ -174,7 +174,6 @@
   // Hero
     #hero {
       background: url('../images/students_donating.jpg') no-repeat top center; 
-      // The bg image should probably be shrunken even more or omitted entirely from small screens...
       background-size: cover;
       height: 65vh;
       margin-top: -0.17em;
@@ -284,5 +283,5 @@
 
   // Plus sign in the middle of placeholder boxes
     .fa.fa-plus {
-      color: $gray-lightest;
+      color: scale-color($gray-lightest, $lightness: -10%); 
     }
