@@ -91,16 +91,39 @@
         color: #FF6664;
       }
     }
-
-  // Section drop shadows
-    $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
-    $box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
-
-  // Section padding
-    section {
-      padding-bottom: 2em;
+  
+  // Header
+    .top-bar {
+      h1 {
+        padding-top: 0em;
+      }
+    }
+    .top-bar-section ul li > a.button { // makes the button in the header Student Cheese green.
+      background-color: $secondary-color; 
+      border-color: #33b059;
+      }
+    .top-bar-section ul li > a.button:hover, 
+    .top-bar-section ul li > a.button:focus {
+      background-color: #33b059;
     }
 
+    .top-bar.expanded .toggle-topbar a, // Makes the "Menu" text & hamburger icon white when expanded.
+    .top-bar .toggle-topbar.menu-icon {
+      color: $white !important;            
+    }
+    .top-bar.expanded .toggle-topbar a span::after {
+      box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white; 
+    }
+
+    .top-bar.expanded .toggle-topbar a:hover, // Makes the "Menu" text & hamburger icon the Student Cheese yellow on hover when expanded.
+    .top-bar .toggle-topbar.menu-icon :hover {
+      color: $yellow-light !important;
+    }
+    .top-bar.expanded .toggle-topbar a:hover span::after,
+    .top-bar .toggle-topbar a:hover span::after {
+      box-shadow: 0 0 0 1px $yellow-light, 0 7px 0 1px $yellow-light, 0 14px 0 1px $yellow-light; 
+    }
+  
   // Footer
     footer {
       background-color: $primary-color;
@@ -130,34 +153,20 @@
         margin-bottom: -1em;
       }
     }
+  
+  // Section drop shadows
+    $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
+    $box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 
-  // Header
-    .top-bar-section ul li > a.button { // makes the button in the header Student Cheese green.
-      background-color: $secondary-color; 
-      border-color: #33b059;
-      }
-    .top-bar-section ul li > a.button:hover, 
-    .top-bar-section ul li > a.button:focus {
-      background-color: #33b059;
-    }
-
-    .top-bar.expanded .toggle-topbar a, // Makes the "Menu" text & hamburger icon white when expanded.
-    .top-bar .toggle-topbar.menu-icon {
-      color: $white !important;            
-    }
-    .top-bar.expanded .toggle-topbar a span::after {
-      box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white; 
+  // Section padding
+    section {
+      padding-bottom: 2em;
     }
 
-    .top-bar.expanded .toggle-topbar a:hover, // Makes the "Menu" text & hamburger icon the Student Cheese yellow on hover when expanded.
-    .top-bar .toggle-topbar.menu-icon :hover {
-      color: $yellow-light !important;
-    }
-    .top-bar.expanded .toggle-topbar a:hover span::after,
-    .top-bar .toggle-topbar a:hover span::after {
-      box-shadow: 0 0 0 1px $yellow-light, 0 7px 0 1px $yellow-light, 0 14px 0 1px $yellow-light; 
-    }
-
+  // Typography
+  h1 {
+    padding-top: 0.4em;
+  }
 
 // HOME PAGE STYLES
   // Features section
@@ -267,7 +276,7 @@
     }
 
 
-// CREATE ACCOUNT
+// CREATE ACCOUNT STYLES
   // Placeholder box for pic (default when there's no pic)
     #new-pic {
       height: 10em;
