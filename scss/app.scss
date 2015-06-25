@@ -292,7 +292,14 @@
     @media only screen and (min-width: 480px) {
       #create-account {
         .fa.fa-plus {
-          margin-top: 8%;
+          margin-top: 7%;
+        }
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      #create-account {
+        .fa.fa-plus {
+          margin-top: 6%;
         }
       }
     }

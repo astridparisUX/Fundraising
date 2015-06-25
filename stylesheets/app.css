@@ -9737,18 +9737,24 @@ footer p {
 @media only screen and (min-width: 480px) {
   /* line 294, ../scss/app.scss */
   #create-account .fa.fa-plus {
-    margin-top: 8%;
+    margin-top: 7%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 301, ../scss/app.scss */
+  #create-account .fa.fa-plus {
+    margin-top: 6%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 302, ../scss/app.scss */
+  /* line 309, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 5%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 311, ../scss/app.scss */
+  /* line 318, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 9%;
