@@ -9737,9 +9737,9 @@ h1 {
 }
 
 /* line 293, ../scss/app.scss */
-.dotted-border-new {
+.dashed-border-new {
   border-color: #d6d6d6;
-  border-style: dotted;
+  border-style: dash;
   border-width: 1px;
 }
 
