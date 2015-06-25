@@ -9748,8 +9748,8 @@ footer p {
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 304, ../scss/app.scss */
-  .create-account.fa.fa-plus {
+  /* line 305, ../scss/app.scss */
+  .create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 9%;
   }
