@@ -9728,6 +9728,29 @@ footer p {
 }
 
 /* line 285, ../scss/app.scss */
-.fa.fa-plus {
+.create-account.fa.fa-plus {
   color: #f3f3f3;
+  margin-left: 42%;
+  margin-top: 7%;
+}
+
+@media only screen and (min-width: 480px) {
+  /* line 291, ../scss/app.scss */
+  .create-account.fa.fa-plus {
+    margin-top: 8%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 297, ../scss/app.scss */
+  .create-account.fa.fa-plus {
+    margin-left: 44%;
+    margin-top: 5%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  /* line 304, ../scss/app.scss */
+  .create-account.fa.fa-plus {
+    margin-left: 44%;
+    margin-top: 9%;
+  }
 }
