@@ -9744,7 +9744,7 @@ h1 {
 /* line 298, ../scss/app.scss */
 .dashed-border-new {
   border-color: #d6d6d6;
-  border-style: dash;
+  border-style: dashed;
   border-width: 1px;
 }
 
