@@ -283,5 +283,6 @@
 
   // Plus sign in the middle of placeholder boxes
     .fa.fa-plus {
-      color: scale-color($gray-lightest, $lightness: -10%); 
+      //color: scale-color($gray-lightest, $lightness: -10%); 
+      color: lighten($gray-lightest, 2);
     }
