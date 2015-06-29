@@ -44,9 +44,10 @@
 
   // Campaign cards
     .campaign-card {
-      @include panel($white);
+      @include panel($panel-bg);
+      background-color: scale-color($panel-bg, $lightness: 65%);
       &:hover {
-        background-color: scale-color($gray-lightest, $lightness: 10%) !important; 
+        background-color: scale-color($panel-bg, $lightness: 94%) !important; 
       }
       border: 0;
       box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
