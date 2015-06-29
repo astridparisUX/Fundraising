@@ -9475,8 +9475,8 @@ th.hide-for-touch {
   line-height: 1.4;
 }
 /* line 48, ../scss/app.scss */
-.campaign-card :hover {
-  background-color: #ababab !important;
+.campaign-card:hover {
+  background-color: #f0f0f0 !important;
 }
 /* line 56, ../scss/app.scss */
 .campaign-card h3 {
