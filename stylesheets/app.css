@@ -9617,7 +9617,7 @@ footer p {
 /* line 191, ../scss/app.scss */
 .fa-question-circle {
   color: #bebebe;
-  font-size: smaller;
+  font-size: smaller !important;
 }
 
 /* line 201, ../scss/app.scss */
