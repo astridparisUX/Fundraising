@@ -9614,36 +9614,42 @@ footer p {
   list-style-type: none;
 }
 
-/* line 195, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
+.fa-question-circle {
+  color: #bebebe;
+  font-size: smaller;
+}
+
+/* line 201, ../scss/app.scss */
 section {
   padding-bottom: 2em;
 }
 
-/* line 200, ../scss/app.scss */
+/* line 206, ../scss/app.scss */
 h1 {
   padding-bottom: 0.2em;
   padding-top: 0.4em;
 }
 
-/* line 205, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 .panel.callout li, .panel.callout p, .panel.callout strong {
   font-size: 0.8rem;
 }
 
-/* line 213, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
 #features {
   box-shadow: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 }
-/* line 215, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 #features .copy {
   margin-top: 4%;
 }
-/* line 218, ../scss/app.scss */
+/* line 224, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
 
-/* line 224, ../scss/app.scss */
+/* line 230, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat top center;
   background-size: cover;
@@ -9651,19 +9657,19 @@ h1 {
   margin-top: -0.17em;
 }
 
-/* line 231, ../scss/app.scss */
+/* line 237, ../scss/app.scss */
 #hero-copy {
   background-color: #0a1924;
   opacity: 0.9;
   position: relative;
   top: 67%;
 }
-/* line 236, ../scss/app.scss */
+/* line 242, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
   padding-top: 0.4em;
 }
-/* line 240, ../scss/app.scss */
+/* line 246, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   font-weight: 200;
@@ -9673,97 +9679,97 @@ h1 {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 249, ../scss/app.scss */
+  /* line 255, ../scss/app.scss */
   #hero {
     height: 40vh;
   }
 
-  /* line 252, ../scss/app.scss */
+  /* line 258, ../scss/app.scss */
   #hero-copy {
     top: 72%;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 258, ../scss/app.scss */
+  /* line 264, ../scss/app.scss */
   #hero-copy {
     top: 78%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 264, ../scss/app.scss */
+  /* line 270, ../scss/app.scss */
   #hero {
     height: 65vh;
   }
 
-  /* line 267, ../scss/app.scss */
+  /* line 273, ../scss/app.scss */
   #hero-copy {
     top: 79%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 272, ../scss/app.scss */
+  /* line 278, ../scss/app.scss */
   #hero-copy {
     top: 77%;
   }
 }
 @media only screen and (min-width: 1680px) {
-  /* line 277, ../scss/app.scss */
+  /* line 283, ../scss/app.scss */
   #hero-copy {
     top: 84%;
   }
 }
-/* line 284, ../scss/app.scss */
+/* line 290, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
   box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.35);
 }
-/* line 287, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 #top-campaigns h2:first-of-type {
   padding-top: .75em;
 }
 
-/* line 293, ../scss/app.scss */
+/* line 299, ../scss/app.scss */
 .homepage-tags a {
   background-color: #d6d6d6 !important;
   color: #8e8e8e !important;
   border-color: #bebebe !important;
   border-width: 1px;
 }
-/* line 299, ../scss/app.scss */
+/* line 305, ../scss/app.scss */
 .homepage-tags a:hover.button {
   background-color: #c1c1c1 !important;
 }
-/* line 302, ../scss/app.scss */
+/* line 308, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #bebebe;
   font-size: smaller;
 }
 
-/* line 310, ../scss/app.scss */
+/* line 316, ../scss/app.scss */
 #raise-cheddar h2 {
   padding-top: .75em;
 }
 
-/* line 314, ../scss/app.scss */
+/* line 320, ../scss/app.scss */
 .last-button {
   margin-bottom: -0.5em;
 }
 
-/* line 321, ../scss/app.scss */
+/* line 327, ../scss/app.scss */
 #new-pic {
   height: 10em;
   margin-bottom: 2em;
   width: 100%;
 }
 
-/* line 327, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 .dashed-border-new {
   border-color: #d6d6d6;
   border-style: dashed;
   border-width: 1px;
 }
 
-/* line 335, ../scss/app.scss */
+/* line 341, ../scss/app.scss */
 #create-account .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
@@ -9771,20 +9777,20 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 343, ../scss/app.scss */
+  /* line 349, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-top: 13%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 351, ../scss/app.scss */
+  /* line 357, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 42%;
     margin-top: 11%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 360, ../scss/app.scss */
+  /* line 366, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 10%;

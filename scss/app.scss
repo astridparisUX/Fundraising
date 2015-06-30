@@ -187,6 +187,12 @@
       list-style-type: none;
     }
 
+  // Question Mark Icons
+  .fa-question-circle {
+        color: $gray;
+        font-size: smaller;
+      }
+
   // Section drop shadows
     $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
     $box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
