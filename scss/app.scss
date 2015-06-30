@@ -178,9 +178,9 @@
     }
 
   // Forms
-    .forms-text-below {
-      margin-top: 2em;
-    }
+  .form-cta-divider {
+    border-color: scale-color($yellow-light, $lightness: 85%);
+  }
   
   // Lists
     .no-bullets {

@@ -9605,8 +9605,8 @@ footer p {
 }
 
 /* line 181, ../scss/app.scss */
-.forms-text-below {
-  margin-top: 2em;
+.form-cta-divider {
+  border-color: #fbf4ea;
 }
 
 /* line 186, ../scss/app.scss */
