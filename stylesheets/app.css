@@ -9477,9 +9477,18 @@ th.hide-for-touch {
 }
 /* line 49, ../scss/app.scss */
 .campaign-card:hover {
-  background-color: #FFFFFF !important;
+  float: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #FFFFFF;
+  transform: scale(1.005);
+  transition: opacity .6s ease-in-out;
+  -o-transition: opacity .6s;
+  -moz-transition: opacity .6s ease-in-out;
+  -webkit-transition: opacity .6s ease-in-out;
 }
-/* line 57, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 .campaign-card h3 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: bolder;
@@ -9487,7 +9496,7 @@ th.hide-for-touch {
   line-height: 1.25em;
   text-align: center;
 }
-/* line 64, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 .campaign-card h4 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: smaller;
@@ -9495,7 +9504,7 @@ th.hide-for-touch {
   padding-top: .5em;
   text-align: left;
 }
-/* line 71, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .campaign-card .raised {
   font-size: larger;
   font-weight: bolder;
@@ -9503,14 +9512,14 @@ th.hide-for-touch {
   margin-top: -0.8em;
   text-align: center;
 }
-/* line 78, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .campaign-card .tag {
   color: #8e8e8e;
   font-size: 65%;
   margin-top: -5px;
   text-align: left;
 }
-/* line 84, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .campaign-card .time-left {
   color: #777777;
   font-size: 65%;
@@ -9518,52 +9527,52 @@ th.hide-for-touch {
   margin-top: -0.5em;
   text-align: center;
 }
-/* line 91, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 .campaign-card .time-left-barely {
   color: #FF6664;
 }
 
-/* line 98, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 .top-bar h1 {
   padding-top: 0em;
 }
 
-/* line 102, ../scss/app.scss */
+/* line 124, ../scss/app.scss */
 .top-bar-section ul li > a.button {
   background-color: #50cc76;
   border-color: #33b059;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .top-bar-section ul li > a.button:hover,
 .top-bar-section ul li > a.button:focus {
   background-color: #33b059;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a,
 .top-bar .toggle-topbar.menu-icon {
   color: #FFFFFF !important;
 }
 
-/* line 115, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a span::after {
   box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
 }
 
-/* line 119, ../scss/app.scss */
+/* line 141, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a:hover,
 .top-bar .toggle-topbar.menu-icon :hover {
   color: #e3b470 !important;
 }
 
-/* line 123, ../scss/app.scss */
+/* line 145, ../scss/app.scss */
 .top-bar.expanded .toggle-topbar a:hover span::after,
 .top-bar .toggle-topbar a:hover span::after {
   box-shadow: 0 0 0 1px #e3b470, 0 7px 0 1px #e3b470, 0 14px 0 1px #e3b470;
 }
 
-/* line 129, ../scss/app.scss */
+/* line 151, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
@@ -9571,70 +9580,70 @@ footer {
   padding-top: 2em;
   text-align: center;
 }
-/* line 135, ../scss/app.scss */
+/* line 157, ../scss/app.scss */
 footer a {
   color: #FFFFFF;
 }
-/* line 138, ../scss/app.scss */
+/* line 160, ../scss/app.scss */
 footer a:hover {
   color: #e3b470;
 }
-/* line 144, ../scss/app.scss */
+/* line 166, ../scss/app.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 147, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 footer li {
   display: inline-block;
   font-size: smaller;
   padding-right: 2em;
 }
-/* line 152, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 footer p {
   font-size: 65%;
   margin-bottom: -1em;
 }
 
-/* line 159, ../scss/app.scss */
+/* line 181, ../scss/app.scss */
 .forms-text-below {
   margin-top: 2em;
 }
 
-/* line 164, ../scss/app.scss */
+/* line 186, ../scss/app.scss */
 .no-bullets {
   list-style-type: none;
 }
 
-/* line 173, ../scss/app.scss */
+/* line 195, ../scss/app.scss */
 section {
   padding-bottom: 2em;
 }
 
-/* line 178, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 h1 {
   padding-bottom: 0.2em;
   padding-top: 0.4em;
 }
 
-/* line 183, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .panel.callout li, .panel.callout p, .panel.callout strong {
   font-size: 0.8rem;
 }
 
-/* line 191, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 #features {
   box-shadow: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 }
-/* line 193, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 #features .copy {
   margin-top: 4%;
 }
-/* line 196, ../scss/app.scss */
+/* line 218, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
 
-/* line 202, ../scss/app.scss */
+/* line 224, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat top center;
   background-size: cover;
@@ -9642,19 +9651,19 @@ h1 {
   margin-top: -0.17em;
 }
 
-/* line 209, ../scss/app.scss */
+/* line 231, ../scss/app.scss */
 #hero-copy {
   background-color: #0a1924;
   opacity: 0.9;
   position: relative;
   top: 67%;
 }
-/* line 214, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
   padding-top: 0.4em;
 }
-/* line 218, ../scss/app.scss */
+/* line 240, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   font-weight: 200;
@@ -9664,97 +9673,97 @@ h1 {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 227, ../scss/app.scss */
+  /* line 249, ../scss/app.scss */
   #hero {
     height: 40vh;
   }
 
-  /* line 230, ../scss/app.scss */
+  /* line 252, ../scss/app.scss */
   #hero-copy {
     top: 72%;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 236, ../scss/app.scss */
+  /* line 258, ../scss/app.scss */
   #hero-copy {
     top: 78%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 242, ../scss/app.scss */
+  /* line 264, ../scss/app.scss */
   #hero {
     height: 65vh;
   }
 
-  /* line 245, ../scss/app.scss */
+  /* line 267, ../scss/app.scss */
   #hero-copy {
     top: 79%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 250, ../scss/app.scss */
+  /* line 272, ../scss/app.scss */
   #hero-copy {
     top: 77%;
   }
 }
 @media only screen and (min-width: 1680px) {
-  /* line 255, ../scss/app.scss */
+  /* line 277, ../scss/app.scss */
   #hero-copy {
     top: 84%;
   }
 }
-/* line 262, ../scss/app.scss */
+/* line 284, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
   box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.35);
 }
-/* line 265, ../scss/app.scss */
+/* line 287, ../scss/app.scss */
 #top-campaigns h2:first-of-type {
   padding-top: .75em;
 }
 
-/* line 271, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 .homepage-tags a {
   background-color: #d6d6d6 !important;
   color: #8e8e8e !important;
   border-color: #bebebe !important;
   border-width: 1px;
 }
-/* line 277, ../scss/app.scss */
+/* line 299, ../scss/app.scss */
 .homepage-tags a:hover.button {
   background-color: #c1c1c1 !important;
 }
-/* line 280, ../scss/app.scss */
+/* line 302, ../scss/app.scss */
 .homepage-tags fa-tags {
   color: #bebebe;
   font-size: smaller;
 }
 
-/* line 288, ../scss/app.scss */
+/* line 310, ../scss/app.scss */
 #raise-cheddar h2 {
   padding-top: .75em;
 }
 
-/* line 292, ../scss/app.scss */
+/* line 314, ../scss/app.scss */
 .last-button {
   margin-bottom: -0.5em;
 }
 
-/* line 299, ../scss/app.scss */
+/* line 321, ../scss/app.scss */
 #new-pic {
   height: 10em;
   margin-bottom: 2em;
   width: 100%;
 }
 
-/* line 305, ../scss/app.scss */
+/* line 327, ../scss/app.scss */
 .dashed-border-new {
   border-color: #d6d6d6;
   border-style: dashed;
   border-width: 1px;
 }
 
-/* line 313, ../scss/app.scss */
+/* line 335, ../scss/app.scss */
 #create-account .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
@@ -9762,20 +9771,20 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 321, ../scss/app.scss */
+  /* line 343, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-top: 13%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 329, ../scss/app.scss */
+  /* line 351, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 42%;
     margin-top: 11%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 338, ../scss/app.scss */
+  /* line 360, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 10%;
