@@ -336,7 +336,7 @@
         .fa.fa-plus { // Plus sign in the middle of placeholder boxes
           color: lighten($gray-lightest, 2);
           margin-left: 42%;
-          margin-top: 7%;
+          margin-top: 12%;
         }
              .fa.fa-search {
         color: $gray;
@@ -356,7 +356,7 @@
     @media only screen and (min-width: 768px) {
       #create-account {
         .fa.fa-plus {
-          margin-top: 13%;
+          margin-top: 9%;
         }
       }
     }
