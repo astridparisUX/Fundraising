@@ -181,12 +181,6 @@
   .form-cta-divider {
     border-color: scale-color($yellow-light, $lightness: 85%);
   }
-  input {
-    .fa-search {
-      margin-top: -43px;
-      margin-right: 11px;
-    }
-  }
   
   // Lists
     .no-bullets {
@@ -370,3 +364,11 @@
           }
         }
       }
+
+  // Club search field
+    #create-account {
+    .fa-search {
+      margin-top: -43px;
+      margin-right: 11px;
+    }
+  }
