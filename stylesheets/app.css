@@ -9831,12 +9831,17 @@ h1 {
 #donor-thanks-email, #donation-levels {
   margin-top: 2.5rem;
 }
+/* line 395, ../scss/app.scss */
+#donor-thanks-email #preview-email, #donation-levels #preview-email {
+  font-size: smaller;
+  margin-top: -0.7rem;
+}
 
-/* line 396, ../scss/app.scss */
+/* line 400, ../scss/app.scss */
 .switch {
   display: inline;
 }
-/* line 398, ../scss/app.scss */
+/* line 402, ../scss/app.scss */
 .switch p {
   float: left;
   margin-bottom: -0.1rem !important;
