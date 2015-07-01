@@ -181,9 +181,10 @@
   .form-cta-divider {
     border-color: scale-color($yellow-light, $lightness: 85%);
   }
-  form {
+  .postfix {
     .fa-question-circle {
-      color: $gray;
+      background-color: none;
+      border-width: 0;
     }
   }
   
