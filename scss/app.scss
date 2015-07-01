@@ -348,10 +348,6 @@
         float: right;
         margin-top: 0.08em;
       }
-      textarea {
-        height: 20em;
-        margin-top: 1em;
-      }
       ul {
        list-style-type:none;
       }
@@ -359,6 +355,17 @@
        display: inline-block;
        font-size: smaller;
        padding-right: 1em;
+      }
+      textarea {
+        height: 20em;
+        margin-top: 1em;
+      }
+      .switch {
+        display: inline;
+      }
+      .switch-label {
+        float: left;
+        margin-bottom: -0.1rem !important;
       }
     }
     @media only screen and (min-width: 768px) {
