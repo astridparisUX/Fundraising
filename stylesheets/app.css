@@ -9795,60 +9795,60 @@ h1 {
     margin-top: 15%;
   }
 }
-/* line 369, ../scss/app.scss */
+/* line 370, ../scss/app.scss */
 #create-campaign .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
-  margin-top: 12%;
+  margin-top: 11%;
 }
-/* line 374, ../scss/app.scss */
+/* line 377, ../scss/app.scss */
 #create-campaign .fa.fa-search {
   color: #bebebe;
   float: right;
   margin-right: 0.7em;
   margin-top: -2.65em;
 }
-/* line 380, ../scss/app.scss */
+/* line 383, ../scss/app.scss */
 #create-campaign .fa-calendar {
   color: #bebebe;
   float: right;
   margin-top: 0.08em;
 }
-/* line 385, ../scss/app.scss */
+/* line 388, ../scss/app.scss */
 #create-campaign ul {
   list-style-type: none;
 }
-/* line 388, ../scss/app.scss */
+/* line 391, ../scss/app.scss */
 #create-campaign li {
   display: inline-block;
   font-size: smaller;
   padding-right: 1em;
 }
-/* line 393, ../scss/app.scss */
+/* line 396, ../scss/app.scss */
 #create-campaign .campaign-description-height {
   height: 20em;
   margin-top: 0.5em;
 }
-/* line 397, ../scss/app.scss */
+/* line 400, ../scss/app.scss */
 #create-campaign .donor-thanks-email-height {
   height: 15em;
 }
 
-/* line 401, ../scss/app.scss */
+/* line 404, ../scss/app.scss */
 #donor-thanks-email, #donation-levels {
   margin-top: 2.5rem;
 }
-/* line 403, ../scss/app.scss */
+/* line 406, ../scss/app.scss */
 #donor-thanks-email #preview-email, #donation-levels #preview-email {
   font-size: smaller;
   margin-top: -0.7rem;
 }
 
-/* line 408, ../scss/app.scss */
+/* line 411, ../scss/app.scss */
 .switch {
   display: inline;
 }
-/* line 410, ../scss/app.scss */
+/* line 413, ../scss/app.scss */
 .switch p {
   float: left;
   margin-bottom: -0.1rem !important;

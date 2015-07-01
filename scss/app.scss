@@ -366,11 +366,14 @@
 
 // CREATE CAMPAIGN STYLES
   #create-campaign {
-      .fa.fa-plus { // Plus sign in the middle of placeholder boxes
+      // Plus sign in the middle of placeholder boxes
+      .fa.fa-plus { 
         color: lighten($gray-lightest, 2);
         margin-left: 42%;
-        margin-top: 12%;
+        margin-top: 11%;
       }
+      // Need to figure out the right way to do breakpoints
+
       .fa.fa-search {
         color: $gray;
         float: right;
