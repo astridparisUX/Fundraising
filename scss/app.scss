@@ -182,17 +182,6 @@
       border-color: scale-color($yellow-light, $lightness: 85%);
     }
 
-    .fa.fa-search {
-        color: $gray;
-        float: right;
-        margin-right: 0.7em;
-        margin-top: -2.65em;
-      }
-    .fa-calendar {
-      color: $gray;
-      float: right;
-      margin-top: 0.08em;
-    }
   
   // Lists
     .no-bullets {
@@ -342,15 +331,28 @@
       border-style: dashed;
       border-width: 1px;
     }
-
-  // Plus sign in the middle of placeholder boxes
+  
     #create-account {
-        .fa.fa-plus {
+        .fa.fa-plus { // Plus sign in the middle of placeholder boxes
           color: lighten($gray-lightest, 2);
           margin-left: 42%;
           margin-top: 7%;
         }
+             .fa.fa-search {
+        color: $gray;
+        float: right;
+        margin-right: 0.7em;
+        margin-top: -2.65em;
       }
+      .fa-calendar {
+        color: $gray;
+        float: right;
+        margin-top: 0.08em;
+      }
+      textarea {
+        height: 20em;
+      }
+    }
     @media only screen and (min-width: 768px) {
       #create-account {
         .fa.fa-plus {
@@ -376,3 +378,4 @@
           }
         }
       }
+      
