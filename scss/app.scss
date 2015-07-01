@@ -178,8 +178,15 @@
     }
 
   // Forms
-  .form-cta-divider {
-    border-color: scale-color($yellow-light, $lightness: 85%);
+    .form-cta-divider {
+      border-color: scale-color($yellow-light, $lightness: 85%);
+    }
+
+    input {
+    .fa.fa-search {
+      margin-top: -43px;
+      margin-right: 11px;
+    }
   }
   
   // Lists
@@ -364,11 +371,3 @@
           }
         }
       }
-
-  // Club search field
-    #create-account {
-    .fa-search {
-      margin-top: -43px;
-      margin-right: 11px;
-    }
-  }
