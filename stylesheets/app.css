@@ -9442,7 +9442,7 @@ th.hide-for-touch {
 /* line 45, ../scss/app.scss */
 .feature-item {
   min-height: 100px;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 /* line 52, ../scss/app.scss */
@@ -9642,7 +9642,7 @@ h1 {
 }
 /* line 223, ../scss/app.scss */
 #features .copy {
-  margin-top: 4%;
+  margin-top: 10%;
 }
 /* line 226, ../scss/app.scss */
 #features .row2 {
