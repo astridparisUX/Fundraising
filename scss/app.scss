@@ -50,9 +50,32 @@
 
   // Campaign cards
     .campaign-card {
-      @include panel($white);
-      :hover {
-        background-color: scale-color($gray, $lightness: -10%) !important; 
+      @include panel($panel-bg);
+      background-color: scale-color($panel-bg, $lightness: 65%);
+      &:hover {
+        float: none;
+        // position: relative;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        //width: 200px;
+        //height: 200px;
+        // border: 1px solid #aaa;
+        // border-top: 1px solid #888;
+        // border-left: 1px solid #888;
+        background: $white;
+        //text-align: center;
+        transform: scale(1.005);
+          //-o-transform: scale(.2);
+          //-moz-transform: scale(.2);
+          //-webkit-transform: scale(.7);
+        //box-shadow: inset 1px 2px 8px rgba(0,0,0,0.7);
+          //-moz-box-shadow: inset 1px 2px 8px #222;
+          //-webkit-box-shadow: inset 1px 2px 8px rgba(0,0,0,0.7);
+        transition: opacity .6s ease-in-out;
+          -o-transition: opacity .6s;
+          -moz-transition: opacity .6s ease-in-out;
+          -webkit-transition: opacity .6s ease-in-out;
       }
       border: 0;
       box-shadow: 2px 3px 3px 0px rgba(152,153,153,0.35);
@@ -161,14 +184,16 @@
     }
 
   // Forms
-    .forms-text-below {
-      margin-top: 2em;
+    .form-cta-divider {
+      border-color: scale-color($yellow-light, $lightness: 85%);
     }
+
   
   // Lists
     .no-bullets {
       list-style-type: none;
     }
+
 
   // Section drop shadows
     $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
@@ -190,8 +215,6 @@
        }
     }
 
-
-    
 
 // HOME PAGE STYLES
   // Features section
@@ -284,7 +307,7 @@
       a:hover.button {
         background-color: scale-color($gray-light, $lightness: -10%) !important;
       }
-      fa-tags {
+      .fa-tags {
         color: $gray;
         font-size: smaller;
       }
@@ -304,8 +327,7 @@
 // CREATE ACCOUNT STYLES
   // Placeholder box for pic (default when there's no pic)
     #new-pic {
-      height: 10em;
-      margin-bottom: 2em;
+      height: 12.2em;
       width: 100%;
     }
   // Dashed borders for placeholder boxes
@@ -314,19 +336,41 @@
       border-style: dashed;
       border-width: 1px;
     }
-
-  // Plus sign in the middle of placeholder boxes
+  
     #create-account {
-        .fa.fa-plus {
-          color: lighten($gray-lightest, 2);
-          margin-left: 42%;
-          margin-top: 7%;
-        }
+      .fa.fa-plus { // Plus sign in the middle of placeholder boxes
+        color: lighten($gray-lightest, 2);
+        margin-left: 42%;
+        margin-top: 12%;
       }
+      .fa.fa-search {
+      color: $gray;
+      float: right;
+      margin-right: 0.7em;
+      margin-top: -2.65em;
+      }
+      .fa-calendar {
+        color: $gray;
+        float: right;
+        margin-top: 0.08em;
+      }
+      ul {
+       list-style-type:none;
+      }
+      li {
+       display: inline-block;
+       font-size: smaller;
+       padding-right: 1em;
+      }
+      textarea {
+        height: 20em;
+        margin-top: 1em;
+      }
+    }
     @media only screen and (min-width: 768px) {
       #create-account {
         .fa.fa-plus {
-          margin-top: 13%;
+          margin-top: 9%;
         }
       }
     }
@@ -335,7 +379,7 @@
       #create-account {
         .fa.fa-plus {
           margin-left: 42%;
-          margin-top: 11%;
+          margin-top: 9%;
           }
         }
       }
@@ -348,3 +392,11 @@
           }
         }
       }
+      .switch {
+        display: inline;
+        p {
+        float: left;
+        margin-bottom: -0.1rem !important;
+        }
+      }
+      

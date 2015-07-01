@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Account | Student Cheese</title>
+    <title>Create Campaign | Student Cheese</title>
     <meta name="description" content="Astrid's second project in Bloc.io's UX Design program: a web app for a fictitious crowdfunding product">
     <meta name="author" content="Astrid Paris, @astridparisUX">
     <link rel="stylesheet" href="stylesheets/app.css" />
@@ -13,28 +13,98 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+    <!-- Add favicon -->
 
-    <!-- HEADER -->
-    <div class="contain-to-grid sticky">
-      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: [medium, large]">
-        <ul class="title-area">
-          <li class="name"><h1><a href="index.html"><img src="images/studentcheese_logo.png" alt="Student Cheese logo" title="Student Cheese"></img></a></h1></li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  <!-- HEADER -->
+  <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: [medium, large]">
+      <ul class="title-area">
+        <li class="name"><h1><a href="index.html"><img src="images/studentcheese_logo.png" alt="Student Cheese logo" title="Student Cheese"></img></a></h1></li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+  
+      <div class="top-bar-section">
+        <ul class="right">
+          <li class="#"><a href="#">Home</a></li>
+          <li class="#"><a href="#">How it Works</a></li>
+          <li class="#"><a href="#">Campaigns</a></li>
+          <li class="#"><a href="#">Sign In</a></li>
+          <li class="has-form"><a href="createaccount.html" class="button">Start fundraising</a> <!-- Need to hide this button on this screen -->
+          </li>
         </ul>
-    
-        <div class="top-bar-section">
-          <ul class="right">
-            <li class="#"><a href="#">Home</a></li>
-            <li class="#"><a href="#">How it Works</a></li>
-            <li class="#"><a href="#">Campaigns</a></li>
-            <li class="#"><a href="#">Sign In</a></li>
-            <li class="has-form"><a href="createaccount.html" class="button">Start Fundraising</a>
-            </li>
-          </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- END HEADER -->
+
+  <!-- PAGE CONTENT -->
+   <section id="create-account">
+    <h1 class="text-center">Create Campaign</h1>
+    <div class="row">
+      <div class="medium-5 columns"> 
+        <input type="text" name="club" aria-label="Club" placeholder="Club"><i class="fa fa-search"></i>
+        <input type="text" name="campaign name" aria-label="Campaign name" placeholder="Campaign name"> <!-- Will need to research predictive search -->
+        <div class="row collapse">
+          <div class="small-2 large-2 columns">
+            <span class="prefix"><i class="fa fa-usd"></i></span>
+          </div>
+          <div class="small-8 large-8 columns">
+            <input type="text" name="goal" aria-label="Fundraising goal" placeholder="Fundraising goal (e.g., &ldquo;500&rdquo;)">
+          </div>
+          <div class="small-2 large-2 columns">
+            <span class="postfix">.00</span>
+          </div>
         </div>
-      </nav>
+        <div class="row collapse">
+          <div class="small-10 large-10 columns">
+            <input type="text" name="end date" aria-label="Optional campaign end date"placeholder="Optional campaign end date (MM/DD/YYYY)">
+          </div>
+          <div class="small-2 large-2 columns">
+            <i class="fa fa-calendar fa-2x right"></i> <!-- Will need to use JS for calendar input -->
+          </div>
+        </div>
+      </div>
+      <div class="medium-7 columns end">
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="dashed-border-new" id="new-pic"><i class="fa fa-plus fa-5x"></i> <!-- Will need to research -->
+          </div>
+       </div>
+     </div>
+      </div>
     </div>
-    <!-- END HEADER -->
+
+    <div class="row">
+      <div class="large-12 columns">
+        <textarea name="campaign description" aria-label="Campaign description" placeholder="What's your story? Tell the world why you need the cheddar."></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="switch">
+          <p>Offer donation levels<p>
+          <input id="exampleCheckboxSwitch" type="checkbox">
+          <label for="exampleCheckboxSwitch"></label>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <hr class="form-cta-divider">
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <ul>
+          <li><a href="#" target="_blank">Preview campaign</a></li>
+          <li>or</li>
+          <li><a href="#" class="button small">Create campaign</a></li>
+        </ul>
+      </div>
+    </div>
+  <!-- END PAGE CONTENT -->
 
   <!-- FOOTER -->
   <footer>
