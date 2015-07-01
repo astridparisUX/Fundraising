@@ -9609,15 +9609,14 @@ footer p {
   border-color: #fbf4ea;
 }
 
-/* line 186, ../scss/app.scss */
-.no-bullets {
-  list-style-type: none;
+/* line 185, ../scss/app.scss */
+form .fa-question-circle {
+  color: #bebebe;
 }
 
 /* line 191, ../scss/app.scss */
-.fa-question-circle {
-  color: #bebebe;
-  font-size: smaller !important;
+.no-bullets {
+  list-style-type: none;
 }
 
 /* line 201, ../scss/app.scss */

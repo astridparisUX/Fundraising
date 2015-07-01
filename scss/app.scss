@@ -181,17 +181,17 @@
   .form-cta-divider {
     border-color: scale-color($yellow-light, $lightness: 85%);
   }
+  form {
+    .fa-question-circle {
+      color: $gray;
+    }
+  }
   
   // Lists
     .no-bullets {
       list-style-type: none;
     }
 
-  // Question Mark Icons
-  .fa-question-circle {
-        color: $gray;
-        font-size: smaller !important;
-      }
 
   // Section drop shadows
     $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
