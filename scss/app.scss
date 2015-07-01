@@ -332,16 +332,16 @@
     }
   
     #create-account {
-        .fa.fa-plus { // Plus sign in the middle of placeholder boxes
-          color: lighten($gray-lightest, 2);
-          margin-left: 42%;
-          margin-top: 12%;
-        }
-             .fa.fa-search {
-        color: $gray;
-        float: right;
-        margin-right: 0.7em;
-        margin-top: -2.65em;
+      .fa.fa-plus { // Plus sign in the middle of placeholder boxes
+        color: lighten($gray-lightest, 2);
+        margin-left: 42%;
+        margin-top: 12%;
+      }
+      .fa.fa-search {
+      color: $gray;
+      float: right;
+      margin-right: 0.7em;
+      margin-top: -2.65em;
       }
       .fa-calendar {
         color: $gray;
@@ -351,6 +351,14 @@
       textarea {
         height: 20em;
         margin-top: 1em;
+      }
+      ul {
+       list-style-type:none;
+      }
+      li {
+       display: inline-block;
+       font-size: smaller;
+       padding-right: 1em;
       }
     }
     @media only screen and (min-width: 768px) {
