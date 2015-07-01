@@ -339,10 +339,10 @@
         margin-top: 12%;
       }
       .fa.fa-search {
-      color: $gray;
-      float: right;
-      margin-right: 0.7em;
-      margin-top: -2.65em;
+        color: $gray;
+        float: right;
+        margin-right: 0.7em;
+        margin-top: -2.65em;
       }
       .fa-calendar {
         color: $gray;
@@ -385,6 +385,7 @@
       // set new breakpoint as a variable?
       #create-account {
         .fa.fa-plus {
+          color: lighten($gray-lightest, 2);
           margin-left: 44%;
           margin-top: 10%;
           }
