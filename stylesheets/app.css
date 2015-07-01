@@ -9610,7 +9610,7 @@ footer p {
 }
 
 /* line 186, ../scss/app.scss */
-input .fa.fa-search {
+#create-account .fa.fa-search {
   margin-top: -43px;
   margin-right: 11px;
 }
