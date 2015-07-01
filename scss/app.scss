@@ -42,12 +42,6 @@
 // GLOBAL STYLES
   // **Need to set a style for the active page in header & footer
 
-  .feature-item {
-    min-height: 100px;
-    margin-bottom: 20px;
-  }
-
-
   // Campaign cards
     .campaign-card {
       @include panel($panel-bg);
@@ -192,7 +186,7 @@
   // Lists
     .no-bullets {
       list-style-type: none;
-    }
+    } // figure out where I'm using this?!
 
 
   // Section drop shadows
@@ -227,6 +221,10 @@
         padding-top: 1.8em;
       }
     }
+    .feature-item {
+      margin-bottom: 20px;
+      min-height: 100px;
+    }
 
   // Hero
     #hero {
@@ -235,7 +233,6 @@
       height: 65vh;
       margin-top: -0.17em;
       }
-
     #hero-copy {
       background-color: scale-color($primary-color, $lightness: -80%);
       opacity: 0.9;
@@ -296,7 +293,6 @@
         padding-top: .75em;
       }
     }
-
     .homepage-tags {
       a {
         background-color: $gray-light !important;
