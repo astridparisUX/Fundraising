@@ -181,11 +181,9 @@
   .form-cta-divider {
     border-color: scale-color($yellow-light, $lightness: 85%);
   }
-  .postfix {
-    .help {
-      background-color: $white;
-      border-left: hidden;
-    }
+  .help {
+    background-color: $white !important;
+    border-left: hidden !important;
   }
   
   // Lists
