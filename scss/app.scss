@@ -182,9 +182,9 @@
     border-color: scale-color($yellow-light, $lightness: 85%);
   }
   .postfix {
-    .fa-question-circle {
-      background-color: none;
-      border-width: 0;
+    .help {
+      background-color: $white;
+      border-left: hidden;
     }
   }
   

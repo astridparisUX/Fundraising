@@ -9610,9 +9610,9 @@ footer p {
 }
 
 /* line 185, ../scss/app.scss */
-.postfix .fa-question-circle {
-  background-color: none;
-  border-width: 0;
+.postfix .help {
+  background-color: #FFFFFF;
+  border-left: hidden;
 }
 
 /* line 192, ../scss/app.scss */
