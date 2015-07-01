@@ -4018,11 +4018,11 @@ form .row textarea.columns {
 /* Label Styles */
 /* line 393, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label {
-  color: #4d4d4d;
+  color: #5f5f5f;
   cursor: pointer;
   display: block;
-  font-size: 0.875rem;
-  font-weight: normal;
+  font-size: 1rem;
+  font-weight: 700;
   line-height: 1.5;
   margin-bottom: 0;
   /* Styles for required inputs */
@@ -4040,7 +4040,7 @@ label.inline {
 /* line 397, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label small {
   text-transform: capitalize;
-  color: #676767;
+  color: #777777;
 }
 
 /* Attach elements to the beginning or end of an input */
@@ -4050,7 +4050,7 @@ label small {
   border-style: solid;
   border-width: 1px;
   display: block;
-  font-size: 0.875rem;
+  font-size: 1rem;
   height: 2.3125rem;
   line-height: 2.3125rem;
   overflow: visible;
@@ -4445,7 +4445,7 @@ span.error, small.error {
 /* line 585, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > label > small {
   background: transparent;
-  color: #676767;
+  color: #777777;
   display: inline;
   font-size: 60%;
   font-style: normal;
@@ -9798,38 +9798,49 @@ h1 {
   padding-right: 1em;
 }
 /* line 360, ../scss/app.scss */
-#create-campaign textarea {
+#create-campaign .campaign-description-height {
   height: 20em;
-  margin-top: 1em;
+  margin-top: 0.5em;
+}
+/* line 364, ../scss/app.scss */
+#create-campaign .donor-thanks-email-height {
+  height: 15em;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 367, ../scss/app.scss */
+  /* line 370, ../scss/app.scss */
   #create-campaign .fa.fa-plus {
     margin-top: 9%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 375, ../scss/app.scss */
+  /* line 378, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 42%;
     margin-top: 9%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 384, ../scss/app.scss */
+  /* line 387, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 10%;
   }
 }
-/* line 390, ../scss/app.scss */
+/* line 393, ../scss/app.scss */
+#donor-thanks-email, #donation-levels {
+  margin-top: 2.5rem;
+}
+
+/* line 396, ../scss/app.scss */
 .switch {
   display: inline;
 }
-/* line 392, ../scss/app.scss */
+/* line 398, ../scss/app.scss */
 .switch p {
   float: left;
-  font-weight: 600;
   margin-bottom: -0.1rem !important;
+  font-size: 1rem;
+  font-weight: 700;
+  font-color: #5f5f5f;
 }

@@ -357,9 +357,12 @@
        font-size: smaller;
        padding-right: 1em;
       }
-      textarea {
+      .campaign-description-height {
         height: 20em;
-        margin-top: 1em;
+        margin-top: 0.5em;
+      }
+      .donor-thanks-email-height {
+        height: 15em;
       }
     }
     @media only screen and (min-width: 768px) {
@@ -387,13 +390,17 @@
           }
         }
       }
+    #donor-thanks-email, #donation-levels {
+      margin-top: 2.5rem;
+    }
     .switch {
       display: inline;
       p {
         float: left;
-        font-weight: 600;
         margin-bottom: -0.1rem !important;
-        // might need to adjust base font size; this looks too big!
+        font-size: rem-calc(16);
+        font-weight: $font-weight-bold;
+        font-color: $gray-darkest;
       }
     }
       
