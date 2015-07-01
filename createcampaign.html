@@ -42,7 +42,16 @@
     <h1 class="text-center">Create Campaign</h1>
     <div class="row">
       <div class="medium-5 large-5 columns">
-        <input type="text" name="club" aria-label="Club" placeholder="Club"><i class="fa fa-question-circle"></i>
+
+        <div class="row collapse">
+          <div class="small-10 large-10 columns">
+            <input type="text" name="club" aria-label="Club" placeholder="Club"><i class="fa fa-question-circle"></i>
+          </div>
+          <div class="small-2 large-2 columns">
+            <span class="postfix"><i class="fa fa-usd"></i></span>
+          </div>
+        </div>
+
         <input type="text" name="campaign name" aria-label="Campaign name" placeholder="Campaign name">
 
         <div class="row collapse">
@@ -58,7 +67,7 @@
         </div>
         
     
-        <input type="text" name="end date" aria-label="End date"placeholder="Campaign end date">
+        <input type="text" name="end date" aria-label="End date"placeholder="Campaign end date (MM/DD/YYYY)">
       </div>
       <div class="medium-6 large-6 columns end">
         <form>
