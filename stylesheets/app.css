@@ -9611,46 +9611,47 @@ footer p {
 
 /* line 185, ../scss/app.scss */
 .fa.fa-search {
+  color: #bebebe;
   float: right;
   margin-top: -2.65em;
   margin-right: 0.7em;
 }
 
-/* line 192, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 .no-bullets {
   list-style-type: none;
 }
 
-/* line 202, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 section {
   padding-bottom: 2em;
 }
 
-/* line 207, ../scss/app.scss */
+/* line 208, ../scss/app.scss */
 h1 {
   padding-bottom: 0.2em;
   padding-top: 0.4em;
 }
 
-/* line 212, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 .panel.callout li, .panel.callout p, .panel.callout strong {
   font-size: 0.8rem;
 }
 
-/* line 220, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 #features {
   box-shadow: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 }
-/* line 222, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 #features .copy {
   margin-top: 4%;
 }
-/* line 225, ../scss/app.scss */
+/* line 226, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
 
-/* line 231, ../scss/app.scss */
+/* line 232, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat top center;
   background-size: cover;
@@ -9658,19 +9659,19 @@ h1 {
   margin-top: -0.17em;
 }
 
-/* line 238, ../scss/app.scss */
+/* line 239, ../scss/app.scss */
 #hero-copy {
   background-color: #0a1924;
   opacity: 0.9;
   position: relative;
   top: 67%;
 }
-/* line 243, ../scss/app.scss */
+/* line 244, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
   padding-top: 0.4em;
 }
-/* line 247, ../scss/app.scss */
+/* line 248, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   font-weight: 200;
@@ -9680,97 +9681,97 @@ h1 {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 256, ../scss/app.scss */
+  /* line 257, ../scss/app.scss */
   #hero {
     height: 40vh;
   }
 
-  /* line 259, ../scss/app.scss */
+  /* line 260, ../scss/app.scss */
   #hero-copy {
     top: 72%;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 265, ../scss/app.scss */
+  /* line 266, ../scss/app.scss */
   #hero-copy {
     top: 78%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 271, ../scss/app.scss */
+  /* line 272, ../scss/app.scss */
   #hero {
     height: 65vh;
   }
 
-  /* line 274, ../scss/app.scss */
+  /* line 275, ../scss/app.scss */
   #hero-copy {
     top: 79%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 279, ../scss/app.scss */
+  /* line 280, ../scss/app.scss */
   #hero-copy {
     top: 77%;
   }
 }
 @media only screen and (min-width: 1680px) {
-  /* line 284, ../scss/app.scss */
+  /* line 285, ../scss/app.scss */
   #hero-copy {
     top: 84%;
   }
 }
-/* line 291, ../scss/app.scss */
+/* line 292, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
   box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.35);
 }
-/* line 294, ../scss/app.scss */
+/* line 295, ../scss/app.scss */
 #top-campaigns h2:first-of-type {
   padding-top: .75em;
 }
 
-/* line 300, ../scss/app.scss */
+/* line 301, ../scss/app.scss */
 .homepage-tags a {
   background-color: #d6d6d6 !important;
   color: #8e8e8e !important;
   border-color: #bebebe !important;
   border-width: 1px;
 }
-/* line 306, ../scss/app.scss */
+/* line 307, ../scss/app.scss */
 .homepage-tags a:hover.button {
   background-color: #c1c1c1 !important;
 }
-/* line 309, ../scss/app.scss */
+/* line 310, ../scss/app.scss */
 .homepage-tags .fa-tags {
   color: #bebebe;
   font-size: smaller;
 }
 
-/* line 317, ../scss/app.scss */
+/* line 318, ../scss/app.scss */
 #raise-cheddar h2 {
   padding-top: .75em;
 }
 
-/* line 321, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 .last-button {
   margin-bottom: -0.5em;
 }
 
-/* line 328, ../scss/app.scss */
+/* line 329, ../scss/app.scss */
 #new-pic {
   height: 10em;
   margin-bottom: 2em;
   width: 100%;
 }
 
-/* line 334, ../scss/app.scss */
+/* line 335, ../scss/app.scss */
 .dashed-border-new {
   border-color: #d6d6d6;
   border-style: dashed;
   border-width: 1px;
 }
 
-/* line 342, ../scss/app.scss */
+/* line 343, ../scss/app.scss */
 #create-account .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
@@ -9778,20 +9779,20 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 350, ../scss/app.scss */
+  /* line 351, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-top: 13%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 358, ../scss/app.scss */
+  /* line 359, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 42%;
     margin-top: 11%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 367, ../scss/app.scss */
+  /* line 368, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 10%;
