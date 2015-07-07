@@ -19,4 +19,4 @@ var options = {
   percentageInnerCutout : 75
 };
 var goalPie= $("#percentGoal").get(0).getContext("2d");
-var myWeeklyGoal = new Chart(goalPie).Doughnut(percentGoal, options);
+var campaignDonut = new Chart(goalPie).Doughnut(percentGoal, options);
