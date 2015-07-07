@@ -9873,6 +9873,10 @@ h1 {
 }
 
 /* line 440, ../scss/app.scss */
+#campaign-page .accordion {
+  margin-left: 0;
+}
+/* line 443, ../scss/app.scss */
 #campaign-page p.tag {
   color: #8e8e8e;
   font-size: 0.8rem;

@@ -437,6 +437,9 @@
 // CAMPAIGN PAGE STYLES
   // Tags
     #campaign-page {
+      .accordion {
+        margin-left: 0;
+      }
       p.tag {
       color: $tag-color;
       font-size: 0.8rem;
