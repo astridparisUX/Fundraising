@@ -7,7 +7,7 @@ $(document).foundation();
 // Doughnut chart to display goal progress on campaign pages
 
 
-var percentages = [
+var percentGoal = [
   {
     value: 33,
     color:"#4eddc1"
@@ -23,9 +23,9 @@ var options = {
 
 // "percentGoal" below: defines a variable that is targeting an element 
 // with an id of "percentGoal", which is in campaign.html
-var percentGoal= $("#percentGoal").get(0).getContext("2d");
+var thisGoal= $("#percentGoal").get(0).getContext("2d");
 
 // "campaignDonut" below: defines a new variable that creates 
 // the new chart for the previous variable "percentGoal" and 
 // brings in the different values and defines the options we’ve changed
-var campaignDonut = new Chart(percentGoal).Doughnut(percentages, options);
+var campaignDonut = new Chart(thisGoal).Doughnut(percentGoal, options);
