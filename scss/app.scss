@@ -435,7 +435,6 @@
   }
 
 // CAMPAIGN PAGE STYLES
-  // Tags
     #campaign-page {
       .accordion {
         margin-left: 0;
@@ -455,11 +454,13 @@
         padding: 0;
       }
       #card-school {
-        float: right; 
-        margin-top: -1.6rem; 
         border: 0;
         margin: 0;
         padding: 0;
+      }
+      .fa-angle-up {
+        float: right; 
+        margin-top: -1.6rem; 
       }
     }         
 
