@@ -41,7 +41,10 @@
 
 // GLOBAL STYLES
   // **Need to set a style for the active page in header & footer
-
+  
+  // Tag color
+      $tag-color: $gray-dark;
+  
   // Campaign cards
     .campaign-card {
       @include panel($panel-bg);
@@ -97,10 +100,9 @@
         text-align: center;
       }
       .tag {
-        color: $gray-dark;
+        color: $tag-color;
         font-size: $small-font-size;
         margin-top: -5px;
-        text-align: left;
       }
       .time-left {
         color: $gray-darker;
@@ -113,37 +115,25 @@
         color: #FF6664;
       }
     }
+
+  // Dashed borders for placeholder boxes
+    .dashed-border-new { 
+      border-color: $gray-light;
+      border-style: dashed;
+      border-width: 1px;
+    }
   
-  // Header
-    .top-bar {
-      h1 {
-        padding-top: 0em;
-      }
+  // Figures
+    figure {
+      margin-end: 0px;
+        -webkit-margin-end: 0px;
+      margin-start: 0px;
+        -webkit-margin-start: 0px;
+      margin-top: 0;
     }
-    .top-bar-section ul li > a.button { // makes the button in the header Student Cheese green.
-      background-color: $secondary-color; 
-      border-color: #33b059;
-      }
-    .top-bar-section ul li > a.button:hover, 
-    .top-bar-section ul li > a.button:focus {
-      background-color: #33b059;
-    }
-
-    .top-bar.expanded .toggle-topbar a, // Makes the "Menu" text & hamburger icon white when expanded.
-    .top-bar .toggle-topbar.menu-icon {
-      color: $white !important;            
-    }
-    .top-bar.expanded .toggle-topbar a span::after {
-      box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white; 
-    }
-
-    .top-bar.expanded .toggle-topbar a:hover, // Makes the "Menu" text & hamburger icon the Student Cheese yellow on hover when expanded.
-    .top-bar .toggle-topbar.menu-icon :hover {
-      color: $yellow-light !important;
-    }
-    .top-bar.expanded .toggle-topbar a:hover span::after,
-    .top-bar .toggle-topbar a:hover span::after {
-      box-shadow: 0 0 0 1px $yellow-light, 0 7px 0 1px $yellow-light, 0 14px 0 1px $yellow-light; 
+    figcaption {
+      font-weight: 600;
+      padding-top: .5em;
     }
   
   // Footer
@@ -181,17 +171,42 @@
       border-color: scale-color($yellow-light, $lightness: 85%);
     }
   
+  // Header
+    .top-bar {
+      h1 {
+        padding-top: 0em;
+      }
+    }
+    .top-bar-section ul li > a.button { // makes the button in the header Student Cheese green.
+      background-color: $secondary-color; 
+      border-color: #33b059;
+      }
+    .top-bar-section ul li > a.button:hover, 
+    .top-bar-section ul li > a.button:focus {
+      background-color: #33b059;
+    }
+
+    .top-bar.expanded .toggle-topbar a, // Makes the "Menu" text & hamburger icon white when expanded.
+    .top-bar .toggle-topbar.menu-icon {
+      color: $white !important;            
+    }
+    .top-bar.expanded .toggle-topbar a span::after {
+      box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white; 
+    }
+
+    .top-bar.expanded .toggle-topbar a:hover, // Makes the "Menu" text & hamburger icon the Student Cheese yellow on hover when expanded.
+    .top-bar .toggle-topbar.menu-icon :hover {
+      color: $yellow-light !important;
+    }
+    .top-bar.expanded .toggle-topbar a:hover span::after,
+    .top-bar .toggle-topbar a:hover span::after {
+      box-shadow: 0 0 0 1px $yellow-light, 0 7px 0 1px $yellow-light, 0 14px 0 1px $yellow-light; 
+    }
+
   // Lists
     .no-bullets {
       list-style-type: none;
     } // figure out where I'm using this?!
-
-  // Dashed borders for placeholder boxes
-    .dashed-border-new { 
-      border-color: $gray-light;
-      border-style: dashed;
-      border-width: 1px;
-    }
 
   // Section drop shadows
     $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);

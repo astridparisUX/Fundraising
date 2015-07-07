@@ -9439,7 +9439,7 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 46, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 .campaign-card {
   border-style: solid;
   border-width: 1px;
@@ -9475,7 +9475,7 @@ th.hide-for-touch {
 .campaign-card h1.subheader, .campaign-card h2.subheader, .campaign-card h3.subheader, .campaign-card h4.subheader, .campaign-card h5.subheader, .campaign-card h6.subheader {
   line-height: 1.4;
 }
-/* line 49, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .campaign-card:hover {
   float: none;
   top: 0;
@@ -9488,7 +9488,7 @@ th.hide-for-touch {
   -moz-transition: opacity .6s ease-in-out;
   -webkit-transition: opacity .6s ease-in-out;
 }
-/* line 78, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 .campaign-card h3 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: bolder;
@@ -9496,7 +9496,7 @@ th.hide-for-touch {
   line-height: 1.25em;
   text-align: center;
 }
-/* line 85, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .campaign-card h4 {
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: smaller;
@@ -9504,7 +9504,7 @@ th.hide-for-touch {
   padding-top: .5em;
   text-align: left;
 }
-/* line 92, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .campaign-card .raised {
   font-size: larger;
   font-weight: bolder;
@@ -9512,14 +9512,13 @@ th.hide-for-touch {
   margin-top: -0.8em;
   text-align: center;
 }
-/* line 99, ../scss/app.scss */
+/* line 102, ../scss/app.scss */
 .campaign-card .tag {
   color: #8e8e8e;
   font-size: 65%;
   margin-top: -5px;
-  text-align: left;
 }
-/* line 105, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .campaign-card .time-left {
   color: #777777;
   font-size: 65%;
@@ -9527,52 +9526,34 @@ th.hide-for-touch {
   margin-top: -0.5em;
   text-align: center;
 }
-/* line 112, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 .campaign-card .time-left-barely {
   color: #FF6664;
 }
 
-/* line 119, ../scss/app.scss */
-.top-bar h1 {
-  padding-top: 0em;
-}
-
-/* line 123, ../scss/app.scss */
-.top-bar-section ul li > a.button {
-  background-color: #50cc76;
-  border-color: #33b059;
+/* line 120, ../scss/app.scss */
+.dashed-border-new {
+  border-color: #d6d6d6;
+  border-style: dashed;
+  border-width: 1px;
 }
 
 /* line 127, ../scss/app.scss */
-.top-bar-section ul li > a.button:hover,
-.top-bar-section ul li > a.button:focus {
-  background-color: #33b059;
+figure {
+  margin-end: 0px;
+  -webkit-margin-end: 0px;
+  margin-start: 0px;
+  -webkit-margin-start: 0px;
+  margin-top: 0;
 }
 
-/* line 132, ../scss/app.scss */
-.top-bar.expanded .toggle-topbar a,
-.top-bar .toggle-topbar.menu-icon {
-  color: #FFFFFF !important;
-}
-
-/* line 136, ../scss/app.scss */
-.top-bar.expanded .toggle-topbar a span::after {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+/* line 134, ../scss/app.scss */
+figcaption {
+  font-weight: 600;
+  padding-top: .5em;
 }
 
 /* line 140, ../scss/app.scss */
-.top-bar.expanded .toggle-topbar a:hover,
-.top-bar .toggle-topbar.menu-icon :hover {
-  color: #e3b470 !important;
-}
-
-/* line 144, ../scss/app.scss */
-.top-bar.expanded .toggle-topbar a:hover span::after,
-.top-bar .toggle-topbar a:hover span::after {
-  box-shadow: 0 0 0 1px #e3b470, 0 7px 0 1px #e3b470, 0 14px 0 1px #e3b470;
-}
-
-/* line 150, ../scss/app.scss */
 footer {
   background-color: #347fb2;
   color: #FFFFFF;
@@ -9580,83 +9561,116 @@ footer {
   padding-top: 2em;
   text-align: center;
 }
-/* line 156, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 footer a {
   color: #FFFFFF;
 }
-/* line 159, ../scss/app.scss */
+/* line 149, ../scss/app.scss */
 footer a:hover {
   color: #e3b470;
 }
-/* line 165, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 168, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 footer li {
   display: inline-block;
   font-size: smaller;
   padding-right: 2em;
 }
-/* line 173, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 footer p {
   font-size: 65%;
   margin-bottom: -1em;
 }
 
-/* line 180, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 .form-cta-divider {
   border-color: #fbf4ea;
 }
 
-/* line 185, ../scss/app.scss */
+/* line 176, ../scss/app.scss */
+.top-bar h1 {
+  padding-top: 0em;
+}
+
+/* line 180, ../scss/app.scss */
+.top-bar-section ul li > a.button {
+  background-color: #50cc76;
+  border-color: #33b059;
+}
+
+/* line 184, ../scss/app.scss */
+.top-bar-section ul li > a.button:hover,
+.top-bar-section ul li > a.button:focus {
+  background-color: #33b059;
+}
+
+/* line 189, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a,
+.top-bar .toggle-topbar.menu-icon {
+  color: #FFFFFF !important;
+}
+
+/* line 193, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a span::after {
+  box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+}
+
+/* line 197, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a:hover,
+.top-bar .toggle-topbar.menu-icon :hover {
+  color: #e3b470 !important;
+}
+
+/* line 201, ../scss/app.scss */
+.top-bar.expanded .toggle-topbar a:hover span::after,
+.top-bar .toggle-topbar a:hover span::after {
+  box-shadow: 0 0 0 1px #e3b470, 0 7px 0 1px #e3b470, 0 14px 0 1px #e3b470;
+}
+
+/* line 207, ../scss/app.scss */
 .no-bullets {
   list-style-type: none;
 }
 
-/* line 190, ../scss/app.scss */
-.dashed-border-new {
-  border-color: #d6d6d6;
-  border-style: dashed;
-  border-width: 1px;
-}
-
-/* line 201, ../scss/app.scss */
+/* line 216, ../scss/app.scss */
 section {
   padding-bottom: 2em;
 }
 
-/* line 206, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 h1 {
   padding-bottom: 0.2em;
   padding-top: 0.4em;
 }
 
-/* line 211, ../scss/app.scss */
+/* line 226, ../scss/app.scss */
 .panel.callout li, .panel.callout p, .panel.callout strong {
   font-size: 0.8rem;
 }
 
-/* line 219, ../scss/app.scss */
+/* line 234, ../scss/app.scss */
 #features {
   box-shadow: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
 }
-/* line 221, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 #features .copy {
   margin-top: 10%;
 }
-/* line 224, ../scss/app.scss */
+/* line 239, ../scss/app.scss */
 #features .row2 {
   padding-top: 1.8em;
 }
 
-/* line 228, ../scss/app.scss */
+/* line 243, ../scss/app.scss */
 .feature-item {
   margin-bottom: 20px;
   min-height: 100px;
 }
 
-/* line 234, ../scss/app.scss */
+/* line 249, ../scss/app.scss */
 #hero {
   background: url("../images/students_donating.jpg") no-repeat top center;
   background-size: cover;
@@ -9664,19 +9678,19 @@ h1 {
   margin-top: -0.17em;
 }
 
-/* line 240, ../scss/app.scss */
+/* line 255, ../scss/app.scss */
 #hero-copy {
   background-color: #0a1924;
   opacity: 0.9;
   position: relative;
   top: 67%;
 }
-/* line 245, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 #hero-copy h1 {
   color: #FFFFFF;
   padding-top: 0.4em;
 }
-/* line 249, ../scss/app.scss */
+/* line 264, ../scss/app.scss */
 #hero-copy p {
   color: #FFFFFF;
   font-weight: 200;
@@ -9686,89 +9700,89 @@ h1 {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 258, ../scss/app.scss */
+  /* line 273, ../scss/app.scss */
   #hero {
     height: 40vh;
   }
 
-  /* line 261, ../scss/app.scss */
+  /* line 276, ../scss/app.scss */
   #hero-copy {
     top: 72%;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 267, ../scss/app.scss */
+  /* line 282, ../scss/app.scss */
   #hero-copy {
     top: 78%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 273, ../scss/app.scss */
+  /* line 288, ../scss/app.scss */
   #hero {
     height: 65vh;
   }
 
-  /* line 276, ../scss/app.scss */
+  /* line 291, ../scss/app.scss */
   #hero-copy {
     top: 79%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 281, ../scss/app.scss */
+  /* line 296, ../scss/app.scss */
   #hero-copy {
     top: 77%;
   }
 }
 @media only screen and (min-width: 1680px) {
-  /* line 286, ../scss/app.scss */
+  /* line 301, ../scss/app.scss */
   #hero-copy {
     top: 84%;
   }
 }
-/* line 293, ../scss/app.scss */
+/* line 308, ../scss/app.scss */
 #top-campaigns {
   background-color: #eeeeee;
   box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.35);
 }
-/* line 296, ../scss/app.scss */
+/* line 311, ../scss/app.scss */
 #top-campaigns h2:first-of-type {
   padding-top: .75em;
 }
 
-/* line 301, ../scss/app.scss */
+/* line 316, ../scss/app.scss */
 .homepage-tags a {
   background-color: #d6d6d6 !important;
   color: #8e8e8e !important;
   border-color: #bebebe !important;
   border-width: 1px;
 }
-/* line 307, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 .homepage-tags a:hover.button {
   background-color: #c1c1c1 !important;
 }
-/* line 310, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 .homepage-tags .fa-tags {
   color: #bebebe;
   font-size: smaller;
 }
 
-/* line 318, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 #raise-cheddar h2 {
   padding-top: .75em;
 }
 
-/* line 322, ../scss/app.scss */
+/* line 337, ../scss/app.scss */
 .last-button {
   margin-bottom: -0.5em;
 }
 
-/* line 329, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 #new-pic {
   height: 12.2em;
   width: 100%;
 }
 
-/* line 335, ../scss/app.scss */
+/* line 350, ../scss/app.scss */
 #create-account .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
@@ -9776,79 +9790,79 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 343, ../scss/app.scss */
+  /* line 358, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-top: 21%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 351, ../scss/app.scss */
+  /* line 366, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 42%;
     margin-top: 15%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 360, ../scss/app.scss */
+  /* line 375, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 15%;
   }
 }
-/* line 370, ../scss/app.scss */
+/* line 385, ../scss/app.scss */
 #create-campaign .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
   margin-top: 11%;
 }
-/* line 377, ../scss/app.scss */
+/* line 392, ../scss/app.scss */
 #create-campaign .fa.fa-search {
   color: #bebebe;
   float: right;
   margin-right: 0.7em;
   margin-top: -2.65em;
 }
-/* line 383, ../scss/app.scss */
+/* line 398, ../scss/app.scss */
 #create-campaign .fa-calendar {
   color: #bebebe;
   float: right;
   margin-top: 0.08em;
 }
-/* line 388, ../scss/app.scss */
+/* line 403, ../scss/app.scss */
 #create-campaign ul {
   list-style-type: none;
 }
-/* line 391, ../scss/app.scss */
+/* line 406, ../scss/app.scss */
 #create-campaign li {
   display: inline-block;
   font-size: smaller;
   padding-right: 1em;
 }
-/* line 396, ../scss/app.scss */
+/* line 411, ../scss/app.scss */
 #create-campaign .campaign-description-height {
   height: 20em;
   margin-top: 0.5em;
 }
-/* line 400, ../scss/app.scss */
+/* line 415, ../scss/app.scss */
 #create-campaign .donor-thanks-email-height {
   height: 15em;
 }
 
-/* line 404, ../scss/app.scss */
+/* line 419, ../scss/app.scss */
 #donor-thanks-email, #donation-levels {
   margin-top: 2.5rem;
 }
-/* line 406, ../scss/app.scss */
+/* line 421, ../scss/app.scss */
 #donor-thanks-email #preview-email, #donation-levels #preview-email {
   font-size: smaller;
   margin-top: -0.7rem;
 }
 
-/* line 411, ../scss/app.scss */
+/* line 426, ../scss/app.scss */
 .switch {
   display: inline;
 }
-/* line 413, ../scss/app.scss */
+/* line 428, ../scss/app.scss */
 .switch p {
   float: left;
   margin-bottom: -0.1rem !important;
