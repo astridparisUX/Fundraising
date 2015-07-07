@@ -9887,3 +9887,9 @@ h1 {
   font-size: 0.8rem;
   margin-top: -17px;
 }
+/* line 452, ../scss/app.scss */
+#campaign-page .vcard {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
