@@ -9,16 +9,18 @@ $(document).foundation();
 
 var percentGoal = [
   {
-    value: 33,
-    color:"#4eddc1"
+    value: 500,
+    color:"#4eddc1",
+    label: "Raised"
   },
   {
-    value: 66,
-    color: "#E2EAE9"
+    value: 1000,
+    color: "#E2EAE9",
+    label: "Goal"
   }
 ]
 var options = {
-  percentageInnerCutout: 75
+  percentageInnerCutout: 60
 };
 
 // "goalPie" defines a variable that is targeting an element 
