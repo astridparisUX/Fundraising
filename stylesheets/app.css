@@ -9900,6 +9900,26 @@ h1 {
   padding: 0;
 }
 /* line 461, ../scss/app.scss */
+#campaign-page .donut-center {
+  display: block;
+  font-size: 2.15em;
+  font-weight: 900;
+  height: 0;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: -131px;
+}
+/* line 470, ../scss/app.scss */
+#campaign-page .donut-center span {
+  display: block;
+  color: #bebebe;
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+/* line 479, ../scss/app.scss */
 #campaign-page .fa-angle-up {
   color: #bebebe;
   float: right;

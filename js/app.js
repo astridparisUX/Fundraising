@@ -3,10 +3,7 @@
 $(document).foundation();
 
 
-
 // Doughnut chart to display goal progress on campaign pages
-
-
 var percentGoal = [
   {
     value: 500,
