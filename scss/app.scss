@@ -449,7 +449,14 @@
       font-size: 0.8rem;
       margin-top: -17px;
       }
-      .vcard {
+      #card-address {
+        border: 0;
+        margin: 0;
+        padding: 0;
+      }
+      #card-school {
+        float: right; 
+        margin-top: -1.6rem; 
         border: 0;
         margin: 0;
         padding: 0;
