@@ -9912,14 +9912,15 @@ h1 {
 }
 /* line 470, ../scss/app.scss */
 #campaign-page .donut-center span {
-  display: block;
+  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #bebebe;
+  display: block;
   font-weight: 300;
   font-size: 0.8rem;
   margin-top: 0.5rem;
   text-transform: uppercase;
 }
-/* line 479, ../scss/app.scss */
+/* line 480, ../scss/app.scss */
 #campaign-page .fa-angle-up {
   color: #bebebe;
   float: right;
