@@ -9877,6 +9877,11 @@ h1 {
   margin-left: 0;
 }
 /* line 443, ../scss/app.scss */
+#campaign-page h2 {
+  font-size: 1.0rem;
+  font-weight: 600;
+}
+/* line 447, ../scss/app.scss */
 #campaign-page p.tag {
   color: #8e8e8e;
   font-size: 0.8rem;

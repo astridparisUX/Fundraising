@@ -62,8 +62,20 @@
       <div class="row">
         <div class="small-12 medium-7 columns">
           <ul class="accordion" data-accordion role="tablist">
+            <!-- each li contains an accordion section -->
             <li class="accordion-navigation">
-              <a href="#school" role="tab" id="school-heading" aria-controls="school"><img src="images/ksu-logo.png" alt="Kennesaw State University logo" title="Kennesaw State University logo">Kennesaw State University-Marietta Campus</a>
+              <!-- Whatever's between the a tags is what's displayed on the accordion panel/heading -->
+              <a href="#school" role="tab" id="school-heading" aria-controls="school">
+                <div class="row">
+                  <div class="small-3 columns">
+                    <img src="images/ksu-logo.png" alt="Kennesaw State University logo" title="Kennesaw State University logo">
+                  </div>
+                  <div class="small-9 columns">
+                    <h2>Kennesaw State University-Marietta Campus</h2>
+                  </div>
+              </div>
+              </a>
+              <!-- the div within an accordion section holds the content that's displayed when the section's open -->
               <div id="school" class="content" role="tabpanel" aria-labelledby="school-heading">
                 Panel 1. Lorem ipsum dolor
               </div>
@@ -72,8 +84,8 @@
         </div>
       </div>
       <div class="row">
+        <!-- Campaign description -->
         <div class="small-12 medium-7 columns">
-           <!-- Campaign description -->
           <p>
             PBR biodiesel flannel, church-key Carles Wes Anderson 3 wolf moon irony street art. American Apparel forage wolf, slow-carb pour-over photo booth meditation Austin art party Kickstarter butcher Neutra. Tattooed cornhole food truck, butcher Pinterest try-hard you probably haven't heard of them distillery street art Portland mlkshk.
           </p>
