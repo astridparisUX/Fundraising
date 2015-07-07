@@ -338,6 +338,15 @@
       margin-bottom: -0.5em;
     }
 
+// CAMPAIGN PAGE STYLES
+  // Tags
+    #campaign-page {
+      p.tag {
+      color: $tag-color;
+      font-size: $small-font-size;
+      margin-top: -5px;
+      }
+    }       
 
 // CREATE ACCOUNT STYLES
   // Placeholder box for pic (default when there's no pic)
@@ -433,4 +442,5 @@
       font-color: $gray-darkest;
     }
   }
-      
+
+

@@ -9777,12 +9777,19 @@ h1 {
 }
 
 /* line 344, ../scss/app.scss */
+#campaign-page p.tag {
+  color: #8e8e8e;
+  font-size: 65%;
+  margin-top: -5px;
+}
+
+/* line 353, ../scss/app.scss */
 #new-pic {
   height: 12.2em;
   width: 100%;
 }
 
-/* line 350, ../scss/app.scss */
+/* line 359, ../scss/app.scss */
 #create-account .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
@@ -9790,79 +9797,79 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 358, ../scss/app.scss */
+  /* line 367, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-top: 21%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 366, ../scss/app.scss */
+  /* line 375, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 42%;
     margin-top: 15%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 375, ../scss/app.scss */
+  /* line 384, ../scss/app.scss */
   #create-account .fa.fa-plus {
     margin-left: 44%;
     margin-top: 15%;
   }
 }
-/* line 385, ../scss/app.scss */
+/* line 394, ../scss/app.scss */
 #create-campaign .fa.fa-plus {
   color: #f3f3f3;
   margin-left: 42%;
   margin-top: 11%;
 }
-/* line 392, ../scss/app.scss */
+/* line 401, ../scss/app.scss */
 #create-campaign .fa.fa-search {
   color: #bebebe;
   float: right;
   margin-right: 0.7em;
   margin-top: -2.65em;
 }
-/* line 398, ../scss/app.scss */
+/* line 407, ../scss/app.scss */
 #create-campaign .fa-calendar {
   color: #bebebe;
   float: right;
   margin-top: 0.08em;
 }
-/* line 403, ../scss/app.scss */
+/* line 412, ../scss/app.scss */
 #create-campaign ul {
   list-style-type: none;
 }
-/* line 406, ../scss/app.scss */
+/* line 415, ../scss/app.scss */
 #create-campaign li {
   display: inline-block;
   font-size: smaller;
   padding-right: 1em;
 }
-/* line 411, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 #create-campaign .campaign-description-height {
   height: 20em;
   margin-top: 0.5em;
 }
-/* line 415, ../scss/app.scss */
+/* line 424, ../scss/app.scss */
 #create-campaign .donor-thanks-email-height {
   height: 15em;
 }
 
-/* line 419, ../scss/app.scss */
+/* line 428, ../scss/app.scss */
 #donor-thanks-email, #donation-levels {
   margin-top: 2.5rem;
 }
-/* line 421, ../scss/app.scss */
+/* line 430, ../scss/app.scss */
 #donor-thanks-email #preview-email, #donation-levels #preview-email {
   font-size: smaller;
   margin-top: -0.7rem;
 }
 
-/* line 426, ../scss/app.scss */
+/* line 435, ../scss/app.scss */
 .switch {
   display: inline;
 }
-/* line 428, ../scss/app.scss */
+/* line 437, ../scss/app.scss */
 .switch p {
   float: left;
   margin-bottom: -0.1rem !important;
