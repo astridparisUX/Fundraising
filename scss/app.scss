@@ -460,6 +460,7 @@
       }
       .donut-center {
         display: block;
+        font-family: $body-font-family;
         font-size: 2.15em;
         font-weight: 900;
         height: 0;
@@ -468,7 +469,6 @@
         text-align: center;
         top: -131px;
         span {
-          font-family: $body-font-family;
           color: $gray;
           display:block;
           font-weight: 300;

@@ -9902,6 +9902,7 @@ h1 {
 /* line 461, ../scss/app.scss */
 #campaign-page .donut-center {
   display: block;
+  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 2.15em;
   font-weight: 900;
   height: 0;
@@ -9910,9 +9911,8 @@ h1 {
   text-align: center;
   top: -131px;
 }
-/* line 470, ../scss/app.scss */
+/* line 471, ../scss/app.scss */
 #campaign-page .donut-center span {
-  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #bebebe;
   display: block;
   font-weight: 300;
