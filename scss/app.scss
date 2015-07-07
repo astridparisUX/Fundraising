@@ -132,6 +132,7 @@
       margin-top: 0;
     }
     figcaption {
+      font-size: 1.5rem;
       font-weight: 600;
       padding-top: .5em;
     }
@@ -338,16 +339,6 @@
       margin-bottom: -0.5em;
     }
 
-// CAMPAIGN PAGE STYLES
-  // Tags
-    #campaign-page {
-      p.tag {
-      color: $tag-color;
-      font-size: $small-font-size;
-      margin-top: -5px;
-      }
-    }       
-
 // CREATE ACCOUNT STYLES
   // Placeholder box for pic (default when there's no pic)
     #new-pic {
@@ -442,5 +433,15 @@
       font-color: $gray-darkest;
     }
   }
+
+// CAMPAIGN PAGE STYLES
+  // Tags
+    #campaign-page {
+      p.tag {
+      color: $tag-color;
+      font-size: 0.8rem;
+      margin-top: -5px;
+      }
+    }         
 
 
