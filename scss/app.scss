@@ -561,5 +561,8 @@
       }
       .share-box-bottom {
         background-color: $gray-lightest;
+        i {
+          margin-right: 0.5rem;
+        }
       }
     }

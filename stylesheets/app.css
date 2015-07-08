@@ -10016,3 +10016,7 @@ h1 {
 #campaign-page .share-box-bottom {
   background-color: #eeeeee;
 }
+/* line 564, ../scss/app.scss */
+#campaign-page .share-box-bottom i {
+  margin-right: 0.5rem;
+}
