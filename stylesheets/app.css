@@ -94,7 +94,7 @@ body {
   cursor: auto;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -1734,7 +1734,7 @@ select {
   border-width: 1px;
   display: block;
   font-size: 0.8125rem;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 1.25rem;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   position: relative;
@@ -2421,7 +2421,7 @@ button, .button {
   border-width: 0;
   cursor: pointer;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -4389,7 +4389,7 @@ fieldset legend {
   display: block;
   font-size: 0.75rem;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4406,7 +4406,7 @@ span.error, small.error {
   display: block;
   font-size: 0.75rem;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4435,7 +4435,7 @@ span.error, small.error {
   display: block;
   font-size: 0.75rem;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4938,7 +4938,7 @@ label.error {
   color: #FFFFFF;
   display: none;
   font-family: inherit;
-  font-weight: normal;
+  font-weight: 300;
   position: absolute;
   top: 0;
   width: 95%;
@@ -5047,7 +5047,7 @@ label.error {
 .joyride-close-tip {
   color: #777777 !important;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 300;
   line-height: .5 !important;
   position: absolute;
   text-decoration: none;
@@ -5146,7 +5146,7 @@ kbd {
 .label {
   display: inline-block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1;
   margin-bottom: auto;
   position: relative;
@@ -5710,7 +5710,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 300;
   padding: 0.9375rem 1.25rem;
   text-align: center;
 }
@@ -5720,7 +5720,7 @@ ul.pagination li {
   color: #333333;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 300;
   padding: 0.9375rem 1.25rem;
   text-align: center;
 }
@@ -5730,7 +5730,7 @@ ul.pagination li {
   border-bottom: dotted 1px #DDDDDD;
   color: #777777;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.4;
   padding: 0.9375rem;
   text-align: center;
@@ -5741,7 +5741,7 @@ ul.pagination li {
   border-bottom: dotted 1px #DDDDDD;
   color: #333333;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 300;
   padding: 0.9375rem;
   text-align: center;
 }
@@ -6088,7 +6088,7 @@ ul.pagination li {
 /* line 71, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 300;
   margin: 0 0 0.4375rem 0;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -6111,7 +6111,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #67a7d3;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
 }
 /* line 97, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6298,7 +6298,7 @@ ul.pagination li {
   float: left;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 300;
   margin-left: 1rem;
   margin-bottom: 0;
 }
@@ -6324,7 +6324,7 @@ ul.pagination li {
   background: #347fb2;
   color: #FFFFFF;
   cursor: default;
-  font-weight: normal;
+  font-weight: 300;
   padding: 0.1875rem 1rem;
 }
 /* line 100, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
@@ -6726,7 +6726,7 @@ table tr td {
   color: #FFFFFF;
   display: none;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.3;
   max-width: 300px;
   padding: 0.75rem;
@@ -6775,7 +6775,7 @@ table tr td {
   color: #777777;
   display: block;
   font-size: 0.625rem;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 40.0625em) {
@@ -6922,7 +6922,7 @@ meta.foundation-mq-topbar {
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
   color: #FFFFFF;
   display: block;
-  font-weight: normal;
+  font-weight: 300;
   padding: 0 1.66667rem;
   width: 75%;
 }
@@ -7036,7 +7036,7 @@ meta.foundation-mq-topbar {
   display: block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
-  font-weight: normal;
+  font-weight: 300;
   padding-left: 1.66667rem;
   padding: 12px 0 12px 1.66667rem;
   text-transform: none;
@@ -7295,12 +7295,12 @@ meta.foundation-mq-topbar {
 }
 /* line 444, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
-  font-weight: normal;
+  font-weight: 300;
   padding: 8px 1.66667rem;
 }
 /* line 447, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: normal;
+  font-weight: 300;
 }
 /* line 452, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
@@ -7878,7 +7878,7 @@ a img {
 p {
   font-family: inherit;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
@@ -7901,7 +7901,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
   font-family: "museo-slab", Georgia, Cambria, Times New Roman, Times, serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.4;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
@@ -7948,7 +7948,7 @@ h6 {
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
-  font-weight: normal;
+  font-weight: 300;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
@@ -7991,7 +7991,7 @@ code {
   border-width: 1px;
   color: #333333;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
+  font-weight: 300;
   padding: 0.125rem 0.3125rem 0.0625rem;
 }
 
@@ -9913,47 +9913,52 @@ h1 {
 }
 /* line 475, ../scss/app.scss */
 #campaign-page .creator {
-  color: #5f5f5f;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: bold;
   margin-top: -5%;
 }
-/* line 481, ../scss/app.scss */
+/* line 482, ../scss/app.scss */
 #campaign-page .creator-contact {
   font-size: 0.9rem;
   font-weight: 300;
   margin-top: -1.5rem;
 }
-/* line 485, ../scss/app.scss */
+/* line 486, ../scss/app.scss */
 #campaign-page .creator-contact .fa-envelope-o {
   padding-right: 0.3rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 490, ../scss/app.scss */
+  /* line 491, ../scss/app.scss */
   #campaign-page .creation-date {
     font-size: 0.8rem;
     margin-top: 0.3%;
   }
-  /* line 494, ../scss/app.scss */
+  /* line 495, ../scss/app.scss */
   #campaign-page .creator {
     font-size: 1rem;
     margin-top: -7.5%;
   }
-  /* line 498, ../scss/app.scss */
+  /* line 499, ../scss/app.scss */
   #campaign-page .creator-contact {
     font-size: 0.8rem;
     margin-top: -8.5%;
   }
 }
-/* line 503, ../scss/app.scss */
+/* line 504, ../scss/app.scss */
 #campaign-page .creator-panel {
   padding-bottom: 0;
 }
-/* line 506, ../scss/app.scss */
+/* line 507, ../scss/app.scss */
 #campaign-page .creator-text {
   padding-left: 0;
 }
-/* line 509, ../scss/app.scss */
+/* line 510, ../scss/app.scss */
+#campaign-page .donation-time {
+  color: #8e8e8e;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+/* line 515, ../scss/app.scss */
 #campaign-page .donut-center {
   display: block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -9965,28 +9970,27 @@ h1 {
   text-align: center;
   top: -131px;
 }
-/* line 519, ../scss/app.scss */
+/* line 525, ../scss/app.scss */
 #campaign-page .donut-center span {
   color: #bebebe;
   display: block;
   font-weight: 300;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   margin-top: 0.4rem;
-  text-transform: uppercase;
 }
-/* line 528, ../scss/app.scss */
+/* line 534, ../scss/app.scss */
 #campaign-page .fa-angle-up {
   color: #bebebe;
   float: right;
   margin-right: -1.5rem;
   margin-top: -1.6rem;
 }
-/* line 534, ../scss/app.scss */
+/* line 540, ../scss/app.scss */
 #campaign-page .fa-tag {
   color: #bebebe;
   margin-right: 0.15rem;
 }
-/* line 541, ../scss/app.scss */
+/* line 547, ../scss/app.scss */
 #campaign-page .level-border {
   border-color: #eeeeee;
   border-style: solid;
@@ -9995,50 +9999,50 @@ h1 {
   border-right-width: 0;
   border-top-width: 0.1rem;
 }
-/* line 549, ../scss/app.scss */
+/* line 555, ../scss/app.scss */
 #campaign-page .level-spacing {
   margin-bottom: -0.5rem;
   margin-top: 0.8rem;
 }
-/* line 553, ../scss/app.scss */
+/* line 559, ../scss/app.scss */
 #campaign-page .level-amount {
   font-weight: bold;
 }
-/* line 556, ../scss/app.scss */
+/* line 562, ../scss/app.scss */
 #campaign-page .share-row {
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 561, ../scss/app.scss */
+/* line 567, ../scss/app.scss */
 #campaign-page .share-box {
   border-color: #eeeeee;
   border-style: solid;
   border-width: 0.1rem;
   color: #5f5f5f;
 }
-/* line 566, ../scss/app.scss */
+/* line 572, ../scss/app.scss */
 #campaign-page .share-box p {
   font-size: smaller;
   font-weight: 300;
   margin-bottom: 0.8rem;
   margin-top: 0.8rem;
 }
-/* line 573, ../scss/app.scss */
+/* line 579, ../scss/app.scss */
 #campaign-page .share-box-bottom {
   background-color: #eeeeee;
 }
-/* line 575, ../scss/app.scss */
+/* line 581, ../scss/app.scss */
 #campaign-page .share-box-bottom i {
   margin-right: 0.5rem;
 }
-/* line 579, ../scss/app.scss */
+/* line 585, ../scss/app.scss */
 #campaign-page .stats
 .raised-amount {
   font-size: 2.7rem;
   font-weight: bold;
 }
-/* line 584, ../scss/app.scss */
+/* line 590, ../scss/app.scss */
 #campaign-page .goal-amount {
   font-size: 0.9rem;
   font-weight: 300;

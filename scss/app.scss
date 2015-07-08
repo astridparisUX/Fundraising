@@ -473,9 +473,10 @@
         margin-top: 5%;
       }
       .creator {
-        color: $gray-darkest;
+        //color: $gray-darkest;
         font-size: 1.5rem;
-        font-weight: 500;
+        //font-weight: 500;
+        font-weight: bold; // to match the amount raised above the donut
         margin-top: -5%;
       }
       .creator-contact {
@@ -506,6 +507,11 @@
       .creator-text {
         padding-left: 0;
       }
+      .donation-time {
+        color: $tag-color;
+        font-size: 0.9rem;
+        font-weight: 300;
+      }
       .donut-center {
         display: block;
         font-family: $body-font-family;
@@ -520,9 +526,9 @@
           color: $gray;
           display:block;
           font-weight: 300;
-          font-size: 0.7rem;
+          font-size: 0.9rem; // to be consistent with goal-amount, creation-date, & creator-contact
           margin-top: 0.4rem;
-          text-transform: uppercase;
+          //text-transform: uppercase;
         }
       }
       .fa-angle-up {
