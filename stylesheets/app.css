@@ -9993,13 +9993,26 @@ h1 {
   font-weight: bold;
 }
 /* line 545, ../scss/app.scss */
-#campaign-page .share-boxes {
+#campaign-page .share-row {
+  margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 549, ../scss/app.scss */
-#campaign-page .share {
+/* line 550, ../scss/app.scss */
+#campaign-page .share-box {
   border-color: #eeeeee;
   border-style: solid;
   border-width: 0.1rem;
+  color: #5f5f5f;
+}
+/* line 555, ../scss/app.scss */
+#campaign-page .share-box p {
+  font-size: smaller;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+/* line 562, ../scss/app.scss */
+#campaign-page .share-box-bottom {
+  background-color: #eeeeee;
 }
