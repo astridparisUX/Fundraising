@@ -316,13 +316,14 @@
         color: $gray-dark !important;
         border-color: $gray !important;
         border-width: 1px;
+        font-size: $small-font-size;
+      font-weight: 300;
       }
       a:hover.button {
         background-color: scale-color($gray-light, $lightness: -10%) !important;
       }
       .fa-tags {
         color: $gray;
-        font-size: smaller;
       }
     }
 
