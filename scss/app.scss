@@ -442,10 +442,17 @@
 
 // CAMPAIGN PAGE STYLES
     #campaign-page {
+      #school {
+        color: $gray-darkest;
+      }
       .accordion {
         margin-left: 0;
       }
+      .accordion-school {
+        margin-bottom: 1.5rem;
+      }
       h2 {
+        font-family: $font-family-sans-serif;
         font-size: 1.0rem;
         font-weight: 600;
       }
