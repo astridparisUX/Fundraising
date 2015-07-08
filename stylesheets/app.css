@@ -9975,11 +9975,16 @@ h1 {
   margin-top: -1.6rem;
 }
 /* line 530, ../scss/app.scss */
-#campaign-page .level {
+#campaign-page .level-border {
   border-color: #eeeeee;
   border-style: solid;
   border-bottom-width: 0.1rem;
   border-left-width: 0;
   border-right-width: 0;
   border-top-width: 0.1rem;
+}
+/* line 538, ../scss/app.scss */
+#campaign-page .level-spacing {
+  margin-bottom: -0.5rem;
+  margin-top: 0.8rem;
 }

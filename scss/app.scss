@@ -524,16 +524,20 @@
         margin-right: -1.5rem;
         margin-top: -1.6rem; 
       }
-      #levels-panel {
+      #level-panel {
         // TBD
       }
-      .level {
+      .level-border {
         border-color: $gray-lightest;
         border-style: solid;
         border-bottom-width: 0.1rem;
         border-left-width: 0;
         border-right-width: 0;
         border-top-width: 0.1rem;
+      }
+      .level-spacing {
+        margin-bottom: -0.5rem;
+        margin-top: 0.8rem;
       }
       .level-amount {
         
