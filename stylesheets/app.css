@@ -9988,3 +9988,7 @@ h1 {
   margin-bottom: -0.5rem;
   margin-top: 0.8rem;
 }
+/* line 542, ../scss/app.scss */
+#campaign-page .level-amount {
+  font-weight: bold;
+}
