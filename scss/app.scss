@@ -42,8 +42,13 @@
 // GLOBAL STYLES
   // **Need to set a style for the active page in header & footer
   
-  // Tag color
+  // Tags
       $tag-color: $gray-dark;
+
+      .fa-tags {
+        color: $gray;
+        margin-right: 0.3rem;
+      }
   
   // Campaign cards
     .campaign-card {
@@ -321,9 +326,6 @@
       }
       a:hover.button {
         background-color: scale-color($gray-light, $lightness: -10%) !important;
-      }
-      .fa-tags {
-        color: $gray;
       }
     }
 
