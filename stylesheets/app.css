@@ -9934,7 +9934,7 @@ h1 {
   /* line 487, ../scss/app.scss */
   #campaign-page .creation-date {
     font-size: 0.8rem;
-    margin-top: 0.5%;
+    margin-top: 0.3%;
   }
   /* line 491, ../scss/app.scss */
   #campaign-page .creator {
@@ -9944,7 +9944,7 @@ h1 {
   /* line 495, ../scss/app.scss */
   #campaign-page .creator-contact {
     font-size: 0.8rem;
-    margin-top: -1.5%;
+    margin-top: -8.5%;
   }
 }
 /* line 500, ../scss/app.scss */
