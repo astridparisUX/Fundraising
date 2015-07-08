@@ -9761,7 +9761,7 @@ h1 {
   background-color: #c1c1c1 !important;
 }
 /* line 325, ../scss/app.scss */
-.homepage-tags .fa-tags {
+.homepage-tags .fa-tag {
   color: #bebebe;
   margin-right: 0.3rem;
 }
@@ -9980,7 +9980,7 @@ h1 {
   margin-top: -1.6rem;
 }
 /* line 532, ../scss/app.scss */
-#campaign-page .fa-tags {
+#campaign-page .fa-tag {
   color: #bebebe;
   margin-right: 0.3rem;
 }
