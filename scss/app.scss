@@ -509,8 +509,8 @@
       .donut-center {
         display: block;
         font-family: $body-font-family;
-        font-size: 2.15em;
-        font-weight: 900;
+        font-size: 1.7rem;
+        font-weight: 500;
         height: 0;
         margin: 0 auto;
         position: relative;
@@ -520,8 +520,8 @@
           color: $gray;
           display:block;
           font-weight: 300;
-          font-size: 0.8rem;
-          margin-top: 0.5rem;
+          font-size: 0.7rem;
+          margin-top: 0.4rem;
           text-transform: uppercase;
         }
       }
@@ -576,4 +576,14 @@
           margin-right: 0.5rem;
         }
       }
+      .stats
+        .raised-amount {
+          font-size: 2.7rem;
+          font-weight: bold;
+        }
+        .goal-amount {
+          font-size: 0.9rem;
+          font-weight: 300;
+          margin-top: -27px;
+        }
     }

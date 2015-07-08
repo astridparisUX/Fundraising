@@ -9957,8 +9957,8 @@ h1 {
 #campaign-page .donut-center {
   display: block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 2.15em;
-  font-weight: 900;
+  font-size: 1.7rem;
+  font-weight: 500;
   height: 0;
   margin: 0 auto;
   position: relative;
@@ -9970,8 +9970,8 @@ h1 {
   color: #bebebe;
   display: block;
   font-weight: 300;
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
   text-transform: uppercase;
 }
 /* line 528, ../scss/app.scss */
@@ -10031,4 +10031,16 @@ h1 {
 /* line 575, ../scss/app.scss */
 #campaign-page .share-box-bottom i {
   margin-right: 0.5rem;
+}
+/* line 579, ../scss/app.scss */
+#campaign-page .stats
+.raised-amount {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+/* line 584, ../scss/app.scss */
+#campaign-page .goal-amount {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-top: -27px;
 }
