@@ -9900,52 +9900,52 @@ h1 {
   padding: 0;
 }
 /* line 461, ../scss/app.scss */
+#campaign-page .creation-date {
+  color: #8e8e8e;
+  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  margin-top: 5%;
+}
+/* line 467, ../scss/app.scss */
 #campaign-page .creator {
   color: #5f5f5f;
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: -5%;
 }
-/* line 467, ../scss/app.scss */
+/* line 473, ../scss/app.scss */
 #campaign-page .creator-contact {
   font-size: 0.9rem;
   margin-top: -1.5rem;
 }
-/* line 470, ../scss/app.scss */
+/* line 476, ../scss/app.scss */
 #campaign-page .creator-contact .fa-envelope-o {
   padding-right: 0.3rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 475, ../scss/app.scss */
-  #campaign-page .creator {
-    font-size: 0.95rem;
-    margin-top: -7.5%;
-  }
-  /* line 479, ../scss/app.scss */
-  #campaign-page .creator-contact {
-    font-size: 0.8rem;
-    margin-top: -8.5%;
-  }
-  /* line 483, ../scss/app.scss */
+  /* line 481, ../scss/app.scss */
   #campaign-page .creation-date {
     font-size: 0.8rem;
     margin-top: 0.3%;
   }
+  /* line 485, ../scss/app.scss */
+  #campaign-page .creator {
+    font-size: 0.95rem;
+    margin-top: -7.5%;
+  }
+  /* line 489, ../scss/app.scss */
+  #campaign-page .creator-contact {
+    font-size: 0.8rem;
+    margin-top: -8.5%;
+  }
 }
-/* line 488, ../scss/app.scss */
+/* line 494, ../scss/app.scss */
 #campaign-page .creator-panel {
   padding-bottom: 0;
 }
-/* line 491, ../scss/app.scss */
+/* line 497, ../scss/app.scss */
 #campaign-page .creator-text {
   padding-left: 0;
-}
-/* line 494, ../scss/app.scss */
-#campaign-page .creation-date {
-  color: #8e8e8e;
-  font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 0.9rem;
-  margin-top: 5%;
 }
 /* line 500, ../scss/app.scss */
 #campaign-page .donut-center {
