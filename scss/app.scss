@@ -223,11 +223,6 @@
       padding-bottom: 0.2em;
       padding-top: 0.4em;
     }
-    .panel.callout {
-      li, p, strong {
-       font-size: 0.8rem;
-       }
-    }
 
 
 // HOME PAGE STYLES
@@ -341,9 +336,16 @@
 
 // CREATE ACCOUNT STYLES
   // Placeholder box for pic (default when there's no pic)
-    #new-pic {
-      height: 12.2em;
-      width: 100%;
+    #create-account {
+      #new-pic {
+        height: 12.2em;
+        width: 100%;
+      }
+      .panel.callout {
+        li, p, strong {
+        font-size: 0.8rem;
+        }
+      }
     }
   
     #create-account {
