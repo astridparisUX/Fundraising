@@ -542,4 +542,14 @@
       .level-amount {
         font-weight: bold;
       }
+      .share-boxes {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .share {
+        border-color: $gray-lightest;
+        border-style: solid;    
+        border-width: 0.1rem;
+
+      }
     }

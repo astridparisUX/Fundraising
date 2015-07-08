@@ -9992,3 +9992,14 @@ h1 {
 #campaign-page .level-amount {
   font-weight: bold;
 }
+/* line 545, ../scss/app.scss */
+#campaign-page .share-boxes {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 549, ../scss/app.scss */
+#campaign-page .share {
+  border-color: #eeeeee;
+  border-style: solid;
+  border-width: 0.1rem;
+}
