@@ -469,16 +469,18 @@
         color: $tag-color;
         font-family: $body-font-family;
         font-size: 0.9rem;
+        font-weight: 300;
         margin-top: 5%;
       }
       .creator {
         color: $gray-darkest;
         font-size: 1.5rem;
-        font-weight: bold;
+        font-weight: 500;
         margin-top: -5%;
       }
       .creator-contact {
         font-size: 0.9rem;
+        font-weight: 300;
         margin-top: -1.5rem;
         .fa-envelope-o {
           padding-right: 0.3rem;
@@ -487,7 +489,6 @@
         @media only screen and (min-width: 1024px) {
           .creation-date {
             font-size: 0.8rem;
-            font-weight: 300;
             margin-top: 0.3%;
           }
           .creator {
