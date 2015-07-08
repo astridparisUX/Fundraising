@@ -101,11 +101,13 @@
       }
       .tag {
         color: $tag-color;
+        font-weight: 300;
         font-size: $small-font-size;
         margin-top: -5px;
       }
       .time-left {
         color: $gray-darker;
+        font-weight: 300;
         font-size: $small-font-size;
         margin-bottom: -0.5em;
         margin-top: -0.5em;
