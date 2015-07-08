@@ -458,18 +458,6 @@
         margin: 0;
         padding: 0;
       }
-      .creator-panel {
-        padding-bottom: 0;
-      }
-      .creation-date {
-        color: $tag-color;
-        font-family: $body-font-family;
-        font-size: 0.9rem;
-        margin-top: 5%;
-      }
-      .creator-text {
-        padding-left: 0;
-      }
       .creator {
         color: $gray-darkest;
         font-size: 1.5rem;
@@ -483,19 +471,31 @@
           padding-right: 0.3rem;
         }
       }
-      @media only screen and (min-width: 1024px) {
-        .creation-date {
-          font-size: 0.8rem;
-          margin-top: 0.3%;
+        @media only screen and (min-width: 1024px) {
+          .creator {
+            font-size: 0.95rem;
+            margin-top: -7.5%;
+          }
+          .creator-contact {
+            font-size: 0.8rem;
+            margin-top: -8.5%;
+          }
+          .creation-date {
+            font-size: 0.8rem;
+            margin-top: 0.3%;
+          }
         }
-        .creator {
-          font-size: 0.95rem;
-          margin-top: -7.5%;
-        }
-        .creator-contact {
-          font-size: 0.8rem;
-          margin-top: -8.5%;
-        }
+      .creator-panel {
+        padding-bottom: 0;
+      }
+      .creator-text {
+        padding-left: 0;
+      }
+      .creation-date {
+        color: $tag-color;
+        font-family: $body-font-family;
+        font-size: 0.9rem;
+        margin-top: 5%;
       }
       .donut-center {
         display: block;
