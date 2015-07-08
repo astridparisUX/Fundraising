@@ -458,6 +458,24 @@
         margin: 0;
         padding: 0;
       }
+      .creator-panel {
+        padding-bottom: 0;
+      }
+      .creation-date {
+        color: $tag-color;
+        font-family: $body-font-family;
+        font-size: 0.9rem;
+        margin-top: 8%;
+      }
+      .creator-text {
+        padding-left: 0;
+      }
+      .creator {
+        color: $gray-darkest;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: -5%;
+      }
       .donut-center {
         display: block;
         font-family: $body-font-family;
