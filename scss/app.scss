@@ -465,7 +465,7 @@
         color: $tag-color;
         font-family: $body-font-family;
         font-size: 0.9rem;
-        margin-top: 8%;
+        margin-top: 5.5%;
       }
       .creator-text {
         padding-left: 0;
@@ -478,6 +478,10 @@
       }
       .creator-contact {
         font-size: 0.9rem;
+        margin-top: -1.5rem;
+        .fa-envelope-o {
+          padding-right: 0.3rem;
+        }
       }
       @media only screen and (min-width: 1024px) {
         .creation-date {
