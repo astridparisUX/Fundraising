@@ -476,12 +476,16 @@
         font-weight: bold;
         margin-top: -5%;
       }
-      //@media only screen and (min-width: 1024px) {
-        //.creator {
-          //font-size: 0.95rem;
-          //margin-top: -10%;
-        //}
-        //}
+      @media only screen and (min-width: 1024px) {
+        .creation-date {
+          font-size: 0.8rem;
+          margin-top: 5%;
+        }
+        .creator {
+          font-size: 0.95rem;
+          margin-top: -10%;
+        }
+      }
       .donut-center {
         display: block;
         font-family: $body-font-family;

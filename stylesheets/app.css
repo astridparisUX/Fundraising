@@ -9921,7 +9921,19 @@ h1 {
   font-weight: bold;
   margin-top: -5%;
 }
-/* line 485, ../scss/app.scss */
+@media only screen and (min-width: 1024px) {
+  /* line 480, ../scss/app.scss */
+  #campaign-page .creation-date {
+    font-size: 0.8rem;
+    margin-top: 5%;
+  }
+  /* line 484, ../scss/app.scss */
+  #campaign-page .creator {
+    font-size: 0.95rem;
+    margin-top: -10%;
+  }
+}
+/* line 489, ../scss/app.scss */
 #campaign-page .donut-center {
   display: block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -9933,7 +9945,7 @@ h1 {
   text-align: center;
   top: -131px;
 }
-/* line 495, ../scss/app.scss */
+/* line 499, ../scss/app.scss */
 #campaign-page .donut-center span {
   color: #bebebe;
   display: block;
@@ -9942,7 +9954,7 @@ h1 {
   margin-top: 0.5rem;
   text-transform: uppercase;
 }
-/* line 504, ../scss/app.scss */
+/* line 508, ../scss/app.scss */
 #campaign-page .fa-angle-up {
   color: #bebebe;
   float: right;
