@@ -58,6 +58,11 @@
         color: #FF6664;
       }
   
+  // Question mark/help icons
+  .fa-question-circle {
+    color: $gray-lightest;
+  }
+
   // Campaign cards
     .campaign-card {
       @include panel($panel-bg);
