@@ -51,17 +51,10 @@
       background-color: scale-color($panel-bg, $lightness: 65%);
       &:hover {
         float: none;
-        // position: relative;
         top: 0;
         left: 0;
         z-index: 100;
-        //width: 200px;
-        //height: 200px;
-        // border: 1px solid #aaa;
-        // border-top: 1px solid #888;
-        // border-left: 1px solid #888;
         background: $white;
-        //text-align: center;
         transform: scale(1.005);
           //-o-transform: scale(.2);
           //-moz-transform: scale(.2);
@@ -460,9 +453,7 @@
         text-transform: uppercase;
       }
       button {
-        .fb {
-
-        }
+        width: 100%;
       }
       p.tag {
         color: $tag-color;
@@ -489,7 +480,7 @@
       }
       .creator {
         font-size: 1.5rem;
-        font-weight: bold; // to match the amount raised above the donut
+        font-weight: bold; 
         margin-top: -5%;
       }
       .creator-contact {
@@ -525,6 +516,10 @@
         font-size: 0.9rem;
         font-weight: 300;
       }
+      #percentGoal {
+        height: 150px;
+        width: 150px;
+      }
       .donut-center {
         display: block;
         font-family: $body-font-family;
@@ -535,7 +530,7 @@
         margin-left: -0.5rem;
         position: relative;
         text-align: center;
-        top: -8.5rem;
+        top: -7rem;
         .percent-number {
           color: $gray-darkest;
           font-size: 1.5rem;
