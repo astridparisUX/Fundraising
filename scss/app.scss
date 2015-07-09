@@ -41,7 +41,7 @@
 
 // GLOBAL STYLES
   // **Need to set a style for the active page in header & footer
-  
+
   // Tag color
       $tag-color: $gray-dark;
 
@@ -135,34 +135,34 @@
     }
   
   // Footer
-    footer {
-      background-color: $primary-color;
-      color: $topbar-link-color;
-      padding-bottom: 2em;
-      padding-top: 2em;
-      text-align: center;
-      a {
+      footer {
+        background-color: $primary-color;
         color: $topbar-link-color;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        text-align: center;
+        a {
+          color: $topbar-link-color;
+        }
+        a:hover {
+          color: $yellow-light;
+        }
+        ul {
+         list-style-type:none;
+        }
+        li {
+         display: inline-block;
+         font-size: smaller;
+         padding-right: 2em;
+        }
+        p {
+          font-size: $small-font-size;
+          margin-bottom: -1em;
+        }
+        .mustache {
+          margin-left: 0.2rem;
+        }
       }
-      a:hover {
-        color: $yellow-light;
-      }
-      img:hover {
-        
-      }
-      ul {
-       list-style-type:none;
-      }
-      li {
-       display: inline-block;
-       font-size: smaller;
-       padding-right: 2em;
-      }
-      p {
-        font-size: $small-font-size;
-        margin-bottom: -1em;
-      }
-    }
 
   // Forms
     .form-cta-divider {
@@ -473,6 +473,9 @@
         margin: 0;
         padding: 0;
       }
+      #content {
+        box-shadow: $box-shadow-white-sections;
+      }
       .creation-date {
         color: $tag-color;
         font-family: $body-font-family;
@@ -512,6 +515,9 @@
       }
       .creator-text {
         padding-left: 0;
+      }
+      .cta {
+        margin-top: 2.5rem;
       }
       .donation-time {
         color: $tag-color;
