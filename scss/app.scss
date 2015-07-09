@@ -442,6 +442,11 @@
       }
       .accordion {
         margin-left: 0;
+        .content.active {
+          border-style: solid;
+          border-color: $gray-lightest;
+          border-width: 1px;
+        }
       }
       .accordion-school {
         margin-bottom: 1.5rem;
@@ -473,7 +478,7 @@
         margin: 0;
         padding: 0;
       }
-      #content {
+      #content-main {
         box-shadow: $box-shadow-white-sections;
       }
       .creation-date {
