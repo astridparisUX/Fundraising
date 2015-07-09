@@ -483,9 +483,7 @@
         margin-top: 5%;
       }
       .creator {
-        //color: $gray-darkest;
         font-size: 1.5rem;
-        //font-weight: 500;
         font-weight: bold; // to match the amount raised above the donut
         margin-top: -5%;
       }
@@ -523,22 +521,31 @@
         font-weight: 300;
       }
       .donut-center {
+       
         display: block;
         font-family: $body-font-family;
         font-size: 1.7rem;
-        font-weight: 500;
+        font-weight: bold;
         height: 0;
         margin: 0 auto;
+        margin-left: -0.5rem;
         position: relative;
         text-align: center;
-        top: -131px;
-        span {
+        top: -8.5rem;
+        .percent-sign {
+          color: $gray-darkest;
+          display: block;
+          font-size: 1rem;
+          font-weight: bold;
+          margin-left: 3rem;
+          margin-top: -2.15rem;
+        }
+        .of-goal {
           color: $gray-darker;
-          display:block;
+          display: block;
           font-weight: 300;
-          font-size: 0.9rem; // to be consistent with goal-amount, creation-date, & creator-contact
-          margin-top: 0.4rem;
-          //text-transform: uppercase;
+          font-size: 0.9rem;
+          margin-left: 0.7rem;
         }
       }
       .fa-angle-up {

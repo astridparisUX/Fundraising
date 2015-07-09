@@ -9930,80 +9930,90 @@ h1 {
   font-weight: bold;
   margin-top: -5%;
 }
-/* line 492, ../scss/app.scss */
+/* line 490, ../scss/app.scss */
 #campaign-page .creator-contact {
   font-size: 0.9rem;
   font-weight: 300;
   margin-top: -1.5rem;
 }
-/* line 496, ../scss/app.scss */
+/* line 494, ../scss/app.scss */
 #campaign-page .creator-contact .fa-envelope-o {
   padding-right: 0.3rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 501, ../scss/app.scss */
+  /* line 499, ../scss/app.scss */
   #campaign-page .creation-date {
     font-size: 0.8rem;
     margin-top: 0.3%;
   }
-  /* line 505, ../scss/app.scss */
+  /* line 503, ../scss/app.scss */
   #campaign-page .creator {
     font-size: 1rem;
     margin-top: -7.5%;
   }
-  /* line 509, ../scss/app.scss */
+  /* line 507, ../scss/app.scss */
   #campaign-page .creator-contact {
     font-size: 0.8rem;
     margin-top: -8.5%;
   }
 }
-/* line 514, ../scss/app.scss */
+/* line 512, ../scss/app.scss */
 #campaign-page .creator-panel {
   padding-bottom: 0;
 }
-/* line 517, ../scss/app.scss */
+/* line 515, ../scss/app.scss */
 #campaign-page .creator-text {
   padding-left: 0;
 }
-/* line 520, ../scss/app.scss */
+/* line 518, ../scss/app.scss */
 #campaign-page .donation-time {
   color: #8e8e8e;
   font-size: 0.9rem;
   font-weight: 300;
 }
-/* line 525, ../scss/app.scss */
+/* line 523, ../scss/app.scss */
 #campaign-page .donut-center {
   display: block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: bold;
   height: 0;
   margin: 0 auto;
+  margin-left: -0.5rem;
   position: relative;
   text-align: center;
-  top: -131px;
+  top: -8.5rem;
 }
 /* line 535, ../scss/app.scss */
-#campaign-page .donut-center span {
+#campaign-page .donut-center .percent-sign {
+  color: #5f5f5f;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-top: -2.15rem;
+}
+/* line 543, ../scss/app.scss */
+#campaign-page .donut-center .of-goal {
   color: #777777;
   display: block;
   font-weight: 300;
   font-size: 0.9rem;
-  margin-top: 0.4rem;
+  margin-left: 0.7rem;
 }
-/* line 544, ../scss/app.scss */
+/* line 551, ../scss/app.scss */
 #campaign-page .fa-angle-up {
   color: #bebebe;
   float: right;
   margin-right: -1.5rem;
   margin-top: -1.6rem;
 }
-/* line 550, ../scss/app.scss */
+/* line 557, ../scss/app.scss */
 #campaign-page .fa-tag {
   color: #bebebe;
   margin-right: 0.15rem;
 }
-/* line 557, ../scss/app.scss */
+/* line 564, ../scss/app.scss */
 #campaign-page .level-border {
   border-color: #eeeeee;
   border-style: solid;
@@ -10012,50 +10022,50 @@ h1 {
   border-right-width: 0;
   border-top-width: 0.1rem;
 }
-/* line 565, ../scss/app.scss */
+/* line 572, ../scss/app.scss */
 #campaign-page .level-spacing {
   margin-bottom: -0.5rem;
   margin-top: 0.8rem;
 }
-/* line 569, ../scss/app.scss */
+/* line 576, ../scss/app.scss */
 #campaign-page .level-amount {
   font-weight: bold;
 }
-/* line 572, ../scss/app.scss */
+/* line 579, ../scss/app.scss */
 #campaign-page .share-row {
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 577, ../scss/app.scss */
+/* line 584, ../scss/app.scss */
 #campaign-page .share-box {
   border-color: #eeeeee;
   border-style: solid;
   border-width: 0.1rem;
   color: #5f5f5f;
 }
-/* line 582, ../scss/app.scss */
+/* line 589, ../scss/app.scss */
 #campaign-page .share-box p {
   font-size: smaller;
   font-weight: 300;
   margin-bottom: 0.8rem;
   margin-top: 0.8rem;
 }
-/* line 589, ../scss/app.scss */
+/* line 596, ../scss/app.scss */
 #campaign-page .share-box-bottom {
   background-color: #eeeeee;
 }
-/* line 591, ../scss/app.scss */
+/* line 598, ../scss/app.scss */
 #campaign-page .share-box-bottom i {
   margin-right: 0.5rem;
 }
-/* line 595, ../scss/app.scss */
+/* line 602, ../scss/app.scss */
 #campaign-page .stats
 .raised-amount {
   font-size: 2.7rem;
   font-weight: bold;
 }
-/* line 600, ../scss/app.scss */
+/* line 607, ../scss/app.scss */
 #campaign-page .goal-amount {
   font-size: 0.9rem;
   font-weight: 300;
