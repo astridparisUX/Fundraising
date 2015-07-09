@@ -550,12 +550,12 @@
         // TBD
       }
       .level-border {
-        border-color: $gray-lightest;
-        border-style: solid;
-        border-bottom-width: 0.1rem;
+        border-color: lighten($gray-lightest, 2);
+        border-style: dashed;
+        border-bottom-width: 1px;
         border-left-width: 0;
         border-right-width: 0;
-        border-top-width: 0.1rem;
+        border-top-width: 0.5px;
       }
       .level-spacing {
         margin-bottom: -0.5rem;

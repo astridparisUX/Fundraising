@@ -10016,12 +10016,12 @@ h1 {
 }
 /* line 552, ../scss/app.scss */
 #campaign-page .level-border {
-  border-color: #eeeeee;
-  border-style: solid;
-  border-bottom-width: 0.1rem;
+  border-color: #f3f3f3;
+  border-style: dashed;
+  border-bottom-width: 1px;
   border-left-width: 0;
   border-right-width: 0;
-  border-top-width: 0.1rem;
+  border-top-width: 0.5px;
 }
 /* line 560, ../scss/app.scss */
 #campaign-page .level-spacing {
