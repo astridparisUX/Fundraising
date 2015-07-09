@@ -459,6 +459,11 @@
       h3 {
         text-transform: uppercase;
       }
+      button {
+        .fb {
+
+        }
+      }
       p.tag {
         color: $tag-color;
         font-size: $small-font-size;
@@ -521,7 +526,6 @@
         font-weight: 300;
       }
       .donut-center {
-       
         display: block;
         font-family: $body-font-family;
         font-size: 1.7rem;
@@ -532,13 +536,18 @@
         position: relative;
         text-align: center;
         top: -8.5rem;
+        .percent-number {
+          color: $gray-darkest;
+          font-size: 1.5rem;
+          font-weight: 500;
+        }
         .percent-sign {
           color: $gray-darkest;
           display: block;
           font-size: 1rem;
           font-weight: bold;
-          margin-left: 3rem;
-          margin-top: -2.15rem;
+          margin-left: 2.8rem;
+          margin-top: -2rem;
         }
         .of-goal {
           color: $gray-darker;
@@ -600,13 +609,17 @@
         }
       }
       .stats
+        .panel {
+          background-color: $white;
+        }
         .raised-amount {
           font-size: 2.7rem;
           font-weight: bold;
+          margin-top: -15px;
         }
         .goal-amount {
           font-size: 0.9rem;
           font-weight: 300;
-          margin-top: -27px;
+          margin-top: -1.6875rem;
         }
     }

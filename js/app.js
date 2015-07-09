@@ -3,16 +3,22 @@
 $(document).foundation();
 
 
+// Put polish on tooltips later: https://github.com/nnnick/Chart.js/blob/master/samples/pie-customTooltips.html
+
+
+
+
+
 // Doughnut chart to display goal progress on campaign pages
 var percentGoal = [
   {
     value: 500,
-    color:"#4eddc1",
+    color:"#e3b470",
     label: "Raised"
   },
   {
     value: 1000,
-    color: "#E2EAE9",
+    color: "#eeeeee",
     label: "Goal"
   }
 ]
