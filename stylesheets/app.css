@@ -10045,11 +10045,15 @@ h1 {
 #campaign-page .buttons {
   margin-top: 2.5rem;
 }
-/* line 579, ../scss/app.scss */
+/* line 578, ../scss/app.scss */
+#campaign-page .buttons button {
+  margin-bottom: 0;
+}
+/* line 582, ../scss/app.scss */
 #campaign-page .buttons i {
   margin-right: 0.2rem;
 }
-/* line 583, ../scss/app.scss */
+/* line 586, ../scss/app.scss */
 #campaign-page .donut-center {
   display: block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -10062,7 +10066,7 @@ h1 {
   text-align: center;
   margin-top: -6.7rem;
 }
-/* line 594, ../scss/app.scss */
+/* line 597, ../scss/app.scss */
 #campaign-page .donut-center .of-goal {
   color: #777777;
   display: block;
@@ -10071,13 +10075,13 @@ h1 {
   margin-left: 0.7rem;
   margin-top: -0.15rem;
 }
-/* line 602, ../scss/app.scss */
+/* line 605, ../scss/app.scss */
 #campaign-page .donut-center .percent-number {
   color: #5f5f5f;
   font-size: 1.5rem;
   font-weight: 500;
 }
-/* line 607, ../scss/app.scss */
+/* line 610, ../scss/app.scss */
 #campaign-page .donut-center .percent-sign {
   color: #5f5f5f;
   display: block;
@@ -10086,24 +10090,24 @@ h1 {
   margin-left: 2.8rem;
   margin-top: -2rem;
 }
-/* line 616, ../scss/app.scss */
+/* line 619, ../scss/app.scss */
 #campaign-page .goal-amount {
   color: #777777;
   font-size: 0.9rem;
   font-weight: 300;
   margin-top: -1.6875rem;
 }
-/* line 622, ../scss/app.scss */
+/* line 625, ../scss/app.scss */
 #campaign-page .panel {
   background-color: #FFFFFF;
 }
-/* line 625, ../scss/app.scss */
+/* line 628, ../scss/app.scss */
 #campaign-page .raised-amount {
   font-size: 3rem;
   font-weight: bold;
   margin-top: -0.71428571rem;
 }
-/* line 630, ../scss/app.scss */
+/* line 633, ../scss/app.scss */
 #campaign-page .time-left {
   margin-top: 0.25rem;
 }
