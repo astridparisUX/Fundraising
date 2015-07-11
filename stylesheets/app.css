@@ -10065,6 +10065,10 @@ h1 {
 #campaign-page .share-bottom-box {
   background-color: #eeeeee;
 }
+/* line 592, ../scss/app.scss */
+#campaign-page .share-bottom-box i {
+  margin-right: 0.5rem;
+}
 /* line 595, ../scss/app.scss */
 #campaign-page .share-bottom-box p {
   text-align: center;
