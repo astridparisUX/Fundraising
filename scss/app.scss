@@ -564,7 +564,7 @@
       .level-amount {
         font-weight: bold;
       }
-      .campaign-shares {
+      .campaign-shares {  // TO-DO: media query for 1040+
         ul {
           color: $gray-darker;
           font-weight: 300;
@@ -574,7 +574,6 @@
         li {
           display: inline-block;
           margin-right: 3.5rem;
-          // try giving the last item a margin: 0
         }
         margin-bottom: 2rem;
         text-align: center;
