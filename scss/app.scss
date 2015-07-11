@@ -564,28 +564,49 @@
       .level-amount {
         font-weight: bold;
       }
-      .share-row {
+      .campaign-shares {
+        ul {
+          color: $gray-darkest;
+          font-weight: 300;
+          list-style-type: none;
+          margin: 0;
+        }
+        li {
+          display: inline-block;
+          margin-right: 3.5rem;
+          // try giving the last item a margin: 0
+        }
         margin-bottom: 2rem;
-        margin-left: 0;
+        text-align: center;
+      }
+      #email-share {
         margin-right: 0;
       }
       .share-box {
+        p {
+          font-size: 0.75rem;
+        }
+        width: 10rem;
+      }
+      .share-bottom-box {
+        //i {
+          //margin-right: 0.5rem;
+        //}
+        p {
+          text-align: center;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+        }
+        background-color: $gray-lightest;
+      }
+      .share-box-top {
+        p {
+          margin-bottom: 0.5rem;
+          padding-top: 0.5rem;
+        }
         border-color: $gray-lightest;
         border-style: solid;    
         border-width: 0.1rem;
-        color: $gray-darkest;
-        p {
-          font-size: smaller;
-          font-weight: 300;
-          margin-bottom: 0.8rem;
-          margin-top: 0.8rem;
-        }
-      }
-      .share-box-bottom {
-        background-color: $gray-lightest;
-        i {
-          margin-right: 0.5rem;
-        }
       }
       .stats
         #percentGoal {
