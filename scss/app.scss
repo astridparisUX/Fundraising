@@ -502,6 +502,12 @@
       #content-main {
         box-shadow: $box-shadow-white-sections;
       }
+      #donors-panel {
+        .level-border:last-of-type {
+          border-bottom: 0px;
+          margin-bottom: -1rem;
+        }
+      }
       .comment {
         color: $black;
       }
@@ -518,6 +524,10 @@
           font-weight: 300;
           margin-top: -1.3rem;
           text-transform: uppercase;
+        }
+        .level-border:last-of-type {
+          border-bottom: 0px;
+          margin-bottom: -1rem;
         }
       }
       .creation-date {
@@ -574,7 +584,10 @@
         margin-right: 0.15rem;
       }
       #level-panel {
-        // TBD
+        .level-border:last-of-type {
+          border-bottom: 0px;
+          margin-bottom: -1rem;
+        }
       }
       .level-border {
         border-color: lighten($gray-lightest, 2);
