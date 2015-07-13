@@ -212,6 +212,12 @@
       list-style-type: none;
     } // figure out where I'm using this?!
 
+  // Panels
+    .panel-row-hover:hover {
+      background-color: $gray-lightest;
+      // TO-DO: show "DONATE" text label on hover (align right, use same styling as donation date but with blue link)
+    }
+
   // Section drop shadows
     $box-shadow-gray-sections: 0px 3px 5px 0px rgba(153,153,153,0.35);
     $box-shadow-white-sections: 1px 3px 17px -1px rgba(153, 153, 153, 0.35);
