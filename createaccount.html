@@ -50,8 +50,8 @@
           <small class="error">Name is required and must be a string.</small>
         </div>
         <div class="email-field">
-          <input type="email" name="school email" aria-label="School email" placeholder="School email" required>
-          <small class="error">An email address is required.</small>
+          <input type="email" name="school email" aria-label="School email" placeholder="School email" id="email-check">
+          <small class="error none">An edu email address is required.</small>
         </div>
         <input type="text" name="confirm school email" aria-label="Confirm school email" placeholder="Confirm school email">
       </div>
@@ -146,11 +146,27 @@
         <p>&copy; 2015 Student Cheese&nbsp; | &nbsp;Designed & built by <a href="http://www.astridparis.com/" target="_blank">Astrid Paris</a></p></div>
     </div>
   </footer>
+
+
+  // <script>
+  //   $("#email-check").on(click).extract.stuff(val)
+  //     var educheck = val.slice(-3);
+  //     if educheck == "edu"
+  //       pass
+  //     else {
+  //       $("#email-error").removeClass("none");
+  //     }
+  //   }
+  // </script>
+
+
+
   <!-- END FOOTER -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
     <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+    
     <script src="js/app.js"></script>
   </body>
 </html>
