@@ -502,6 +502,26 @@
       #content-main {
         box-shadow: $box-shadow-white-sections;
       }
+      .comment {
+        color: $black;
+      }
+      .comment-donor {
+        color: $gray;
+        font-size: 0.9rem;
+        font-style: italic;
+        font-weight: 300;
+        margin-top: -1.3rem;
+      }
+      .comments-panel {
+        .donation-time {
+          color: $gray;
+          font-size: 0.9rem;
+          font-style: italic;
+          font-weight: 300;
+          margin-top: -1.3rem;
+        }
+      }
+    
       .creation-date {
         color: $tag-color;
         font-family: $body-font-family;
