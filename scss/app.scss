@@ -540,21 +540,24 @@
           margin-left: 42%;
           margin-top: 1.5%;
         }
+        @media only screen and (min-width: 1024px) {
+          .fa.fa-plus {
+            margin-top: 2%;
+          }
+        }
+
         .level-border:last-child {
           border-bottom: 0px;
           margin-bottom: -1rem;
         }
       }
-      @media only screen and (min-width: 1024px) {
-        .comments-panel {
-          .donation-time {
-            margin-left: 0.5rem;
+        @media only screen and (min-width: 1024px) {
+          .comments-panel {
+            .donation-time {
+              margin-left: 0.5rem;
+            }
           }
         }
-        .fa.fa-plus {
-          margin-top: 2%;
-        }
-      }
       .creation-date {
         color: $tag-color;
         font-family: $body-font-family;
