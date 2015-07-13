@@ -526,6 +526,10 @@
         margin-top: -1.3rem;
       }
       .comments-panel {
+        #new-comment {
+          height: 5em;
+          width: 100%;
+        }
         .donation-time {
           color: $gray;
           font-size: 0.7rem;
@@ -534,7 +538,7 @@
           margin-top: -1.2rem;
           text-transform: uppercase;
         }
-        .level-border:last-of-type {
+        .level-border:last-child {
           border-bottom: 0px;
           margin-bottom: -1rem;
         }
