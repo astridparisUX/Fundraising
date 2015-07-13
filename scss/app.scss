@@ -508,20 +508,18 @@
       .comment-donor {
         color: $gray;
         font-size: 0.9rem;
-        font-style: italic;
         font-weight: 300;
         margin-top: -1.3rem;
       }
       .comments-panel {
         .donation-time {
           color: $gray;
-          font-size: 0.9rem;
-          font-style: italic;
+          font-size: 0.7rem;
           font-weight: 300;
           margin-top: -1.3rem;
+          text-transform: uppercase;
         }
       }
-    
       .creation-date {
         color: $tag-color;
         font-family: $body-font-family;
@@ -566,9 +564,10 @@
         margin-top: 2.5rem;
       }
       .donation-time {
-        color: $tag-color;
-        font-size: 0.9rem;
+        color: $gray;
+        font-size: 0.7rem;
         font-weight: 300;
+        text-transform: uppercase;
       }
       .fa-tag {
         color: $gray;
