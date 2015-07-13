@@ -9912,7 +9912,7 @@ h1 {
   margin-top: -1.6rem;
 }
 /* line 473, ../scss/app.scss */
-#campaign-page .school-heading > a:after {
+#campaign-page .accordion-navigation .content-active > a:after {
   font-family: FontAwesome;
   content: "\f0d7";
   padding-left: 5px;
@@ -9921,7 +9921,7 @@ h1 {
   margin-top: -2.2rem;
 }
 /* line 481, ../scss/app.scss */
-#campaign-page .school-heading.active a:after {
+#campaign-page .accordion-navigation .content-active.active a:after {
   content: "↟";
 }
 /* line 485, ../scss/app.scss */
