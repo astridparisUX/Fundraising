@@ -444,7 +444,7 @@
 // CAMPAIGN PAGE STYLES
     #campaign-page {
       #school {
-        color: $gray-darkest;
+        background-color: $gray-lightest;
       }
       .accordion {
         margin-left: 0;
@@ -522,6 +522,7 @@
           color: $gray;
           font-size: 0.7rem;
           font-weight: 300;
+          margin-left: 2.7rem;
           margin-top: -1.3rem;
           text-transform: uppercase;
         }
