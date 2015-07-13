@@ -469,7 +469,7 @@
           //margin-top: -1.6rem; 
         //}
       }
-      .accordion-navigation .content-active {
+      .accordion-navigation {
         >a:after {
           font-family: FontAwesome; 
           content: "\f0d7";
@@ -479,7 +479,8 @@
           margin-top: -2.2rem; 
         }
         &.active a:after {
-          content: "↟";
+          font-family: FontAwesome; 
+          content: "\f0d8";
         }
       }
       .accordion-school {
