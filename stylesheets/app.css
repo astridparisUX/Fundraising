@@ -9989,7 +9989,13 @@ h1 {
   border-bottom: 0px;
   margin-bottom: -1rem;
 }
-/* line 534, ../scss/app.scss */
+@media only screen and (min-width: 1024px) {
+  /* line 536, ../scss/app.scss */
+  #campaign-page .comments-panel .donation-time {
+    margin-left: 0.5rem;
+  }
+}
+/* line 541, ../scss/app.scss */
 #campaign-page .creation-date {
   color: #8e8e8e;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -9997,69 +10003,69 @@ h1 {
   font-weight: 300;
   margin-top: 5%;
 }
-/* line 541, ../scss/app.scss */
+/* line 548, ../scss/app.scss */
 #campaign-page .creator {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: -5%;
 }
-/* line 546, ../scss/app.scss */
+/* line 553, ../scss/app.scss */
 #campaign-page .creator-contact {
   font-size: 0.9rem;
   font-weight: 300;
   margin-top: -1.5rem;
 }
-/* line 550, ../scss/app.scss */
+/* line 557, ../scss/app.scss */
 #campaign-page .creator-contact .fa-envelope-o {
   padding-right: 0.3rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 555, ../scss/app.scss */
+  /* line 562, ../scss/app.scss */
   #campaign-page .creation-date {
     font-size: 0.8rem;
     margin-top: 0.3%;
   }
-  /* line 559, ../scss/app.scss */
+  /* line 566, ../scss/app.scss */
   #campaign-page .creator {
     font-size: 1rem;
     margin-top: -7.5%;
   }
-  /* line 563, ../scss/app.scss */
+  /* line 570, ../scss/app.scss */
   #campaign-page .creator-contact {
     font-size: 0.8rem;
     margin-top: -8.5%;
   }
 }
-/* line 568, ../scss/app.scss */
+/* line 575, ../scss/app.scss */
 #campaign-page .creator-panel {
   padding-bottom: 0;
 }
-/* line 571, ../scss/app.scss */
+/* line 578, ../scss/app.scss */
 #campaign-page .creator-text {
   padding-left: 0;
 }
-/* line 574, ../scss/app.scss */
+/* line 581, ../scss/app.scss */
 #campaign-page .cta {
   margin-top: 2.5rem;
 }
-/* line 577, ../scss/app.scss */
+/* line 584, ../scss/app.scss */
 #campaign-page .donation-time {
   color: #bebebe;
   font-size: 0.7rem;
   font-weight: 300;
   text-transform: uppercase;
 }
-/* line 583, ../scss/app.scss */
+/* line 590, ../scss/app.scss */
 #campaign-page .fa-tag {
   color: #bebebe;
   margin-right: 0.15rem;
 }
-/* line 588, ../scss/app.scss */
+/* line 595, ../scss/app.scss */
 #campaign-page #level-panel .level-border:last-of-type {
   border-bottom: 0px;
   margin-bottom: -1rem;
 }
-/* line 593, ../scss/app.scss */
+/* line 600, ../scss/app.scss */
 #campaign-page .level-border {
   border-color: #f3f3f3;
   border-style: dashed;
@@ -10068,95 +10074,95 @@ h1 {
   border-right-width: 0;
   border-top-width: 0.5px;
 }
-/* line 601, ../scss/app.scss */
+/* line 608, ../scss/app.scss */
 #campaign-page .level-spacing {
   margin-bottom: -0.5rem;
   margin-top: 0.8rem;
 }
-/* line 605, ../scss/app.scss */
+/* line 612, ../scss/app.scss */
 #campaign-page .level-amount {
   font-weight: bold;
 }
-/* line 608, ../scss/app.scss */
+/* line 615, ../scss/app.scss */
 #campaign-page .campaign-shares {
   margin-bottom: 2rem;
   text-align: center;
 }
-/* line 609, ../scss/app.scss */
+/* line 616, ../scss/app.scss */
 #campaign-page .campaign-shares ul {
   color: #777777;
   font-weight: 300;
   list-style-type: none;
   margin: 0;
 }
-/* line 615, ../scss/app.scss */
+/* line 622, ../scss/app.scss */
 #campaign-page .campaign-shares li {
   display: inline-block;
   margin-right: 3.5rem;
 }
-/* line 622, ../scss/app.scss */
+/* line 629, ../scss/app.scss */
 #campaign-page #email-share {
   margin-right: 0;
 }
-/* line 625, ../scss/app.scss */
+/* line 632, ../scss/app.scss */
 #campaign-page .share-box {
   width: 10rem;
 }
-/* line 626, ../scss/app.scss */
+/* line 633, ../scss/app.scss */
 #campaign-page .share-box p {
   font-size: 0.75rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 625, ../scss/app.scss */
+  /* line 632, ../scss/app.scss */
   #campaign-page .share-box {
     width: 7.2rem;
   }
 }
-/* line 634, ../scss/app.scss */
+/* line 641, ../scss/app.scss */
 #campaign-page .share-bottom-box {
   background-color: #eeeeee;
 }
-/* line 635, ../scss/app.scss */
+/* line 642, ../scss/app.scss */
 #campaign-page .share-bottom-box i {
   margin-right: 0.5rem;
 }
-/* line 638, ../scss/app.scss */
+/* line 645, ../scss/app.scss */
 #campaign-page .share-bottom-box p {
   text-align: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-/* line 645, ../scss/app.scss */
+/* line 652, ../scss/app.scss */
 #campaign-page .share-box-top {
   border-color: #eeeeee;
   border-style: solid;
   border-width: 0.1rem;
 }
-/* line 646, ../scss/app.scss */
+/* line 653, ../scss/app.scss */
 #campaign-page .share-box-top p {
   margin-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
-/* line 654, ../scss/app.scss */
+/* line 661, ../scss/app.scss */
 #campaign-page .stats
 #percentGoal {
   height: 8.92857143rem;
   width: 8.92857143rem;
 }
-/* line 659, ../scss/app.scss */
+/* line 666, ../scss/app.scss */
 #campaign-page .buttons {
   margin-bottom: -1.5rem;
   margin-top: 2.5rem;
 }
-/* line 660, ../scss/app.scss */
+/* line 667, ../scss/app.scss */
 #campaign-page .buttons button {
   margin-bottom: 0;
 }
-/* line 663, ../scss/app.scss */
+/* line 670, ../scss/app.scss */
 #campaign-page .buttons i {
   margin-right: 0.2rem;
 }
-/* line 669, ../scss/app.scss */
+/* line 676, ../scss/app.scss */
 #campaign-page .donut-center {
   display: block;
   font-family: "proxima-nova", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -10169,7 +10175,7 @@ h1 {
   text-align: center;
   margin-top: -6.7rem;
 }
-/* line 680, ../scss/app.scss */
+/* line 687, ../scss/app.scss */
 #campaign-page .donut-center .of-goal {
   color: #777777;
   display: block;
@@ -10178,13 +10184,13 @@ h1 {
   margin-left: 0.7rem;
   margin-top: -0.15rem;
 }
-/* line 688, ../scss/app.scss */
+/* line 695, ../scss/app.scss */
 #campaign-page .donut-center .percent-number {
   color: #5f5f5f;
   font-size: 1.5rem;
   font-weight: 500;
 }
-/* line 693, ../scss/app.scss */
+/* line 700, ../scss/app.scss */
 #campaign-page .donut-center .percent-sign {
   color: #5f5f5f;
   display: block;
@@ -10193,24 +10199,24 @@ h1 {
   margin-left: 2.8rem;
   margin-top: -2rem;
 }
-/* line 702, ../scss/app.scss */
+/* line 709, ../scss/app.scss */
 #campaign-page .goal-amount {
   color: #777777;
   font-size: 0.9rem;
   font-weight: 300;
   margin-top: -1.6875rem;
 }
-/* line 708, ../scss/app.scss */
+/* line 715, ../scss/app.scss */
 #campaign-page .panel {
   background-color: #FFFFFF;
 }
-/* line 711, ../scss/app.scss */
+/* line 718, ../scss/app.scss */
 #campaign-page .raised-amount {
   font-size: 3rem;
   font-weight: bold;
   margin-top: -0.71428571rem;
 }
-/* line 716, ../scss/app.scss */
+/* line 723, ../scss/app.scss */
 #campaign-page .time-left {
   margin-top: 0.25rem;
 }
