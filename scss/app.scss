@@ -538,6 +538,11 @@
           margin-top: -1.2rem;
           text-transform: uppercase;
         }
+        .fa.fa-plus {
+          color: lighten($gray-lightest, 2);
+          margin-left: 42%;
+          margin-top: 9%;
+        }
         .level-border:last-child {
           border-bottom: 0px;
           margin-bottom: -1rem;
