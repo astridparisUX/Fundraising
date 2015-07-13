@@ -215,7 +215,9 @@
   // Panels
     .panel-row-hover:hover {
       background-color: $gray-lightest;
-      // TO-DO: show "DONATE" text label on hover (align right, use same styling as donation date but with blue link)
+      // TO-DO: show "DONATE" text label on hover (align right, use same styling as 
+      // donation date but with blue link); also, need to fix margins so rows inside the
+      // panels go all the way across horizontally
     }
 
   // Section drop shadows
