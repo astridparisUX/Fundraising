@@ -564,7 +564,7 @@
       .level-amount {
         font-weight: bold;
       }
-      .campaign-shares {  // TO-DO: media query for 1040+
+      .campaign-shares {  
         ul {
           color: $gray-darker;
           font-weight: 300;
@@ -586,6 +586,9 @@
           font-size: 0.75rem;
         }
         width: 10rem;
+        @media only screen and (min-width: 1024px) {
+          width: 7.2rem;
+        }
       }
       .share-bottom-box {
         i {
@@ -632,7 +635,7 @@
           margin-left: -0.6rem;
           position: relative;
           text-align: center;
-            margin-top: -6.7rem;
+          margin-top: -6.7rem;
           .of-goal {
             color: $gray-darker;
             display: block;
