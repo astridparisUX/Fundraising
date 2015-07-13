@@ -456,6 +456,7 @@
         }
         .fa-angle-up {
           color: $gray;
+          display: inline;
           float: right; 
           margin-right: -7rem;
           margin-top: -1.6rem; 
@@ -469,6 +470,9 @@
           float: right; 
           margin-right: -7rem;
           margin-top: -1.6rem; 
+          .active {
+            display: inline;
+          }
         }
       }
       .accordion-school {
