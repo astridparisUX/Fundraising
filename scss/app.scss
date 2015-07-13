@@ -461,26 +461,12 @@
           margin-right: -7rem;
           margin-top: -1.6rem; 
         }
-        //.fa-angle-down {
-          //color: $gray;
-          //display: none;
-          //float: right; 
-          ///margin-right: -7rem;
-          //margin-top: -1.6rem; 
-        //}
-      }
-      .accordion-navigation {
-        >a:after {
-          font-family: FontAwesome; 
-          content: "\f0d7";
-          padding-left: 5px;
-          float: right;
-          margin-right: 0;
-          margin-top: -2.2rem; 
-        }
-        &.active a:after {
-          font-family: FontAwesome; 
-          content: "\f0d8";
+        .fa-angle-down {
+          color: $gray;
+          display: none;
+          float: right; 
+          margin-right: -7rem;
+          margin-top: -1.6rem; 
         }
       }
       .accordion-school {
