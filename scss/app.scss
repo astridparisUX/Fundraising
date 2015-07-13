@@ -454,6 +454,22 @@
           border-width: 1px;
           padding-bottom: 0;
         }
+        .fa-angle-up {
+          color: $gray;
+          float: right; 
+          margin-right: -7rem;
+          margin-top: -1.6rem; 
+          .active {
+            display: none;
+          }
+        }
+        .fa-angle-down {
+          color: $gray;
+          display: none;
+          float: right; 
+          margin-right: -7rem;
+          margin-top: -1.6rem; 
+        }
       }
       .accordion-school {
         margin-bottom: 1.5rem;
@@ -535,12 +551,6 @@
         color: $tag-color;
         font-size: 0.9rem;
         font-weight: 300;
-      }
-      .fa-angle-up {
-        color: $gray;
-        float: right; 
-        margin-right: -7rem;
-        margin-top: -1.6rem; 
       }
       .fa-tag {
         color: $gray;
