@@ -196,21 +196,6 @@
 
 
 // HOME PAGE STYLES
-  // Features section
-    #features {
-      box-shadow: $box-shadow-white-sections; 
-      .copy {
-        margin-top: 10%;
-      }
-      .row2 {
-        padding-top: 1.8em;
-      }
-    }
-    .feature-item {
-      margin-bottom: 20px;
-      min-height: 100px;
-    }
-
   // Hero
     #hero {
       background: url('../images/students_donating.jpg') no-repeat top center; 
@@ -254,6 +239,25 @@
           top: 84%;
         }
       }
+
+  // Features section
+    #features {
+      box-shadow: $box-shadow-white-sections; 
+      padding-top: 2.7rem;
+      .copy {
+        margin-top: 8%;
+      }
+      .copy-2-lines {
+        margin-top: 6%;
+      }
+      .row2 {
+        padding-top: 1.8em;
+      }
+    }
+    .feature-item {
+      margin-bottom: 20px;
+      min-height: 100px;
+    }
 
   // Top Campaigns
     #top-campaigns {
