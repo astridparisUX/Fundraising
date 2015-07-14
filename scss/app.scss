@@ -215,14 +215,14 @@
     #hero {
       background: url('../images/students_donating.jpg') no-repeat top center; 
       background-size: cover;
-      height: 65vh;
+      height: 28vh;
       margin-top: -0.17em;
       }
     #hero-copy {
       background-color: scale-color($primary-color, $lightness: -80%);
       opacity: 0.9;
       position: relative;
-      top: 67%;
+      top: 71%;
       h1 {
         color: $white;
         padding-top: 0.4em;
@@ -230,25 +230,11 @@
       p {
         color: $white;
         font-weight: 200;
-        line-height: 1.75em;
-        padding-bottom: 1em;
+        line-height: 0em;
+        padding-bottom: 1.7rem;
         text-align: center;
       }
     }
-     @media only screen and (min-width: 480px) {
-        #hero {
-          height: 40vh;
-        }
-        #hero-copy {
-          top: 72%;
-        }
-      }
-     @media only screen and (min-width: 640px) {
-      // $small-breakpoint:  em-calc(640);
-        #hero-copy {
-          top: 78%;
-        }
-      }
       @media only screen and (min-width: 1024px) {
         // $medium-breakpoint: em-calc(1024);
         #hero {
@@ -268,7 +254,6 @@
           top: 84%;
         }
       }
-      // There's got to be a better way to anchor the hero overlay/text area to the bottom of the image?
 
   // Top Campaigns
     #top-campaigns {
