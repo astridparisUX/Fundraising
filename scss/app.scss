@@ -53,8 +53,10 @@
         -webkit-box-shadow: 2px 3px 3px 0px rgba(153,153,153,0.35);
         -moz-box-shadow: 2px 3px 3px 0px rgba(9153,153,153,0.35);
       h3 {
+        color: $gray-darkest;
         font-family: $font-family-sans-serif; // change to $body-font-family
-        font-weight: bolder;
+        font-size: 1.25rem;
+        font-weight: bold;
         height: 50px;
         line-height: 1.25em;
         text-align: center;
@@ -270,7 +272,8 @@
       background-color: $gray-lightest;
       box-shadow: $box-shadow-gray-sections;
       h2:first-of-type {
-        padding-top: .75em;
+        padding-bottom: 0.5rem;
+        padding-top: 1.25em;
       }
     }
     .homepage-tags {
