@@ -648,6 +648,7 @@
       }
       .stats
         #percentGoal {
+          float: left;
           height: 8.92857143rem;
           width: 8.92857143rem;
         }
@@ -699,6 +700,13 @@
             margin-top: -2rem;
           }
         }
+        @media only screen and (min-width: 1024px) {
+          .donut-center {
+            margin-left: 2.2rem;
+            margin-top: 4.9rem;
+            position: absolute;
+          }
+        }
         .goal-amount {
           color: $gray-darker;
           font-size: 0.9rem;
@@ -712,6 +720,27 @@
           font-size: 3rem;
           font-weight: bold;
           margin-top: -0.71428571rem;
+        }
+        .stats-ctas {
+          margin-top: 4rem;
+          margin-bottom: -6.5rem;
+        }
+        @media only screen and (min-width: 1024px) {
+          .stats-ctas {
+            p {
+              float: right;
+              margin-right: 3.2rem;
+            }
+            margin-top: 4.5rem;
+            .stats-donate {
+              width: 145%
+            }
+            .stats-facebook {
+              margin-right: -1.8rem;
+              margin-top: -1.5rem;
+              width: 125%;
+            }
+          }
         }
         .time-left {
           margin-top: 0.25rem;
