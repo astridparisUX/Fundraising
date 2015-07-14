@@ -9955,7 +9955,7 @@ h1 {
 }
 /* line 464, ../scss/app.scss */
 #campaign-page .accordion .fa-angle-up {
-  color: #eeeeee;
+  color: #d6d6d6;
   display: inline;
   float: right;
   margin-right: -7rem;
@@ -9963,7 +9963,7 @@ h1 {
 }
 /* line 471, ../scss/app.scss */
 #campaign-page .accordion .fa-angle-down {
-  color: #eeeeee;
+  color: #d6d6d6;
   display: none;
   float: right;
   margin-right: -7rem;
