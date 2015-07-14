@@ -177,9 +177,6 @@
   // Panels
     .panel-row-hover:hover {
       background-color: $gray-lightest;
-      // TO-DO: show "DONATE" text label on hover (align right, use same styling as 
-      // donation date but with blue link); also, need to fix margins so rows inside the
-      // panels go all the way across horizontally
     }
 
   // Section drop shadows
@@ -413,38 +410,13 @@
 
 // CAMPAIGN PAGE STYLES
     #campaign-page {
-      .accordion {
-        margin-left: 0;
-        .content.active {
-          border-style: solid;
-          border-color: $gray-lightest;
-          border-width: 1px;
-          padding-bottom: 0;
-        }
-        .fa-angle-up {
-          color: $gray;
-          display: inline;
-          float: right; 
-          margin-right: -7rem;
-          margin-top: -1.6rem; 
-        }
-        .fa-angle-down {
-          color: $gray;
-          display: none;
-          float: right; 
-          margin-right: -7rem;
-          margin-top: -1.6rem; 
-        }
-      }
-      .accordion-school {
-        margin-bottom: 1.5rem;
-      }
       h2, h3 {
         font-family: $font-family-sans-serif;
         font-size: 1.0rem;
         font-weight: 600;
       }
       h3 {
+        color: darken($yellow-light, 25%);
         text-transform: uppercase;
       }
       button {
@@ -479,6 +451,32 @@
           border-bottom: 0px;
           margin-bottom: -1rem;
         }
+      }
+      .accordion {
+        margin-left: 0;
+        .content.active {
+          border-style: solid;
+          border-color: $gray-lightest;
+          border-width: 1px;
+          padding-bottom: 0;
+        }
+        .fa-angle-up {
+          color: $gray;
+          display: inline;
+          float: right; 
+          margin-right: -7rem;
+          margin-top: -1.6rem; 
+        }
+        .fa-angle-down {
+          color: $gray-lightest;
+          display: none;
+          float: right; 
+          margin-right: -7rem;
+          margin-top: -1.6rem; 
+        }
+      }
+      .accordion-school {
+        margin-bottom: 1.5rem;
       }
       .comment {
         color: $black;
@@ -560,6 +558,7 @@
           }
         }
       .creator-panel {
+        border-width: 0;
         padding-bottom: 0;
       }
       .creator-text {
@@ -582,7 +581,7 @@
       #level-panel {
         .level-border:last-of-type {
           border-bottom: 0px;
-          margin-bottom: -1rem;
+          margin-bottom: -1.3rem;
         }
       }
       .level-border {
@@ -592,6 +591,8 @@
         border-left-width: 0;
         border-right-width: 0;
         border-top-width: 0.5px;
+        margin-left: -1.25rem;
+        margin-right: -1.25em;
       }
       .level-spacing {
         margin-bottom: -0.5rem;
@@ -600,6 +601,15 @@
       .level-amount {
         font-weight: bold;
       }
+      .list-panel-heading {
+          background-color: scale-color($yellow-light, $lightness: 50%);
+          // also need to make the border the same color
+          padding-bottom: 0.5rem;
+          padding-top: 1rem;
+          margin-top: -1.25rem;
+          margin-left: -1.25rem;
+          margin-right: -1.25em;
+        }
       .campaign-shares {  
         ul {
           color: $gray-darker;
@@ -623,7 +633,7 @@
         }
         width: 10rem;
         @media only screen and (min-width: 1024px) {
-          width: 7.2rem;
+          width: 8.9rem;
         }
       }
       .share-bottom-box {
@@ -707,7 +717,7 @@
           }
           .donut-column {
             float: left;
-            padding-bottom: 6.9rem;
+            padding-bottom: 6.3rem;
             padding-left: 0;
           }
         }
