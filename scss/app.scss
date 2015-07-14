@@ -214,49 +214,61 @@
       h2 {
         font-weight: bold;
       }
+  
   // Hero
     #hero {
-      background: url('../images/students_donating.jpg') no-repeat top center; 
-      background-size: cover;
-      height: 28vh;
-      margin-top: -0.3em;
-      }
-    #hero-copy {
-      background-color: scale-color($primary-color, $lightness: -80%);
-      opacity: 0.9;
-      position: relative;
-      top: 71%;
-      h1 {
-        color: $white;
-        padding-top: 0.4em;
-      }
+      //background: url('../images/students_donating.jpg') no-repeat top center; 
+      //background-size: cover;
+      //height: 28vh;
+      //margin-top: -0.3em;
       p {
         color: $white;
-        font-weight: 200;
+        font-family: $body-font-family;
+        font-size: 1rem;
+        font-weight: 300;
         line-height: 0em;
-        padding-bottom: 1.7rem;
-        text-align: center;
+        margin-top: 2.25rem;
       }
-    }
+      padding-bottom: 1em;
+      padding-top: 2rem;
+      background-color: scale-color($primary-color, $lightness: 10%);
+      }
+    //#hero-copy {
+      //background-color: scale-color($primary-color, $lightness: -80%);
+      //opacity: 0.9;
+      //position: relative;
+      //top: 71%;
+      //h1 {
+        //color: $white;
+        //padding-top: 0.4em;
+      //}
+      //p {
+        ///color: $white;
+        //font-weight: 200;
+        //line-height: 0em;
+        //padding-bottom: 1.7rem;
+        //text-align: center;
+      //}
+    //}
       @media only screen and (min-width: 1024px) {
         // $medium-breakpoint: em-calc(1024);
         #hero {
           height: 65vh;
         }
-        #hero-copy {
-          top: 81%;
-        }
+        //#hero-copy {
+          //top: 81%;
+        //}
       }
-     @media only screen and (min-width: 1280px) {
-        #hero-copy {
-          top: 77%;
-        }
-      }
-     @media only screen and (min-width: 1680px) {
-        #hero-copy {
-          top: 84%;
-        }
-      }
+     //@media only screen and (min-width: 1280px) {
+        //#hero-copy {
+          //top: 77%;
+        //}
+      //}
+     //@media only screen and (min-width: 1680px) {
+        //#hero-copy {
+          //top: 84%;
+        //}
+      //}
 
   // Features section
     #features {
