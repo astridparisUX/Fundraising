@@ -197,6 +197,7 @@
         </div>
           
           <!-- Right side -->
+          <!-- Campaign stats panel -->
           <div class="small-12 medium-5 columns stats">
             <div class="panel callout radius text-center">
               <div class="row">
@@ -208,23 +209,21 @@
                     <p class="time-left">20 days to go</p>
                   </div>
                 </div>
-                <div class="small-6 medium-12 columns">
-                  <div class="row">
-                    <div class="medium-6 columns">
-                      <canvas id="percentGoal"></canvas>
-                        <p class="donut-center"> 
-                          <span class="percent-number">
-                            33
-                            <span class="percent-sign">&#37;</span>
-                          </span>
-                          <span class="of-goal">of goal</span>
-                        </p>
-                    </div>
-                    <div class="medium-6 columns stats-ctas">
-                      <p><button class="stats-donate">Donate</button></p>
-                      <p class="stats-facebook"><a><i class="fa fa-facebook"></i> Share on Facebook</a></p>
-                    </div>
-                  </div>
+                <div class="small-6 medium-6 columns donut-column">
+                  <canvas id="percentGoal"></canvas>
+                    <p class="donut-center"> 
+                      <span class="percent-number">
+                        33
+                        <span class="percent-sign">&#37;</span>
+                      </span>
+                      <span class="of-goal">of goal</span>
+                    </p>
+                </div>
+              </div>
+              <div class="row"> <!-- CTAs on their own row -->
+                <div class="medium-6 columns stats-ctas">
+                  <p><button class="stats-donate">Donate</button></p>
+                  <p class="stats-facebook"><a><i class="fa fa-facebook"></i> Share on Facebook</a></p>
                 </div>
               </div>
             </div>

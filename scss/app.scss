@@ -448,7 +448,7 @@
         text-transform: uppercase;
       }
       button {
-        width: 95%;
+        width: 100%;
       }
       @media only screen and (min-width: 1024px) {
         button {
@@ -648,8 +648,8 @@
       }
       .stats
         #percentGoal {
-          height: 8.92857143rem;
-          width: 8.92857143rem;
+          height: 160px;
+          width: 160px;
         }
         @media only screen and (min-width: 1024px) {
           #percentGoal {
@@ -676,7 +676,7 @@
           margin-left: -0.6rem;
           position: relative;
           text-align: center;
-          margin-top: -6.7rem;
+          margin-top: -7.2rem;
           .of-goal {
             color: $gray-darker;
             display: block;
@@ -701,9 +701,14 @@
         }
         @media only screen and (min-width: 1024px) {
           .donut-center {
-            margin-left: 2.2rem;
-            margin-top: 4.9rem;
-            position: absolute;
+            //margin-left: 2.2rem;
+            //margin-top: 4.9rem;
+            //position: absolute;
+          }
+          .donut-column {
+            float: left;
+            padding-bottom: 6.9rem;
+            padding-left: 0;
           }
         }
         .goal-amount {
@@ -721,8 +726,8 @@
           margin-top: -0.71428571rem;
         }
         .stats-ctas {
-          margin-top: 4rem;
-          margin-bottom: -6.5rem;
+          margin-top: 3rem;
+          margin-bottom: -5.5rem;
         }
         @media only screen and (min-width: 1024px) {
           .stats-ctas {
@@ -730,7 +735,8 @@
               float: right;
               margin-right: 3.2rem;
             }
-            margin-top: 4.5rem;
+            float: right;
+            margin-top: -7.2rem;
             .stats-donate {
               width: 145%
             }

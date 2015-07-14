@@ -9935,7 +9935,7 @@ h1 {
 }
 /* line 450, ../scss/app.scss */
 #campaign-page button {
-  width: 95%;
+  width: 100%;
 }
 @media only screen and (min-width: 1024px) {
   /* line 454, ../scss/app.scss */
@@ -10171,8 +10171,8 @@ h1 {
 /* line 649, ../scss/app.scss */
 #campaign-page .stats
 #percentGoal {
-  height: 8.92857143rem;
-  width: 8.92857143rem;
+  height: 160px;
+  width: 160px;
 }
 @media only screen and (min-width: 1024px) {
   /* line 655, ../scss/app.scss */
@@ -10204,7 +10204,7 @@ h1 {
   margin-left: -0.6rem;
   position: relative;
   text-align: center;
-  margin-top: -6.7rem;
+  margin-top: -7.2rem;
 }
 /* line 680, ../scss/app.scss */
 #campaign-page .donut-center .of-goal {
@@ -10231,57 +10231,58 @@ h1 {
   margin-top: -2rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 703, ../scss/app.scss */
-  #campaign-page .donut-center {
-    margin-left: 2.2rem;
-    margin-top: 4.9rem;
-    position: absolute;
+  /* line 708, ../scss/app.scss */
+  #campaign-page .donut-column {
+    float: left;
+    padding-bottom: 6.9rem;
+    padding-left: 0;
   }
 }
-/* line 709, ../scss/app.scss */
+/* line 714, ../scss/app.scss */
 #campaign-page .goal-amount {
   color: #777777;
   font-size: 0.9rem;
   font-weight: 300;
   margin-top: -1.6875rem;
 }
-/* line 715, ../scss/app.scss */
+/* line 720, ../scss/app.scss */
 #campaign-page .panel {
   background-color: #FFFFFF;
 }
-/* line 718, ../scss/app.scss */
+/* line 723, ../scss/app.scss */
 #campaign-page .raised-amount {
   font-size: 3rem;
   font-weight: bold;
   margin-top: -0.71428571rem;
 }
-/* line 723, ../scss/app.scss */
+/* line 728, ../scss/app.scss */
 #campaign-page .stats-ctas {
-  margin-top: 4rem;
-  margin-bottom: -6.5rem;
+  margin-top: 3rem;
+  margin-bottom: -5.5rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 728, ../scss/app.scss */
+  /* line 733, ../scss/app.scss */
   #campaign-page .stats-ctas {
-    margin-top: 4.5rem;
+    float: right;
+    margin-top: -7.2rem;
   }
-  /* line 729, ../scss/app.scss */
+  /* line 734, ../scss/app.scss */
   #campaign-page .stats-ctas p {
     float: right;
     margin-right: 3.2rem;
   }
-  /* line 734, ../scss/app.scss */
+  /* line 740, ../scss/app.scss */
   #campaign-page .stats-ctas .stats-donate {
     width: 145%;
   }
-  /* line 737, ../scss/app.scss */
+  /* line 743, ../scss/app.scss */
   #campaign-page .stats-ctas .stats-facebook {
     margin-right: -1.8rem;
     margin-top: -1.5rem;
     width: 125%;
   }
 }
-/* line 744, ../scss/app.scss */
+/* line 750, ../scss/app.scss */
 #campaign-page .time-left {
   margin-top: 0.25rem;
 }
