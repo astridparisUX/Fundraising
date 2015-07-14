@@ -529,6 +529,11 @@
           margin-top: -1.2rem;
           text-transform: uppercase;
         }
+        @media only screen and (min-width: 1024px) {
+          .donation-time {
+            margin-left: 8.4rem; // TO-DO: figure out why this isn't working
+          }
+        }
         .fa.fa-plus {
           color: lighten($gray-lightest, 2);
           margin-left: 42%;
