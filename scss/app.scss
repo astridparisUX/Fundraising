@@ -372,6 +372,11 @@
 
 // CREATE CAMPAIGN STYLES
   #create-campaign {
+      #new-campaign-pic {
+        height: 12.2em;
+        margin-bottom: 1.25em;
+        width: 100%;
+      }
       // Plus sign in the middle of placeholder boxes
       .fa.fa-plus { 
         color: lighten($gray-lightest, 2);
