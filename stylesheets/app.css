@@ -10257,32 +10257,36 @@ h1 {
 }
 /* line 728, ../scss/app.scss */
 #campaign-page .stats-ctas {
+  margin-bottom: -1.5rem;
   margin-top: 3rem;
-  margin-bottom: -5.5rem;
+}
+/* line 732, ../scss/app.scss */
+#campaign-page .stats-facebook {
+  margin-top: -1rem;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 733, ../scss/app.scss */
+  /* line 736, ../scss/app.scss */
   #campaign-page .stats-ctas {
     float: right;
     margin-top: -7.2rem;
   }
-  /* line 734, ../scss/app.scss */
+  /* line 737, ../scss/app.scss */
   #campaign-page .stats-ctas p {
     float: right;
     margin-right: 3.2rem;
   }
-  /* line 740, ../scss/app.scss */
+  /* line 743, ../scss/app.scss */
   #campaign-page .stats-ctas .stats-donate {
     width: 145%;
   }
-  /* line 743, ../scss/app.scss */
+  /* line 746, ../scss/app.scss */
   #campaign-page .stats-ctas .stats-facebook {
     margin-right: -1.8rem;
     margin-top: -1.5rem;
     width: 125%;
   }
 }
-/* line 750, ../scss/app.scss */
+/* line 753, ../scss/app.scss */
 #campaign-page .time-left {
   margin-top: 0.25rem;
 }
