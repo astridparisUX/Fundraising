@@ -461,19 +461,21 @@
           border-width: 1px;
           padding-bottom: 0;
         }
-        .fa-angle-up {
+        .fa-angle-up, .fa-angle-down {
           color: $gray-light;
-          display: inline;
           float: right; 
           margin-right: -7rem;
           margin-top: -1.6rem; 
         }
+        .fa-angle-up {
+          display: inline;
+        }
         .fa-angle-down {
-          color: $gray-light;
-          display: none;
-          float: right; 
-          margin-right: -7rem;
-          margin-top: -1.6rem; 
+        }
+        @media only screen and (min-width: 1024px) {
+          .fa-angle-up, .fa-angle-down {
+            margin-right: -4rem;
+          }
         }
         .accordion-navigation > a, .accordion dd > a {
           background-color: lighten($gray-lightest, 4);
