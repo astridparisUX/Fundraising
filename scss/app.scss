@@ -61,6 +61,11 @@
         line-height: 1.25em;
         text-align: center;
       }
+      @media only screen and (min-width: 1024px) {
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
       h4 {
         font-family: $font-family-sans-serif; // change to $body-font-family
         font-size: smaller;
