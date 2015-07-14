@@ -1025,6 +1025,8 @@ $form-label-font-color: $gray-darkest;
 
 // We use this % to control how much we darken things on hover
 // $panel-border-color: scale-color($panel-bg, $lightness: -11%);
+$panel-border-color: $gray-lightest;
+
 
 // We use these to set default inner padding and bottom margin
 // $panel-margin-bottom: rem-calc(20);
