@@ -176,10 +176,10 @@
 
   // Panels
     .panel-row-hover:hover {
-      background-color: $gray-lightest;
+      background-color: scale-color($button-bg-color, $lightness: 80%);
+
       // TO-DO: show "DONATE" text label on hover (align right, use same styling as 
-      // donation date but with blue link); also, need to fix margins so rows inside the
-      // panels go all the way across horizontally
+      // donation date but with blue link)
     }
 
   // Section drop shadows
@@ -429,7 +429,7 @@
           margin-top: -1.6rem; 
         }
         .fa-angle-down {
-          color: $gray;
+          color: $gray-lightest;
           display: none;
           float: right; 
           margin-right: -7rem;
@@ -560,6 +560,7 @@
           }
         }
       .creator-panel {
+        border-width: 0;
         padding-bottom: 0;
       }
       .creator-text {
@@ -582,7 +583,7 @@
       #level-panel {
         .level-border:last-of-type {
           border-bottom: 0px;
-          margin-bottom: -1rem;
+          margin-bottom: -1.3rem;
         }
       }
       .level-border {
@@ -592,6 +593,8 @@
         border-left-width: 0;
         border-right-width: 0;
         border-top-width: 0.5px;
+        margin-left: -1.25rem;
+        margin-right: -1.25em;
       }
       .level-spacing {
         margin-bottom: -0.5rem;
@@ -600,6 +603,14 @@
       .level-amount {
         font-weight: bold;
       }
+      .list-panel-heading {
+          background-color: $gray-lightest;
+          padding-bottom: 0.5rem;
+          padding-top: 1rem;
+          margin-top: -1.25rem;
+          margin-left: -1.25rem;
+          margin-right: -1.25em;
+        }
       .campaign-shares {  
         ul {
           color: $gray-darker;
