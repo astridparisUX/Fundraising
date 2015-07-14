@@ -9780,12 +9780,12 @@ h2 {
 
 /* line 296, ../scss/app.scss */
 #raise-cheddar h2 {
-  padding-top: .75em;
+  padding-top: 1.5em;
 }
 
 /* line 300, ../scss/app.scss */
 .last-button {
-  margin-bottom: -0.5em;
+  margin-bottom: -0.75em;
 }
 
 /* line 307, ../scss/app.scss */
