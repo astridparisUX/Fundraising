@@ -156,6 +156,11 @@
       height: 44px;
       padding-top: 0.9rem;
       }
+      @media only screen and (min-width: 1024px) {
+        height: 44px;
+        padding-top: 0.9rem;
+        margin-top: -0.5rem;
+      }
     .top-bar-section ul li > a.button:hover, 
     .top-bar-section ul li > a.button:focus {
       background-color: #33b059;
@@ -239,7 +244,7 @@
           height: 65vh;
         }
         #hero-copy {
-          top: 79%;
+          top: 81%;
         }
       }
      @media only screen and (min-width: 1280px) {
@@ -257,6 +262,9 @@
     #features {
       box-shadow: $box-shadow-white-sections; 
       padding-top: 2.7rem;
+      @media only screen and (min-width: 1024px) {
+        padding-top: 3rem;
+      }
       .copy {
         margin-top: 8%;
       }
@@ -278,7 +286,7 @@
       box-shadow: $box-shadow-gray-sections;
       h2:first-of-type {
         padding-bottom: 0.5rem;
-        padding-top: 1.25em;
+        padding-top: 0.9em;
       }
     }
     .homepage-tags {
@@ -306,7 +314,7 @@
       }
       @media only screen and (min-width: 1024px) {
         h2 {
-          padding-top: 2.5rem;
+          padding-top: 1.5rem;
         }
       }
     }
