@@ -176,10 +176,7 @@
 
   // Panels
     .panel-row-hover:hover {
-      background-color: scale-color($button-bg-color, $lightness: 80%);
-
-      // TO-DO: show "DONATE" text label on hover (align right, use same styling as 
-      // donation date but with blue link)
+      background-color: $gray-lightest;
     }
 
   // Section drop shadows
@@ -413,38 +410,13 @@
 
 // CAMPAIGN PAGE STYLES
     #campaign-page {
-      .accordion {
-        margin-left: 0;
-        .content.active {
-          border-style: solid;
-          border-color: $gray-lightest;
-          border-width: 1px;
-          padding-bottom: 0;
-        }
-        .fa-angle-up {
-          color: $gray;
-          display: inline;
-          float: right; 
-          margin-right: -7rem;
-          margin-top: -1.6rem; 
-        }
-        .fa-angle-down {
-          color: $gray-lightest;
-          display: none;
-          float: right; 
-          margin-right: -7rem;
-          margin-top: -1.6rem; 
-        }
-      }
-      .accordion-school {
-        margin-bottom: 1.5rem;
-      }
       h2, h3 {
         font-family: $font-family-sans-serif;
         font-size: 1.0rem;
         font-weight: 600;
       }
       h3 {
+        color: darken($yellow-light, 25%);
         text-transform: uppercase;
       }
       button {
@@ -479,6 +451,32 @@
           border-bottom: 0px;
           margin-bottom: -1rem;
         }
+      }
+      .accordion {
+        margin-left: 0;
+        .content.active {
+          border-style: solid;
+          border-color: $gray-lightest;
+          border-width: 1px;
+          padding-bottom: 0;
+        }
+        .fa-angle-up {
+          color: $gray;
+          display: inline;
+          float: right; 
+          margin-right: -7rem;
+          margin-top: -1.6rem; 
+        }
+        .fa-angle-down {
+          color: $gray-lightest;
+          display: none;
+          float: right; 
+          margin-right: -7rem;
+          margin-top: -1.6rem; 
+        }
+      }
+      .accordion-school {
+        margin-bottom: 1.5rem;
       }
       .comment {
         color: $black;
@@ -604,7 +602,8 @@
         font-weight: bold;
       }
       .list-panel-heading {
-          background-color: $gray-lightest;
+          background-color: scale-color($yellow-light, $lightness: 50%);
+          // also need to make the border the same color
           padding-bottom: 0.5rem;
           padding-top: 1rem;
           margin-top: -1.25rem;
