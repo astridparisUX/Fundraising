@@ -146,6 +146,8 @@
     .top-bar-section ul li > a.button { // makes the button in the header Student Cheese green.
       background-color: $secondary-color; 
       border-color: #33b059;
+      height: 44px;
+      padding-top: 0.9rem;
       }
     .top-bar-section ul li > a.button:hover, 
     .top-bar-section ul li > a.button:focus {
@@ -201,7 +203,7 @@
       background: url('../images/students_donating.jpg') no-repeat top center; 
       background-size: cover;
       height: 28vh;
-      margin-top: -0.17em;
+      margin-top: -0.3em;
       }
     #hero-copy {
       background-color: scale-color($primary-color, $lightness: -80%);
