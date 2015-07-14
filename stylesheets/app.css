@@ -10140,7 +10140,7 @@ h1 {
 @media only screen and (min-width: 1024px) {
   /* line 620, ../scss/app.scss */
   #campaign-page .share-box {
-    width: 7.2rem;
+    width: 8.9rem;
   }
 }
 /* line 629, ../scss/app.scss */
@@ -10234,7 +10234,7 @@ h1 {
   /* line 708, ../scss/app.scss */
   #campaign-page .donut-column {
     float: left;
-    padding-bottom: 6.9rem;
+    padding-bottom: 6.3rem;
     padding-left: 0;
   }
 }
