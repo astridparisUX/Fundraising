@@ -221,6 +221,10 @@
       //background-size: cover;
       //height: 28vh;
       //margin-top: -0.3em;
+      img {
+        height: auto;
+        width: 85%;
+      }
       p {
         color: $white;
         font-family: $body-font-family;
@@ -231,7 +235,7 @@
       }
       padding-bottom: 1em;
       padding-top: 2rem;
-      background-color: scale-color($primary-color, $lightness: 10%);
+      background-color: scale-color($primary-color, $lightness: -80%);
       }
     //#hero-copy {
       //background-color: scale-color($primary-color, $lightness: -80%);
