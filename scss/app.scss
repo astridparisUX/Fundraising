@@ -218,33 +218,40 @@
     #hero {
       background: url('../images/students_donating.jpg') no-repeat top center; 
       background-size: cover;
-      height: 28vh;
+      height: 50vh;
       margin-top: -0.3em;
       }
     #hero-copy {
       background-color: scale-color($primary-color, $lightness: -80%);
       opacity: 0.9;
       position: relative;
-      top: 64%;
+      top: 71%;
       h1 {
         color: $white;
-        padding-top: 0.4em;
+        padding-top: 0.8em;
       }
       p {
         color: $white;
         font-weight: 200;
         line-height: 0em;
-        padding-bottom: 1.7rem;
+        padding-bottom: 3rem;
         text-align: center;
       }
     }
       @media only screen and (min-width: 1024px) {
         // $medium-breakpoint: em-calc(1024);
         #hero {
-          height: 65vh;
+          height: 60vh;
         }
         #hero-copy {
-          top: 81%;
+          top: 70%;
+          p {
+            color: $white;
+            font-weight: 200;
+            line-height: 0em;
+            padding-bottom: 3rem;
+            text-align: center;
+          }
         }
       }
      @media only screen and (min-width: 1280px) {
@@ -303,7 +310,7 @@
       }
       .fa-tags { 
         color: $gray;
-        margin-right: 0.15rem; // figure out why this isn't working
+        margin-right: 0.15rem; 
       }
     }
 
