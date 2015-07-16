@@ -481,6 +481,18 @@
           margin-bottom: -1rem;
         }
       }
+
+      .accordion-navigation #card-school ::after {
+       font-family: FontAwesome;
+       content: "\f062";
+       font-size: 13px;
+       margin-left: 20px;
+      }
+
+      .accordion-navigation.active #card-school ::after {
+       content: "\f063";
+      }
+
       .accordion {
         margin-left: 0;
         .content.active {
@@ -493,18 +505,19 @@
         .fa-angle-up, .fa-angle-down {
           color: $gray-light;
           float: right; 
-          margin-right: -7rem;
+          margin-right: -8rem;
           margin-top: -1.6rem; 
         }
         .fa-angle-up {
           display: inline;
         }
         .fa-angle-down {
-          display: none;
+          display: inline;
         }
+
         @media only screen and (min-width: 1024px) {
           .fa-angle-up, .fa-angle-down {
-            margin-right: -4rem;
+            margin-right: -2.5rem;
           }
           .fa-angle-up {
             display: inline;
